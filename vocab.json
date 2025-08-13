@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "title": "General Vocab",
+      "words": [
+        {"en": "Book", "ar": "كتاب"},
+        {"en": "Goodbye", "ar": "وداعاً"},
+        {"en": "Thank you", "ar": "شكراً"},
+        {"en": "Yes", "ar": "نعم"},
+        {"en": "No", "ar": "لا"}
+      ]
+    },
+    {
+      "title": "Common Nouns",
+      "words": [
+        {"en": "House", "ar": "بيت"},
+        {"en": "Book", "ar": "كتاب"},
+        {"en": "Water", "ar": "ماء"}
+      ]
+    },
+    {
+      "title": "Phrasal Verbs",
+      "words": [
+        {"en": "Look up", "ar": "يبحث عن"},
+        {"en": "Give up", "ar": "يستسلم"}
+      ]
+    }
+  ]
+}
