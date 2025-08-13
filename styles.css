@@ -1,15 +1,6 @@
 body {
-  background-image: linear-gradient(
-      to bottom right,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("img.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000000; /* Fallback color */
-  color: #ffffff;
+  background-color: #111827;
+  color: #d1d5db;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,68 +12,16 @@ body {
 
 .glass-card {
   position: relative;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(31, 41, 55, 0.5);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(55, 65, 81, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
 }
 
 .gradient-text {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-}
-
-.background-orbs {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  overflow: hidden;
-}
-
-.orb {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.4;
-  animation: float 20s infinite alternate;
-}
-
-.orb-1 {
-  background: #3b82f6;
-  width: 300px;
-  height: 300px;
-  top: 10%;
-  left: 15%;
-  animation-duration: 25s;
-}
-.orb-2 {
-  background: #8b5cf6;
-  width: 250px;
-  height: 250px;
-  top: 50%;
-  left: 60%;
-  animation-duration: 22s;
-}
-.orb-3 {
-  background: #10b981;
-  width: 200px;
-  height: 200px;
-  top: 70%;
-  left: 20%;
-  animation-duration: 18s;
-}
-
-@keyframes float {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(100px, 150px);
-  }
 }
 @keyframes slideUp {
   from {
@@ -159,7 +98,7 @@ body {
 
 .flip-card-back {
   transform: rotateY(180deg);
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(17, 24, 39, 0.8);
 }
 
 #home,
@@ -168,4 +107,32 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 80vh;
+}
+
+.speaker-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.flip-card:hover .speaker-icon {
+  opacity: 1;
+}
+
+.clicked {
+  animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
