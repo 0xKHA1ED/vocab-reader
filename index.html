@@ -75,7 +75,7 @@
       </header>
 
       <main class="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-        <section id="home" class="text-center my-16 md:my-24">
+        <section id="home" class="text-center">
           <h1
             class="animate-slide-up text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter gradient-text bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500"
           >
@@ -287,7 +287,7 @@
           </div>
         </section>
 
-        <section id="contact" class="my-20 md:my-32 text-center">
+        <section id="contact" class="text-center">
           <h2
             class="animate-slide-up text-3xl md:text-4xl font-bold tracking-tight"
           >
@@ -317,5 +317,22 @@
         </div>
       </footer>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const cards = document.querySelectorAll(".flip-card");
+        cards.forEach((card) => {
+          card.addEventListener("click", () => {
+            const wordElement = card.querySelector(
+              ".flip-card-front .text-lg"
+            );
+            if (wordElement) {
+              const word = wordElement.textContent.trim().toLowerCase();
+              const audio = new Audio(`${word}.mp3`);
+              audio.play().catch((e) => console.error("Could not play audio:", e));
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>

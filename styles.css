@@ -128,18 +128,18 @@ body {
   height: 180px;
   border-radius: 1rem;
   position: relative;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
   transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transform-style: preserve-3d;
 }
 
-.flip-card-inner {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover {
+.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -160,4 +160,12 @@ body {
 .flip-card-back {
   transform: rotateY(180deg);
   background: rgba(0, 0, 0, 0.15);
+}
+
+#home,
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
 }
