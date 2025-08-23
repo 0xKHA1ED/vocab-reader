@@ -1,6 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('vocab.json')
-        .then(response => response.json())
+    const urlParams = new URLSearchParams(window.location.search);
+    const vocabFileName = urlParams.get('vocab') || 'vocab'; // Default to 'vocab' if no parameter
+    const vocabFilePath = `lists/${vocabFileName}.json`;
+
+    fetch(vocabFilePath)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
             const mainContainer = document.querySelector('main.container');
             mainContainer.innerHTML = ''; // Clear existing static content
@@ -32,6 +41,15 @@ document.addEventListener('DOMContentLoaded', () => {
                             <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.past}</span></td>
                             <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.pastParticiple}</span></td>
                         `;
+                        
+                        // Add event listeners to each word in the conjugation table
+                        tr.querySelectorAll('.english-word').forEach(span => {
+                            span.addEventListener('click', (event) => {
+                                const clickedWord = event.target.textContent.replace('🔊', '').trim();
+                                playAudio(clickedWord);
+                            });
+                        });
+
                         tbody.appendChild(tr);
                     });
                     table.appendChild(tbody);
