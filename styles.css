@@ -63,7 +63,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
-    url("img.jpg");
+    url("static/img.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -96,6 +96,7 @@ header,
 footer {
   text-align: center;
   padding: var(--spacing-xl) var(--spacing-lg);
+  border-radius: var(--radius-sm);
 }
 
 header h1 {
