@@ -1,5 +1,8 @@
 body {
-  background-color: #111827;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('img.jpg');
+  background-size: cover; /* Ensures the image covers the entire body */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
   color: #d1d5db;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
