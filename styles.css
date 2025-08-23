@@ -1,24 +1,79 @@
+/* ========================================
+   CSS CUSTOM PROPERTIES (VARIABLES)
+   ======================================== */
+:root {
+  /* Colors */
+  --color-primary: #38bdf8;
+  --color-secondary: #ca8a04;
+  --color-accent: #d1d5db;
+  --color-background: rgba(31, 41, 55, 0.5);
+  --color-background-dark: rgba(17, 24, 39, 0.8);
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #d1d5db;
+  --color-text-muted: #9ca3af;
+  --color-border: rgba(55, 65, 81, 0.5);
+  --color-shadow: rgba(0, 0, 0, 0.2);
+  
+  /* Typography */
+  --font-primary: "Inter", sans-serif;
+  --font-arabic: "Noto Kufi Arabic", sans-serif;
+  --font-size-xs: 0.85em;
+  --font-size-sm: 1.05em;
+  --font-size-base: 1.1em;
+  --font-size-lg: 1.3em;
+  --font-size-xl: 1.8em;
+  --font-size-2xl: 2.2em;
+  
+  /* Spacing */
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 14px;
+  --spacing-lg: 18px;
+  --spacing-xl: 20px;
+  --spacing-2xl: 25px;
+  --spacing-3xl: 28px;
+  --spacing-4xl: 40px;
+  
+  /* Border radius */
+  --radius-sm: 10px;
+  --radius-md: 1rem;
+  --radius-lg: 16px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s;
+  --transition-slow: 0.8s;
+  
+  /* Shadows */
+  --shadow-card: 0 4px 30px var(--color-shadow);
+}
+
+/* ========================================
+   RESET & BASE STYLES
+   ======================================== */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('img.jpg');
-  background-size: cover; /* Ensures the image covers the entire body */
-  background-position: center; /* Centers the image */
-  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
-  color: #d1d5db;
-  font-family: "Inter", sans-serif;
+  margin: 0;
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  color: var(--color-text-secondary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
+/* ========================================
+   TYPOGRAPHY
+   ======================================== */
 .font-arabic {
-  font-family: "Noto Kufi Arabic", sans-serif;
-}
-
-.glass-card {
-  position: relative;
-  background: rgba(31, 41, 55, 0.5);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(55, 65, 81, 0.5);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  font-family: var(--font-arabic);
 }
 
 .gradient-text {
@@ -26,49 +81,163 @@ body {
   -webkit-background-clip: text;
   color: transparent;
 }
-@keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.animate-slide-up {
-  animation: slideUp 0.8s ease-out forwards;
-  opacity: 0;
+
+/* ========================================
+   LAYOUT COMPONENTS
+   ======================================== */
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: var(--spacing-xl);
 }
 
-.delay-1 {
-  animation-delay: 0.2s;
-}
-.delay-2 {
-  animation-delay: 0.4s;
-}
-.delay-3 {
-  animation-delay: 0.6s;
-}
-.delay-4 {
-  animation-delay: 0.8s;
+/* Header & Footer */
+header,
+footer {
+  text-align: center;
+  padding: var(--spacing-xl) var(--spacing-lg);
 }
 
+header h1 {
+  margin: 0;
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-lg);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-top: var(--spacing-4xl);
+}
+
+.whatsapp-logo {
+  width: var(--spacing-3xl);
+  height: var(--spacing-3xl);
+  fill: var(--color-text-secondary);
+}
+
+/* Section Titles */
+main h2 {
+  color: var(--color-primary);
+  border-bottom: 3px solid var(--color-secondary);
+  padding-bottom: var(--spacing-sm);
+  margin-top: var(--spacing-4xl);
+  margin-bottom: var(--spacing-2xl);
+  font-size: var(--font-size-xl);
+}
+
+/* ========================================
+   GLASSMORPHISM COMPONENTS
+   ======================================== */
+.glass-card {
+  position: relative;
+  background: var(--color-background);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+}
+
+/* ========================================
+   VOCABULARY GRID
+   ======================================== */
+.vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.vocab-item {
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-sm);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.vocab-item:hover {
+  transform: translateY(-3px);
+}
+
+.english-word {
+  font-weight: 600;
+  font-size: var(--font-size-base);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--color-text-primary);
+}
+
+.english-word:hover {
+  color: var(--color-primary);
+}
+
+.arabic-meaning {
+  color: var(--color-text-secondary);
+  text-align: right;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-arabic);
+}
+
+.definition {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: var(--spacing-xs);
+  font-style: italic;
+}
+
+/* ========================================
+   CONJUGATION TABLE
+   ======================================== */
+.conjugation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: var(--spacing-xl);
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.conjugation-table th,
+.conjugation-table td {
+  padding: var(--spacing-md) var(--spacing-lg);
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.conjugation-table th {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-base);
+}
+
+.conjugation-table td {
+  background-color: transparent;
+  font-size: var(--font-size-sm);
+}
+
+.conjugation-table td:first-child .english-word {
+  font-weight: bold;
+}
+
+.conjugation-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* ========================================
+   FLIP CARD COMPONENT
+   ======================================== */
 .flip-card {
   background-color: transparent;
   perspective: 1000px;
   height: 180px;
-  border-radius: 1rem;
+  border-radius: var(--radius-md);
   position: relative;
 }
 
@@ -77,7 +246,7 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform var(--transition-slow) cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transform-style: preserve-3d;
 }
 
@@ -95,15 +264,72 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 1rem; /* 16px */
-  overflow: hidden; /* Important for keeping content within rounded corners */
+  border-radius: var(--radius-md);
+  overflow: hidden;
 }
 
 .flip-card-back {
   transform: rotateY(180deg);
-  background: rgba(17, 24, 39, 0.8);
+  background: var(--color-background-dark);
 }
 
+/* ========================================
+   ANIMATIONS
+   ======================================== */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp var(--transition-slow) ease-out forwards;
+  opacity: 0;
+}
+
+.delay-1 { animation-delay: 0.2s; }
+.delay-2 { animation-delay: 0.4s; }
+.delay-3 { animation-delay: 0.6s; }
+.delay-4 { animation-delay: 0.8s; }
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.clicked {
+  animation: pulse var(--transition-normal);
+}
+
+/* ========================================
+   UTILITY CLASSES
+   ======================================== */
+.speaker-icon {
+  font-size: var(--font-size-base);
+  color: var(--color-secondary);
+  transition: opacity var(--transition-normal);
+}
+
+.flip-card .speaker-icon {
+  position: absolute;
+  bottom: var(--spacing-sm);
+  right: var(--spacing-sm);
+  opacity: 0.7;
+}
+
+.flip-card:hover .speaker-icon {
+  opacity: 1;
+}
+
+/* ========================================
+   PAGE SECTIONS
+   ======================================== */
 #home,
 #contact {
   display: flex;
@@ -112,30 +338,40 @@ body {
   min-height: 80vh;
 }
 
-.speaker-icon {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  opacity: 0.7;
-  transition: opacity 0.3s;
-}
-
-.flip-card:hover .speaker-icon {
-  opacity: 1;
-}
-
-.clicked {
-  animation: pulse 0.5s;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+@media (max-width: 768px) {
+  .container {
+    padding: var(--spacing-lg);
   }
-  50% {
-    transform: scale(1.05);
+  
+  .vocab-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
   }
-  100% {
-    transform: scale(1);
+  
+  header h1 {
+    font-size: var(--font-size-xl);
+  }
+  
+  main h2 {
+    font-size: var(--font-size-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: var(--spacing-md);
+  }
+  
+  .vocab-item {
+    padding: var(--spacing-md);
+  }
+  
+  .conjugation-table th,
+  .conjugation-table td {
+    padding: var(--spacing-sm);
+    font-size: var(--font-size-xs);
   }
 }
