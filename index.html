@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Khaled's Language Tutoring</title>
-    <link rel="stylesheet" href="styles.css" />
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd Prep - Unit 1 (Lessons 1 & 2)</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,123 +17,449 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap"
       rel="stylesheet"
     />
-  </head>
-  <body class="bg-black text-white">
-    <div class="relative z-10">
-      <header class="p-4 md:p-6">
-        <nav class="max-w-7xl mx-auto flex justify-between items-center">
-          <div
-            class="text-xl font-bold gradient-text bg-gradient-to-r from-sky-400 to-blue-500"
-          >
-            Mr. Usama Al-Asfar
-          </div>
-          <div class="hidden md:flex items-center space-x-2">
-            <a
-              href="#home"
-              class="px-4 py-2 text-sm font-medium rounded-full bg-gray-700/50 hover:bg-gray-600/50 transition-colors"
-              >Home</a
-            >
-            <a
-              href="#vocab"
-              class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white transition-colors"
-              >Vocab Lists</a
-            >
-            <a
-              href="#tips"
-              class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white transition-colors"
-              >Language Tips</a
-            >
-            <a
-              href="#contact"
-              class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white transition-colors"
-              >Contact</a
-            >
-          </div>
-          <button id="mobile-menu-button" class="md:hidden p-2 rounded-lg glass-card">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
-          </button>
-        </nav>
-      </header>
+    <style>
+        /* General Styles */
+        body {
+            font-family: "Inter", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            margin: 0;
+            line-height: 1.6;
+        }
 
-      <!-- Mobile Menu -->
-      <div id="mobile-menu" class="hidden md:hidden">
-        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900">Home</a>
-          <a href="#vocab" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Vocab Lists</a>
-          <a href="#tips" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Language Tips</a>
-          <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Contact</a>
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header and Footer */
+        header, footer {
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.3em;
+            font-weight: 600;
+            padding: 15px 10px;
+            margin-top: 40px;
+            color: #d1d5db;
+        }
+
+        .whatsapp-logo {
+            width: 28px;
+            height: 28px;
+            fill: #d1d5db;
+        }
+
+        /* Section Titles */
+        main h2 {
+            color: #38bdf8; /* sky-400 */
+            border-bottom: 3px solid #ca8a04; /* yellow-500 */
+            padding-bottom: 10px;
+            margin-top: 40px;
+            margin-bottom: 25px;
+            font-size: 1.8em;
+        }
+
+        /* Vocabulary Grid Layout */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .vocab-item {
+            padding: 18px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .vocab-item:hover {
+            transform: translateY(-3px);
+        }
+
+        .english-word {
+            font-weight: 600;
+            font-size: 1.1em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #f3f4f6; /* gray-100 */
+        }
+
+        .english-word:hover {
+            color: #38bdf8; /* sky-400 */
+        }
+
+        .speaker-icon {
+            font-size: 1.1em;
+            color: #ca8a04; /* yellow-500 */
+        }
+
+        .arabic-meaning {
+            color: #d1d5db; /* gray-300 */
+            text-align: right;
+            font-size: 1.05em;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+        }
+
+        .definition {
+            font-size: 0.85em;
+            color: #9ca3af; /* gray-400 */
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        /* Conjugation Table */
+        .conjugation-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            overflow: hidden;
+            border-radius: 10px;
+            border: 1px solid rgba(55, 65, 81, 0.5);
+        }
+
+        .conjugation-table th, .conjugation-table td {
+            padding: 14px 18px;
+            text-align: left;
+            border-bottom: 1px solid rgba(55, 65, 81, 0.5);
+        }
+
+        .conjugation-table th {
+            background-color: rgba(31, 41, 55, 0.5);
+            color: #FFFFFF;
+            font-size: 1.1em;
+        }
+
+        .conjugation-table td {
+            background-color: transparent;
+            font-size: 1.05em;
+        }
+
+        .conjugation-table td:first-child .english-word {
+            font-weight: bold;
+        }
+
+        .conjugation-table tr:last-child td {
+            border-bottom: none;
+        }
+
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    <header class="glass-card m-4">
+        <h1>MR. USAMA AL-ASFAR</h1>
+    </header>
+
+    <main class="container">
+
+        <h2>Key Vocabulary (أهم الكلمات)</h2>
+        <div class="vocab-grid">
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> identity</span>
+                </div>
+                <span class="arabic-meaning">الهوية</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> background</span>
+                    <p class="definition">Where someone comes from</p>
+                </div>
+                <span class="arabic-meaning">خلفية / أصل</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> beliefs</span>
+                </div>
+                <span class="arabic-meaning">معتقدات</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> value</span>
+                    <p class="definition">Have a high opinion of something</p>
+                </div>
+                <span class="arabic-meaning">يقدر/قيمة</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> strengths</span>
+                </div>
+                <span class="arabic-meaning">نقاط القوة</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> character</span>
+                </div>
+                <span class="arabic-meaning">الشخصية</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> unique</span>
+                    <p class="definition">One of a kind</p>
+                </div>
+                <span class="arabic-meaning">فريد</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> confidence</span>
+                </div>
+                <span class="arabic-meaning">الثقة</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> resilience</span>
+                </div>
+                <span class="arabic-meaning">المرونة</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> stressed</span>
+                </div>
+                <span class="arabic-meaning">مجهد</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> support</span>
+                </div>
+                <span class="arabic-meaning">الدعم / يدعم</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> growth</span>
+                </div>
+                <span class="arabic-meaning">النمو</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> traits</span>
+                </div>
+                <span class="arabic-meaning">السمات</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> individuality</span>
+                </div>
+                <span class="arabic-meaning">التميز</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> self-discovery</span>
+                    <p class="definition">Learning more about who you are</p>
+                </div>
+                <span class="arabic-meaning">اكتشاف الذات</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> popularity</span>
+                    <p class="definition">Being famous</p>
+                </div>
+                <span class="arabic-meaning">الشهرة</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> self-esteem</span>
+                </div>
+                <span class="arabic-meaning">تقدير الذات</span>
+            </div>
+             <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> realness</span>
+                </div>
+                <span class="arabic-meaning">الحقيقة / الصدق</span>
+            </div>
+             <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> challenge</span>
+                </div>
+                <span class="arabic-meaning">تحدٍ</span>
+            </div>
+             <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> pressure</span>
+                </div>
+                <span class="arabic-meaning">ضغط</span>
+            </div>
+             <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> personality</span>
+                </div>
+                <span class="arabic-meaning">الشخصية</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <div>
+                    <span class="english-word"><span class="speaker-icon">🔊</span> kindness</span>
+                </div>
+                <span class="arabic-meaning">عطف / طيبة</span>
+            </div>
         </div>
-      </div>
 
-      <main class="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-        <section id="home" class="text-center">
-          <h1
-            class="animate-slide-up text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter gradient-text bg-gradient-to-br from-sky-400 via-blue-500 to-indigo-600"
-          >
-            Unlock Your Potential With Mr. Usama Al-Asfar
-          </h1>
-          <p
-            class="animate-slide-up delay-1 max-w-2xl mx-auto mt-6 text-xl md:text-2xl text-gray-400"
-          >
-            Personalized tutoring to help you master new languages with
-            confidence. Explore curated vocabulary lists and practical tips.
-          </p>
-          <div class="animate-slide-up delay-2 mt-8 flex justify-center gap-4">
-            <a
-              href="#vocab"
-              class="px-8 py-3 font-semibold rounded-full bg-gradient-to-r from-sky-500 to-blue-600 hover:opacity-90 transition-opacity transform hover:scale-105"
-            >
-              Explore Resources
-            </a>
-          </div>
-        </section>
-
-        <section id="vocab" class="my-20 md:my-32">
-          <h2
-            class="animate-slide-up text-3xl md:text-4xl font-bold tracking-tight text-center text-white"
-          >
-            Vocabulary Flashcards
-          </h2>
-          <p
-            class="animate-slide-up delay-1 max-w-xl mx-auto mt-4 text-center text-gray-400"
-          >
-            Hover over a card to reveal the translation. Click to hear the pronunciation. A fun way to test your
-            knowledge.
-          </p>
-
-          <!-- This container will be filled by JavaScript -->
-          <div id="vocab-container" class="mt-12"></div>
-        </section>
-      </main>
-
-      <footer class="border-t border-gray-800 mt-20">
-        <div
-          class="max-w-7xl mx-auto px-4 py-6 text-center text-sm text-gray-500"
-        >
-          &copy; 2025 Khaled Ashraf. All Rights Reserved.
+        <h2>Expressions & Prepositions (تعبيرات و حروف جر)</h2>
+        <div class="vocab-grid">
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> being real</span>
+                <span class="arabic-meaning">أن تكون حقيقياً</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> fit in</span>
+                <span class="arabic-meaning">يندمج</span>
+            </div>
+             <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> stand out</span>
+                <span class="arabic-meaning">يبرز</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> remind myself</span>
+                <span class="arabic-meaning">أذكر نفسي</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> shape my character</span>
+                <span class="arabic-meaning">تشكل شخصيتي</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> one of my strengths</span>
+                <span class="arabic-meaning">من نقاط قوتي</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> feel pressure</span>
+                <span class="arabic-meaning">يشعر بالضغط</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> change how I act</span>
+                <span class="arabic-meaning">يغير طريقة تصرفي</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> gain confidence</span>
+                <span class="arabic-meaning">يكتسب الثقة</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> support from teachers</span>
+                <span class="arabic-meaning">دعم من المعلمين</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> describe your personality</span>
+                <span class="arabic-meaning">صف شخصيتك</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> talk about your identity</span>
+                <span class="arabic-meaning">تحدث عن هويتك</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> share your ideas</span>
+                <span class="arabic-meaning">شارك أفكارك</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> beyond my looks</span>
+                <span class="arabic-meaning">ما وراء مظهري</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> grow into</span>
+                <span class="arabic-meaning">ينمو ليصبح</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> hard work</span>
+                <span class="arabic-meaning">عمل جاد</span>
+            </div>
+            <div class="vocab-item glass-card">
+                <span class="english-word"><span class="speaker-icon">🔊</span> affect you</span>
+                <span class="arabic-meaning">يؤثر عليك</span>
+            </div>
         </div>
-      </footer>
-    </div>
-    <script src="app.js"></script>
 
-    <!-- Back to Top Button -->
-    <button id="back-to-top" class="hidden fixed bottom-5 right-5 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-colors">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
-      </svg>
-    </button>
-  </body>
+        <h2>Conjugation of Verbs (تصريفات الأفعال)</h2>
+        <table class="conjugation-table glass-card">
+            <thead>
+                <tr>
+                    <th>Present (المضارع)</th>
+                    <th>Past (الماضي)</th>
+                    <th>Past Participle (التصريف الثالث)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> think</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> thought</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> thought</span></td>
+                </tr>
+                <tr>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> mean</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> meant</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> meant</span></td>
+                </tr>
+                <tr>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> grow</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> grew</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> grown</span></td>
+                </tr>
+                <tr>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> break</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> broke</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> broken</span></td>
+                </tr>
+                 <tr>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> read</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> read</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> read</span></td>
+                </tr>
+                 <tr>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> overcome</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> overcame</span></td>
+                    <td><span class="english-word"><span class="speaker-icon">🔊</span> overcome</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <footer class="glass-card m-4">
+        <svg class="whatsapp-logo" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.52,3.44A10.16,10.16,0,0,0,3.48,20.48L2,22l1.56-1.44A10.16,10.16,0,0,0,20.52,3.44ZM12,20.2A8.2,8.2,0,1,1,19.34,13,8.15,8.15,0,0,1,12,20.2Zm4.41-5.63c-.22-.11-1.28-.63-1.48-.7s-.35-.11-.49.11-.56.7-.69.85-.26.17-.48.06a5.89,5.89,0,0,1-1.72-1.06,6.43,6.43,0,0,1-1.2-1.48c-.13-.22,0-.34.09-.45s.22-.26.33-.39a1.18,1.18,0,0,0,.05-.22c0-.08-.05-.22-.11-.33s-.49-1.18-.68-1.62-.37-.36-.51-.37a1,1,0,0,0-.45-.05c-.17,0-.39,0-.56.05s-.44.22-.68.56-1,1-1.2,2.37.28,2.83.6,3.24,2,2.83,5,4.12.9.48,1.37.64.9.15,1.26.13,1-.38,1.15-.75.15-1.38.1-1.52S16.63,14.7,16.41,14.57Z"/></svg>
+        <span>01025530898</span>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const synth = window.speechSynthesis;
+
+            document.querySelectorAll('.english-word').forEach(element => {
+                element.addEventListener('click', (event) => {
+                    // Stop any previous speech
+                    if (synth.speaking) {
+                        synth.cancel();
+                    }
+
+                    // Get the word to speak (from the span that was clicked)
+                    // We extract the text content, excluding the emoji
+                    const textToSpeak = event.currentTarget.textContent.replace('🔊', '').trim();
+
+                    if (textToSpeak) {
+                        const utterance = new SpeechSynthesisUtterance(textToSpeak);
+                        utterance.lang = 'en-US'; // Set language to US English
+                        utterance.rate = 0.9; // Slightly slower for clarity
+                        synth.speak(utterance);
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
 </html>
