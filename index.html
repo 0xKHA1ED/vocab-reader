@@ -290,31 +290,7 @@
         <span>01025530898</span>
     </footer>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const synth = window.speechSynthesis;
-
-            document.querySelectorAll('.english-word').forEach(element => {
-                element.addEventListener('click', (event) => {
-                    // Stop any previous speech
-                    if (synth.speaking) {
-                        synth.cancel();
-                    }
-
-                    // Get the word to speak (from the span that was clicked)
-                    // We extract the text content, excluding the emoji
-                    const textToSpeak = event.currentTarget.textContent.replace('🔊', '').trim();
-
-                    if (textToSpeak) {
-                        const utterance = new SpeechSynthesisUtterance(textToSpeak);
-                        utterance.lang = 'en-US'; // Set language to US English
-                        utterance.rate = 0.9; // Slightly slower for clarity
-                        synth.speak(utterance);
-                    }
-                });
-            });
-        });
-    </script>
+    <script src="app.js"></script>
 
 </body>
 </html>
