@@ -47,42 +47,6 @@
           "ar": "يشعر بالضغط"
         },
         {
-          "en": "change how I act",
-          "ar": "يغير طريقة تصرفي"
-        },
-        {
-          "en": "gain confidence",
-          "ar": "يكتسب الثقة"
-        },
-        {
-          "en": "support from teachers",
-          "ar": "دعم من المعلمين"
-        },
-        {
-          "en": "describe your personality",
-          "ar": "صف شخصيتك"
-        },
-        {
-          "en": "talk about your identity",
-          "ar": "تحدث عن هويتك"
-        },
-        {
-          "en": "share your ideas",
-          "ar": "شارك أفكارك"
-        },
-        {
-          "en": "beyond my looks",
-          "ar": "ما وراء مظهري"
-        },
-        {
-          "en": "grow into",
-          "ar": "ينمو ليصبح"
-        },
-        {
-          "en": "hard work",
-          "ar": "عمل جاد"
-        },
-        {
           "en": "affect you",
           "ar": "يؤثر عليك"
         }
@@ -102,30 +66,6 @@
           "ar": "يعني",
           "past": "meant",
           "pastParticiple": "meant"
-        },
-        {
-          "en": "grow",
-          "ar": "ينمو",
-          "past": "grew",
-          "pastParticiple": "grown"
-        },
-        {
-          "en": "break",
-          "ar": "يكسر",
-          "past": "broke",
-          "pastParticiple": "broken"
-        },
-        {
-          "en": "read",
-          "ar": "يقرأ",
-          "past": "read",
-          "pastParticiple": "read"
-        },
-        {
-          "en": "overcome",
-          "ar": "يتغلب",
-          "past": "overcame",
-          "pastParticiple": "overcome"
         }
       ]
     }
