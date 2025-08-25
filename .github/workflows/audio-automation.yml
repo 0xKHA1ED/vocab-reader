@@ -7,7 +7,7 @@ name: 🗣️ Generate and Deploy Vocabulary Audio
 on:
   push:
     branches:
-      - main # Or 'master', depending on your repository's default branch
+      - master
     paths:
       - 'lists/**.json'
 
