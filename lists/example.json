@@ -8,6 +8,15 @@
           "ar": "قطة"
         },
         {
+          "en": "dog",
+          "ar": "كلب"
+        },
+        {
+          "en": "culture",
+          "ar": "ثقافة",
+          "definition": "The way of life of a group of people"
+        },
+        {
           "en": "background",
           "ar": "خلفية / أصل",
           "definition": "Where someone comes from"
