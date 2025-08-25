@@ -4,7 +4,7 @@ import requests
 import boto3
 from botocore.exceptions import NoCredentialsError, ClientError
 import glob
-import re # Import the regular expression module
+import re
 
 
 # --- ⚙️ CONFIGURATION ---
@@ -17,6 +17,7 @@ R2_ENDPOINT = os.environ.get('R2_ENDPOINT', 'https://<your_account_id>.r2.cloudf
 VOCAB_LISTS_PATH = 'lists'
 PROCESSED_WORDS_FILE = os.path.join(VOCAB_LISTS_PATH, 'available_vocab.json')
 
+
 # --- Helper Functions (load_processed_words, save_processed_words, get_all_unique_words) ---
 # ... (These functions remain the same as the previous version) ...
 def load_processed_words():
@@ -27,11 +28,13 @@ def load_processed_words():
     except (FileNotFoundError, json.JSONDecodeError):
         return set()
 
+
 def save_processed_words(words_set):
     """Saves the updated set of processed words back to the JSON file."""
     with open(PROCESSED_WORDS_FILE, 'w', encoding='utf-8') as f:
         json.dump(list(words_set), f, indent=2)
     print(f"✅ Updated processed words list at '{PROCESSED_WORDS_FILE}'")
+
 
 def get_all_unique_words():
     """Finds all JSON files in the lists directory and extracts unique words."""
@@ -54,6 +57,8 @@ def get_all_unique_words():
         except Exception as e:
             print(f"⚠️  Could not process file {file_path}: {e}")
     return all_words
+
+
 # --- ✨ NEW: Sanitize Filename Function ---
 def sanitize_filename(word):
     """
@@ -70,10 +75,11 @@ def sanitize_filename(word):
     s = re.sub(r'[^a-z0-9-_]', '', s)
     return s
 
+
 # --- 4. Main Audio Generation and Upload Logic ---
 def process_vocabulary():
     """Main function to generate audio and upload to R2."""
-    
+
     s3_client = boto3.client(
         's3',
         endpoint_url=R2_ENDPOINT,
@@ -83,7 +89,7 @@ def process_vocabulary():
 
     processed_words = load_processed_words()
     all_words = get_all_unique_words()
-    
+
     words_to_generate = all_words - processed_words
 
     if not words_to_generate:
@@ -91,10 +97,10 @@ def process_vocabulary():
         return
 
     print(f"Found {len(words_to_generate)} new words to process.")
-    
+
     for word in words_to_generate:
         print(f"\nProcessing word: '{word}'")
-        
+
         # --- A. Generate Audio ---
         try:
             # ... (API call logic remains the same) ...
@@ -105,11 +111,11 @@ def process_vocabulary():
             }
             data = {"Text": word, "VoiceId": "Sierra", "Bitrate": "128k"}
             response = requests.post(url, headers=headers, data=json.dumps(data), timeout=60)
-            
+
             if response.status_code != 200:
                 print(f"❌ Error generating audio for '{word}': {response.status_code} - {response.text}")
                 continue
-            
+
             audio_content = response.content
             print(f"🔊 Audio generated successfully for '{word}'.")
 
@@ -125,23 +131,23 @@ def process_vocabulary():
             remote_path = f"{file_name}"
 
             print(f"Uploading '{file_name}' to R2 bucket '{R2_BUCKET}'...")
-            
+
             s3_client.put_object(
                 Bucket=R2_BUCKET,
                 Key=remote_path,
                 Body=audio_content,
                 ContentType='audio/mpeg'
             )
-            
+
             print("☁️ Upload successful.")
-            
+
             # --- C. Add to Processed List on Success ---
             processed_words.add(word)
 
         except (NoCredentialsError, ClientError) as e:
             print(f"❌ Failed to upload '{file_name}': {e}")
             continue
-    
+
     # --- 5. Final Step: Save the updated list ---
     save_processed_words(processed_words)
     print("\n✨ Process complete.")
