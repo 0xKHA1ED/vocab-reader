@@ -14,9 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const mainContainer = document.querySelector('main.container');
             mainContainer.innerHTML = ''; // Clear existing static content
 
+            let animationDelay = 0;
             data.sections.forEach(section => {
                 const sectionTitle = document.createElement('h2');
                 sectionTitle.textContent = section.title;
+                sectionTitle.classList.add('animate-fade-in');
                 mainContainer.appendChild(sectionTitle);
 
                 if (section.title.includes('Conjugation of Verbs')) {
@@ -34,8 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     table.appendChild(thead);
 
                     const tbody = document.createElement('tbody');
-                    section.words.forEach(word => {
+                    section.words.forEach((word, index) => {
                         const tr = document.createElement('tr');
+                        tr.classList.add('animate-slide-up');
+                        tr.style.animationDelay = `${(index % 5) * 100}ms`;
                         tr.innerHTML = `
                             <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.en}</span></td>
                             <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.past}</span></td>
@@ -58,10 +62,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else {
                     const vocabGrid = document.createElement('div');
                     vocabGrid.classList.add('vocab-grid');
+                    animationDelay = 0; // Reset for each grid
 
                     section.words.forEach(word => {
                         const vocabItem = document.createElement('div');
-                        vocabItem.classList.add('vocab-item', 'glass-card');
+                        vocabItem.classList.add('vocab-item', 'glass-card', 'animate-slide-up');
+                        animationDelay++;
+                        vocabItem.style.animationDelay = `${animationDelay * 75}ms`;
 
                         const englishDiv = document.createElement('div');
                         const englishWordSpan = document.createElement('span');
