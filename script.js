@@ -101,9 +101,26 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error fetching vocabulary:', error));
 
+    /**
+     * Cleans a string to make it a safe filename, mirroring the Python script's logic.
+     * - Converts to lowercase.
+     * - Replaces spaces and slashes with hyphens.
+     * - Removes any character that is not a letter, number, hyphen, or underscore.
+     */
+    function sanitizeFilename(word) {
+        let s = word.toLowerCase().trim();
+        s = s.replace(/[\s/]+/g, '-');
+        s = s.replace(/[^a-z0-9-_]/g, '');
+        return s;
+    }
+
     function playAudio(word) {
-        const audio = new Audio(`audio/${word.toLowerCase()}.mp3`);
-        audio.play().catch(() => {
+        const sanitizedWord = sanitizeFilename(word);
+        const audioUrl = `https://pub-a1e6f72463af4141a258ec150f1aa29a.r2.dev/${sanitizedWord}.mp3`;
+        const audio = new Audio(audioUrl);
+        
+        audio.play().catch((error) => {
+            console.error(`Could not play audio from ${audioUrl}:`, error);
             // Fallback to browser's native TTS if audio fails
             const utterance = new SpeechSynthesisUtterance(word);
             speechSynthesis.speak(utterance);
