@@ -1,0 +1,391 @@
+{
+  "sections": [
+    {
+      "title": "Key Vocabulary (أهم الكلمات)",
+      "words": [
+        {
+          "en": "look",
+          "partOfSpeech": "v",
+          "ar": "يبدو - ينظر"
+        },
+        {
+          "en": "identity",
+          "partOfSpeech": "n",
+          "ar": "هوية"
+        },
+        {
+          "en": "belief",
+          "partOfSpeech": "n",
+          "ar": "معتقد / مبدأ"
+        },
+        {
+          "en": "unique",
+          "partOfSpeech": "adj",
+          "ar": "فريد / مميز"
+        },
+        {
+          "en": "self-discovery",
+          "partOfSpeech": "n",
+          "ar": "اكتشاف الذات"
+        },
+        {
+          "en": "strength",
+          "partOfSpeech": "n",
+          "ar": "قوة / القدرة على التحمل"
+        },
+        {
+          "en": "personality",
+          "partOfSpeech": "n",
+          "ar": "شخصية"
+        },
+        {
+          "en": "individuality",
+          "partOfSpeech": "n",
+          "ar": "تميز فردي"
+        },
+        {
+          "en": "growth",
+          "partOfSpeech": "n",
+          "ar": "نمو - نضج"
+        },
+        {
+          "en": "background",
+          "partOfSpeech": "n",
+          "ar": "خلفية اجتماعية - النشأة"
+        },
+        {
+          "en": "value",
+          "partOfSpeech": "d",
+          "ar": "يقدر - يقيم"
+        },
+        {
+          "en": "real = true",
+          "partOfSpeech": "adj",
+          "ar": "حقيقي - واقعي"
+        },
+        {
+          "en": "confidence",
+          "partOfSpeech": "n",
+          "ar": "ثقة"
+        },
+        {
+          "en": "self-respect",
+          "partOfSpeech": "n",
+          "ar": "احترام الذات"
+        },
+        {
+          "en": "weakness",
+          "partOfSpeech": "n",
+          "ar": "نقطة ضعف"
+        },
+        {
+          "en": "heart surgeon",
+          "partOfSpeech": "n",
+          "ar": "جراح القلب"
+        },
+        {
+          "en": "heart diseases",
+          "partOfSpeech": "n",
+          "ar": "أمراض القلب"
+        },
+        {
+          "en": "act",
+          "partOfSpeech": "v",
+          "ar": "يسلك - يتصرف"
+        },
+        {
+          "en": "kindness",
+          "partOfSpeech": "n",
+          "ar": "العطف - الطيبة"
+        },
+        {
+          "en": "character",
+          "partOfSpeech": "n",
+          "ar": "شخصية"
+        },
+        {
+          "en": "popular",
+          "partOfSpeech": "adj",
+          "ar": "محبوب"
+        },
+        {
+          "en": "shape",
+          "partOfSpeech": "v, n",
+          "ar": "يشكل - شكل"
+        },
+        {
+          "en": "dress",
+          "partOfSpeech": "v, n",
+          "ar": "يرتدي"
+        },
+        {
+          "en": "social media",
+          "partOfSpeech": "n",
+          "ar": "وسائل التواصل الاجتماعي"
+        },
+        {
+          "en": "strange",
+          "partOfSpeech": "adj",
+          "ar": "غريب - غير مألوف"
+        },
+        {
+          "en": "overcome",
+          "partOfSpeech": "v",
+          "ar": "يتغلب على"
+        },
+        {
+          "en": "score",
+          "partOfSpeech": "v",
+          "ar": "يحرز - يسجل"
+        },
+        {
+          "en": "believe",
+          "partOfSpeech": "v",
+          "ar": "يعتقد - يصدق"
+        },
+        {
+          "en": "stressed",
+          "partOfSpeech": "adj",
+          "ar": "مجهد - مرهق"
+        },
+        {
+          "en": "power",
+          "partOfSpeech": "n",
+          "ar": "قوة"
+        },
+        {
+          "en": "remind",
+          "partOfSpeech": "v",
+          "ar": "يذكر"
+        },
+        {
+          "en": "confident",
+          "partOfSpeech": "adj",
+          "ar": "واثق بنفسه"
+        },
+        {
+          "en": "challenge",
+          "partOfSpeech": "n",
+          "ar": "تحدي"
+        },
+        {
+          "en": "goals = purposes",
+          "partOfSpeech": "n",
+          "ar": "أهداف (في الحياة)"
+        },
+        {
+          "en": "affect",
+          "partOfSpeech": "v",
+          "ar": "يؤثر على"
+        },
+        {
+          "en": "realness",
+          "partOfSpeech": "n",
+          "ar": "حقيقة - واقعية"
+        },
+        {
+          "en": "die",
+          "partOfSpeech": "v",
+          "ar": "يموت"
+        },
+        {
+          "en": "journey",
+          "partOfSpeech": "n",
+          "ar": "رحلة طويلة"
+        },
+        {
+          "en": "traditions",
+          "partOfSpeech": "n",
+          "ar": "عادات - تقاليد"
+        },
+        {
+          "en": "influence",
+          "partOfSpeech": "n",
+          "ar": "تأثير"
+        },
+        {
+          "en": "honestly",
+          "partOfSpeech": "adv",
+          "ar": "بأمانة - بصراحة"
+        },
+        {
+          "en": "realize",
+          "partOfSpeech": "v",
+          "ar": "يدرك - يعرف"
+        },
+        {
+          "en": "celebrate",
+          "partOfSpeech": "v",
+          "ar": "يحتفل"
+        },
+        {
+          "en": "explore",
+          "partOfSpeech": "v",
+          "ar": "يستكشف / يستكشف"
+        },
+        {
+          "en": "fixed",
+          "partOfSpeech": "adj",
+          "ar": "ثابت"
+        },
+        {
+          "en": "inspiring",
+          "partOfSpeech": "adj",
+          "ar": "ملهم - فكرة"
+        },
+        {
+          "en": "experience",
+          "partOfSpeech": "n",
+          "ar": "تجربة - خبرة"
+        },
+        {
+          "en": "medicine",
+          "partOfSpeech": "n",
+          "ar": "الطب"
+        },
+        {
+          "en": "describe",
+          "partOfSpeech": "v",
+          "ar": "يصف - يشرح"
+        },
+        {
+          "en": "volunteering",
+          "partOfSpeech": "n",
+          "ar": "التطوع"
+        },
+        {
+          "en": "encourage",
+          "partOfSpeech": "v",
+          "ar": "يشجع"
+        },
+        {
+          "en": "advice",
+          "partOfSpeech": "n",
+          "ar": "نصيحة"
+        },
+        {
+          "en": "patient",
+          "partOfSpeech": "adj",
+          "ar": "صبور"
+        },
+        {
+          "en": "differences",
+          "partOfSpeech": "n",
+          "ar": "اختلافات"
+        },
+        {
+          "en": "support",
+          "partOfSpeech": "v, n",
+          "ar": "يدعم - دعم / مساعدة"
+        },
+        {
+          "en": "quality",
+          "partOfSpeech": "n",
+          "ar": "صفة - ميزة"
+        },
+        {
+          "en": "curiosity",
+          "partOfSpeech": "n",
+          "ar": "الفضول"
+        }
+      ]
+    },
+    {
+      "title": "Conjugation of Irregular Verbs (تصريفات الأفعال غير المنتظمة)",
+      "words": [
+        {
+          "en": "feel",
+          "ar": "يشعر",
+          "present": "feel",
+          "past": "felt",
+          "pastParticiple": "felt"
+        },
+        {
+          "en": "find",
+          "ar": "يجد - يكتشف",
+          "present": "find",
+          "past": "found",
+          "pastParticiple": "found"
+        },
+        {
+          "en": "grow",
+          "ar": "ينمو - ينضج",
+          "present": "grow",
+          "past": "grew",
+          "pastParticiple": "grown"
+        },
+        {
+          "en": "overcome",
+          "ar": "يتغلب - ينجح",
+          "present": "overcome",
+          "past": "overcame",
+          "pastParticiple": "overcome"
+        },
+        {
+          "en": "make",
+          "ar": "يجعل - يصنع",
+          "present": "make",
+          "past": "made",
+          "pastParticiple": "made"
+        },
+        {
+          "en": "think",
+          "ar": "يعتقد",
+          "present": "think",
+          "past": "thought",
+          "pastParticiple": "thought"
+        }
+      ]
+    },
+    {
+      "title": "Synonyms and Antonyms (مرادفات ومتضادات)",
+      "words": [
+        {
+          "word": "strength",
+          "synonym": "power",
+          "antonym": "weakness"
+        },
+        {
+          "word": "unique",
+          "synonym": "different/rare/special",
+          "antonym": "common/ordinary/normal"
+        },
+        {
+          "word": "simple",
+          "synonym": "easy/plain",
+          "antonym": "complicated/difficult"
+        },
+        {
+          "word": "real",
+          "synonym": "true",
+          "antonym": "fake"
+        },
+        {
+          "word": "confident",
+          "synonym": "sure/certain",
+          "antonym": "unsure/uncertain"
+        },
+        {
+          "word": "value",
+          "synonym": "appreciate/evaluate",
+          "antonym": "undervalue/disregard"
+        },
+        {
+          "word": "stressed",
+          "synonym": "worried/anxious",
+          "antonym": "quiet/relaxed"
+        },
+        {
+          "word": "negative",
+          "synonym": "bad/weak",
+          "antonym": "positive"
+        },
+        {
+          "word": "support",
+          "synonym": "help/encourage",
+          "antonym": "prevent/oppose"
+        }
+      ]
+    }
+  ]
+}
