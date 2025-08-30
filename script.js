@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 sectionTitle.classList.add('animate-fade-in');
                 mainContainer.appendChild(sectionTitle);
 
-                if (section.title.includes('Conjugation of Verbs')) {
+                if (section.title.includes('Conjugation')) {
                     const table = document.createElement('table');
                     table.classList.add('conjugation-table', 'glass-card');
 
