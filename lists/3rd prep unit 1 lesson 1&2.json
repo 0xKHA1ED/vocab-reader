@@ -1,0 +1,162 @@
+{
+    "sections": [
+      {
+        "title": "Conjugation of Irregular Verbs (تصريفات الأفعال غير المنتظمة)",
+        "words": [
+          {
+            "en": "feel",
+            "ar": "يشعر",
+            "past": "felt",
+            "pastParticiple": "felt"
+          },
+          {
+            "en": "find",
+            "ar": "يجد - يكتشف",
+            "past": "found",
+            "pastParticiple": "found"
+          },
+          {
+            "en": "grow",
+            "ar": "ينمو - يضج",
+            "past": "grew",
+            "pastParticiple": "grown"
+          },
+          {
+            "en": "overcome",
+            "ar": "يتغلب - يتخطى",
+            "past": "overcame",
+            "pastParticiple": "overcome"
+          },
+          {
+            "en": "make",
+            "ar": "يجعل - يصنع",
+            "past": "made",
+            "pastParticiple": "made"
+          },
+          {
+            "en": "think",
+            "ar": "يعتقد",
+            "past": "thought",
+            "pastParticiple": "thought"
+          }
+        ]
+      },
+      {
+        "title": "Definitions (تعريفات)",
+        "words": [
+          {
+            "en": "identity",
+            "ar": "الهوية",
+            "definition": "who a person is"
+          },
+          {
+            "en": "value",
+            "ar": "يقدّر - يقيم",
+            "definition": "have a high opinion of someone or something"
+          },
+          {
+            "en": "background",
+            "ar": "خلفية اجتماعية",
+            "definition": "where someone comes from"
+          },
+          {
+            "en": "self-discovery",
+            "ar": "اكتشاف الذات",
+            "definition": "learning more about who you are"
+          }
+        ]
+      },
+      {
+        "title": "Collocations (متلازمات لفظية)",
+        "words": [
+          {
+            "en": "solve a problem",
+            "ar": "يحل مشكلة"
+          },
+          {
+            "en": "enter a fair",
+            "ar": "يشارك في معرض"
+          },
+          {
+            "en": "confident",
+            "ar": "واثق"
+          },
+          {
+            "en": "build/gain confidence",
+            "ar": "يكتسب الثقة بالنفس"
+          },
+          {
+            "en": "feel confident",
+            "ar": "يشعر بالثقة بالنفس"
+          },
+          {
+            "en": "stay in mind",
+            "ar": "يبقى عالقاً في الذهن"
+          },
+          {
+            "en": "feel stressed",
+            "ar": "يشعر بالتوتر"
+          }
+        ]
+      },
+      {
+        "title": "Synonyms and Antonyms (مترادفات ومتضادات)",
+        "words": [
+          {
+            "en": "strength",
+            "ar": "قوة - نقطة قوة",
+            "synonym": "power",
+            "antonym": "weakness"
+          },
+          {
+            "en": "unique",
+            "ar": "فريد - مميز",
+            "synonym": "different/rare/special",
+            "antonym": "common/ordinary/normal"
+          },
+          {
+            "en": "simple",
+            "ar": "بسيط - سهل",
+            "synonym": "easy/plain",
+            "antonym": "complicated/difficult"
+          },
+          {
+            "en": "real",
+            "ar": "حقيقي / واقعي",
+            "synonym": "true",
+            "antonym": "fake"
+          },
+          {
+            "en": "confident",
+            "ar": "واثق",
+            "synonym": "sure/certain",
+            "antonym": "unsure/uncertain"
+          },
+          {
+            "en": "value",
+            "ar": "يقيّم / يقدّر",
+            "synonym": "appreciate/evaluate",
+            "antonym": "undervalue/disregard"
+          },
+          {
+            "en": "stressed",
+            "ar": "مضغوط",
+            "synonym": "worried/anxious",
+            "antonym": "quiet/relaxed"
+          },
+          {
+            "en": "negative",
+            "ar": "سلبي",
+            "synonym": "bad/weak",
+            "antonym": "positive"
+          },
+          {
+            "en": "support",
+            "ar": "يساند - يساعد",
+            "synonym": "help/encourage",
+            "antonym": "prevent/oppose"
+          }
+        ]
+      }
+    ]
+  }
