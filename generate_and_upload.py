@@ -5,6 +5,7 @@ import boto3
 from botocore.exceptions import NoCredentialsError, ClientError
 import glob
 import re
+import random
 
 
 # --- ⚙️ CONFIGURATION ---
@@ -109,7 +110,8 @@ def process_vocabulary():
                 'Authorization': f'Bearer {UNREAL_SPEECH_API_KEY}',
                 'Content-Type': 'application/json'
             }
-            data = {"Text": word, "VoiceId": "Sierra", "Bitrate": "128k"}
+            voice_choice = random.choice(['Autumn', 'Melody', 'Hannah', 'Emily', 'Ivy', 'Kaitlyn', 'Luna', 'Willow', 'Lauren', 'Sierra', 'Noah', 'Jasper', 'Caleb', 'Ronan', 'Ethan', 'Daniel', 'Zane'])
+            data = {"Text": word, "VoiceId": voice_choice, "Bitrate": "128k"}
             response = requests.post(url, headers=headers, data=json.dumps(data), timeout=60)
 
             if response.status_code != 200:
