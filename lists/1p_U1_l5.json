@@ -1,0 +1,156 @@
+{
+    "sections": [
+      {
+        "title": "Vocabulary",
+        "words": [
+          {
+            "en": "trust (v)",
+            "ar": "يثق / ثقة"
+          },
+          {
+            "en": "tool (n)",
+            "ar": "أداة"
+          },
+          {
+            "en": "safety tips (n)",
+            "ar": "إرشادات السلامة"
+          },
+          {
+            "en": "the latest news",
+            "ar": "أحدث الأخبار"
+          },
+          {
+            "en": "performance (n)",
+            "ar": "أداء / عرض"
+          },
+          {
+            "en": "organize (v)",
+            "ar": "ينظم"
+          },
+          {
+            "en": "ICT class",
+            "ar": "حصة تكنولوجيا المعلومات والاتصالات"
+          },
+          {
+            "en": "routine (n)",
+            "ar": "نظام يومي متكرر"
+          },
+          {
+            "en": "roundtable (n)",
+            "ar": "اجتماع طاولة مستديرة /حلقة نقاش"
+          },
+          {
+            "en": "messages (n)",
+            "ar": "رسائل"
+          },
+          {
+            "en": "information (n)",
+            "ar": "معلومات"
+          },
+          {
+            "en": "reply (v)",
+            "ar": "يرد / رد"
+          },
+          {
+            "en": "online games",
+            "ar": "ألعاب عبر الإنترنت"
+          },
+          {
+            "en": "boring (adj)",
+            "ar": "ممل"
+          },
+          {
+            "en": "mobile phone",
+            "ar": "هاتف محمول / متنقل"
+          },
+          {
+            "en": "friendly (adj)",
+            "ar": "ودود / لطيف"
+          },
+          {
+            "en": "simple (adj)",
+            "ar": "بسيط"
+          },
+          {
+            "en": "chance (n)",
+            "ar": "فرصة"
+          },
+          {
+            "en": "respectful (adj)",
+            "ar": "يتسم بالاحترام"
+          },
+          {
+            "en": "add (v)",
+            "ar": "يضيف"
+          },
+          {
+            "en": "slogan (n)",
+            "ar": "شعار"
+          },
+          {
+            "en": "classmates (n)",
+            "ar": "زملاء الفصل"
+          },
+          {
+            "en": "the whole class",
+            "ar": "الفصل بأكمله"
+          },
+          {
+            "en": "colorful (adj)",
+            "ar": "ملون"
+          },
+          {
+            "en": "rules (n)",
+            "ar": "قواعد"
+          },
+          {
+            "en": "smart (adj)",
+            "ar": "ذكي"
+          },
+          {
+            "en": "paper (n)",
+            "ar": "ورق"
+          },
+          {
+            "en": "wall (n)",
+            "ar": "حائط"
+          },
+          {
+            "en": "produce (v)",
+            "ar": "يصدر / ينتج"
+          },
+          {
+            "en": "marker (n)",
+            "ar": "قلم تظليل"
+          },
+          {
+            "en": "team project",
+            "ar": "مشروع فريق"
+          }
+        ]
+      },
+      {
+        "title": "Conjugation of Irregular Verbs",
+        "words": [
+          {
+            "en": "rise",
+            "ar": "يرتفع",
+            "past": "rose",
+            "pastParticiple": "risen"
+          },
+          {
+            "en": "read",
+            "ar": "يقرأ",
+            "past": "read",
+            "pastParticiple": "read"
+          },
+          {
+            "en": "see",
+            "ar": "يرى",
+            "past": "saw",
+            "pastParticiple": "seen"
+          }
+        ]
+      }
+    ]
+  }
