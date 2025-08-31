@@ -1,163 +1,330 @@
 {
-    "sections": [
-      {
-        "title": "Conjugation of Irregular Verbs (تصريفات الأفعال غير المنتظمة)",
-        "words": [
-          {
-            "en": "feel",
-            "ar": "يشعر",
-            "past": "felt",
-            "pastParticiple": "felt"
-          },
-          {
-            "en": "find",
-            "ar": "يجد - يكتشف",
-            "past": "found",
-            "pastParticiple": "found"
-          },
-          {
-            "en": "grow",
-            "ar": "ينمو - يضج",
-            "past": "grew",
-            "pastParticiple": "grown"
-          },
-          {
-            "en": "overcome",
-            "ar": "يتغلب - يتخطى",
-            "past": "overcame",
-            "pastParticiple": "overcome"
-          },
-          {
-            "en": "make",
-            "ar": "يجعل - يصنع",
-            "past": "made",
-            "pastParticiple": "made"
-          },
-          {
-            "en": "think",
-            "ar": "يعتقد",
-            "past": "thought",
-            "pastParticiple": "thought"
-          }
-        ]
-      },
-      {
-        "title": "Definitions (تعريفات)",
-        "words": [
-          {
-            "en": "identity",
-            "ar": "الهوية",
-            "definition": "who a person is"
-          },
-          {
-            "en": "value",
-            "ar": "يقدّر - يقيم",
-            "definition": "have a high opinion of someone or something"
-          },
-          {
-            "en": "background",
-            "ar": "خلفية اجتماعية",
-            "definition": "where someone comes from"
-          },
-          {
-            "en": "self-discovery",
-            "ar": "اكتشاف الذات",
-            "definition": "learning more about who you are"
-          }
-        ]
-      },
-      {
-        "title": "Collocations (متلازمات لفظية)",
-        "words": [
-          {
-            "en": "solve a problem",
-            "ar": "يحل مشكلة"
-          },
-          {
-            "en": "enter a fair",
-            "ar": "يشارك في معرض"
-          },
-          {
-            "en": "confident",
-            "ar": "واثق"
-          },
-          {
-            "en": "build/gain confidence",
-            "ar": "يكتسب الثقة بالنفس"
-          },
-          {
-            "en": "feel confident",
-            "ar": "يشعر بالثقة بالنفس"
-          },
-          {
-            "en": "stay in mind",
-            "ar": "يبقى عالقاً في الذهن"
-          },
-          {
-            "en": "feel stressed",
-            "ar": "يشعر بالتوتر"
-          }
-        ]
-      },
-      {
-        "title": "Synonyms and Antonyms (مترادفات ومتضادات)",
-        "words": [
-          {
-            "en": "strength",
-            "ar": "قوة - نقطة قوة",
-            "synonym": "power",
-            "antonym": "weakness"
-          },
-          {
-            "en": "unique",
-            "ar": "فريد - مميز",
-            "synonym": "different/rare/special",
-            "antonym": "common/ordinary/normal"
-          },
-          {
-            "en": "simple",
-            "ar": "بسيط - سهل",
-            "synonym": "easy/plain",
-            "antonym": "complicated/difficult"
-          },
-          {
-            "en": "real",
-            "ar": "حقيقي / واقعي",
-            "synonym": "true",
-            "antonym": "fake"
-          },
-          {
-            "en": "confident",
-            "ar": "واثق",
-            "synonym": "sure/certain",
-            "antonym": "unsure/uncertain"
-          },
-          {
-            "en": "value",
-            "ar": "يقيّم / يقدّر",
-            "synonym": "appreciate/evaluate",
-            "antonym": "undervalue/disregard"
-          },
-          {
-            "en": "stressed",
-            "ar": "مضغوط",
-            "synonym": "worried/anxious",
-            "antonym": "quiet/relaxed"
-          },
-          {
-            "en": "negative",
-            "ar": "سلبي",
-            "synonym": "bad/weak",
-            "antonym": "positive"
-          },
-          {
-            "en": "support",
-            "ar": "يساند - يساعد",
-            "synonym": "help/encourage",
-            "antonym": "prevent/oppose"
-          }
-        ]
-      }
-    ]
-
-  }
+  "sections": [
+    {
+      "title": "Vocabulary",
+      "words": [
+        {
+          "en": "look",
+          "pos": "v",
+          "ar": "يبدو - يظهر"
+        },
+        {
+          "en": "identity",
+          "pos": "n",
+          "ar": "هوية"
+        },
+        {
+          "en": "belief",
+          "pos": "n",
+          "ar": "معتقد / مبدأ"
+        },
+        {
+          "en": "unique",
+          "pos": "adj",
+          "ar": "فريد / مميز"
+        },
+        {
+          "en": "self-discovery",
+          "pos": "n",
+          "ar": "اكتشاف الذات"
+        },
+        {
+          "en": "strength",
+          "pos": "n",
+          "ar": "القوة / القدرة على التحمل"
+        },
+        {
+          "en": "personality",
+          "pos": "n",
+          "ar": "شخصية"
+        },
+        {
+          "en": "individuality",
+          "pos": "n",
+          "ar": "تمييز - تفرّد"
+        },
+        {
+          "en": "growth",
+          "pos": "n",
+          "ar": "نمو - نضج"
+        },
+        {
+          "en": "background",
+          "pos": "n",
+          "ar": "خلفية اجتماعية - النشأة"
+        },
+        {
+          "en": "value",
+          "pos": "v, n",
+          "ar": "يقدّر - يقيم / قيمة"
+        },
+        {
+          "en": "real = true",
+          "pos": "adj",
+          "ar": "حقيقي - واقعي"
+        },
+        {
+          "en": "confidence",
+          "pos": "n",
+          "ar": "الثقة"
+        },
+        {
+          "en": "self-respect",
+          "pos": "n",
+          "ar": "احترام الذات"
+        },
+        {
+          "en": "weakness",
+          "pos": "n",
+          "ar": "نقطة ضعف"
+        },
+        {
+          "en": "heart surgeon",
+          "pos": "n",
+          "ar": "جراح قلب"
+        },
+        {
+          "en": "heart diseases",
+          "pos": "n",
+          "ar": "أمراض القلب"
+        },
+        {
+          "en": "act",
+          "pos": "v",
+          "ar": "يسلك - يتصرف"
+        },
+        {
+          "en": "kindness",
+          "pos": "n",
+          "ar": "اللطف - الطيبة"
+        },
+        {
+          "en": "character",
+          "pos": "n",
+          "ar": "شخصية"
+        },
+        {
+          "en": "popular",
+          "pos": "adj",
+          "ar": "محبوب"
+        },
+        {
+          "en": "shape",
+          "pos": "d, v, n",
+          "ar": "يشكل - شكل"
+        },
+        {
+          "en": "dress",
+          "pos": "ed, v",
+          "ar": "يرتدي"
+        },
+        {
+          "en": "remind",
+          "pos": "v",
+          "ar": "يذكر"
+        },
+        {
+          "en": "strange",
+          "pos": "adj",
+          "ar": "غريب - غير مألوف"
+        },
+        {
+          "en": "overcome",
+          "pos": "v",
+          "ar": "يتغلب على"
+        },
+        {
+          "en": "score",
+          "pos": "d, v",
+          "ar": "يحرز - يسجل"
+        },
+        {
+          "en": "believe",
+          "pos": "d, v",
+          "ar": "يعتقد - يصدق"
+        },
+        {
+          "en": "stressed",
+          "pos": "adj",
+          "ar": "مجهد - مرهق"
+        },
+        {
+          "en": "power",
+          "pos": "n",
+          "ar": "قوة"
+        },
+        {
+          "en": "confident",
+          "pos": "adj",
+          "ar": "واثق بنفسه"
+        },
+        {
+          "en": "challenge",
+          "pos": "n",
+          "ar": "تحدي"
+        },
+        {
+          "en": "goals = purposes",
+          "pos": "adj",
+          "ar": "أهداف / غايات"
+        },
+        {
+          "en": "affect",
+          "pos": "ed, v",
+          "ar": "يؤثر على"
+        },
+        {
+          "en": "realness",
+          "pos": "n",
+          "ar": "حقيقة - واقعية"
+        },
+        {
+          "en": "die",
+          "pos": "d, v",
+          "ar": "يموت"
+        },
+        {
+          "en": "journey",
+          "pos": "n",
+          "ar": "رحلة طويلة"
+        },
+        {
+          "en": "traditions",
+          "pos": "n",
+          "ar": "عادات وتقاليد"
+        },
+        {
+          "en": "influence",
+          "pos": "d, v, n",
+          "ar": "يؤثر - تأثير"
+        },
+        {
+          "en": "honestly",
+          "pos": "adv",
+          "ar": "بأمانة - بصراحة"
+        },
+        {
+          "en": "realize",
+          "pos": "d, v",
+          "ar": "يدرك - يعرف"
+        },
+        {
+          "en": "celebrate",
+          "pos": "d, v",
+          "ar": "يحتفل"
+        },
+        {
+          "en": "explore",
+          "pos": "d, v",
+          "ar": "يستكشف / يستكشف"
+        },
+        {
+          "en": "fixed",
+          "pos": "adj",
+          "ar": "ثابت"
+        },
+        {
+          "en": "inspiring",
+          "pos": "adj",
+          "ar": "ملهم"
+        },
+        {
+          "en": "experience",
+          "pos": "n",
+          "ar": "تجربة - خبرة"
+        },
+        {
+          "en": "medicine",
+          "pos": "n",
+          "ar": "الطب"
+        },
+        {
+          "en": "describe",
+          "pos": "d, v",
+          "ar": "يصف - يشرح"
+        },
+        {
+          "en": "volunteering",
+          "pos": "n",
+          "ar": "التطوع"
+        },
+        {
+          "en": "encourage",
+          "pos": "d, v",
+          "ar": "يشجع"
+        },
+        {
+          "en": "advise",
+          "pos": "n",
+          "ar": "ينصح"
+        },
+        {
+          "en": "patient",
+          "pos": "adj",
+          "ar": "صبور"
+        },
+        {
+          "en": "differences",
+          "pos": "n",
+          "ar": "اختلافات"
+        },
+        {
+          "en": "support",
+          "pos": "ed, v, n",
+          "ar": "يدعم - دعم / مساعدة"
+        },
+        {
+          "en": "quality",
+          "pos": "n",
+          "ar": "صفة - ميزة"
+        },
+        {
+          "en": "curiosity",
+          "pos": "n",
+          "ar": "الفضول"
+        }
+      ]
+    },
+    {
+      "title": "Conjugation of Irregular Verbs",
+      "words": [
+        {
+          "en": "feel",
+          "ar": "يشعر",
+          "past": "felt",
+          "pastParticiple": "felt"
+        },
+        {
+          "en": "find",
+          "ar": "يجد - يكتسب",
+          "past": "found",
+          "pastParticiple": "found"
+        },
+        {
+          "en": "grow",
+          "ar": "ينمو - ينضج",
+          "past": "grew",
+          "pastParticiple": "grown"
+        },
+        {
+          "en": "overcome",
+          "ar": "يتغلب - يتخطى",
+          "past": "overcame",
+          "pastParticiple": "overcome"
+        },
+        {
+          "en": "make",
+          "ar": "يجعل - يصنع",
+          "past": "made",
+          "pastParticiple": "made"
+        },
+        {
+          "en": "think",
+          "ar": "يعتقد",
+          "past": "thought",
+          "pastParticiple": "thought"
+        }
+      ]
+    }
+  ]
+}
