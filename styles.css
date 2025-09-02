@@ -207,9 +207,8 @@ footer:hover {
 }
 
 .whatsapp-logo {
-  width: var(--spacing-8);
-  height: var(--spacing-8);
-  fill: var(--color-success);
+  font-size: var(--font-size-4xl);
+  color: var(--color-success);
   transition: transform var(--transition-bounce);
 }
 
@@ -349,6 +348,44 @@ main h2::after {
   margin-top: var(--spacing-2);
   font-style: italic;
   line-height: 1.5;
+}
+
+/* Homepage Vocab List */
+.vocab-list {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-8) auto;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-6);
+}
+
+.vocab-list li {
+  width: 100%;
+}
+
+.vocab-list a {
+  display: block;
+  padding: var(--spacing-6);
+  text-decoration: none;
+  color: var(--color-text-primary);
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  transition: all var(--transition-normal);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.vocab-list a:hover {
+  background: var(--color-surface-hover);
+  border-color: var(--color-primary);
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: var(--shadow-xl);
+  color: var(--color-primary);
 }
 
 /* ========================================
