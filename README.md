@@ -8,15 +8,20 @@ The project is composed of two main parts: a **frontend** to display the vocabul
 
 ### Frontend
 
-- **HTML (`index.html`)**: The main structure of the web page.
-- **CSS (`styles.css`)**: Provides the styling for a modern, "glassmorphism" look and feel.
-- **JavaScript (`script.js`)**:
-    - Fetches vocabulary data from a specified JSON file in the `lists/` directory.
+- **Homepage (`index.html`)**: The main landing page that displays a list of all available vocabulary lessons.
+- **Lessons Page (`lessons.html`)**: The page that displays the vocabulary words, definitions, and conjugations for a selected lesson.
+- **CSS (`styles.css`)**: Provides the styling for a modern, "glassmorphism" look and feel across the site.
+- **JavaScript (`home.js`)**: Attached to `index.html`, this script fetches the list of vocabulary files from `lists/lists.json` and dynamically generates the lesson list.
+- **JavaScript (`script.js`)**: Attached to `lessons.html`, this script:
+    - Fetches vocabulary data from a specified JSON file based on a URL query parameter.
     - Dynamically generates the HTML to display the words, definitions, and verb conjugations.
     - Handles click events to play the audio pronunciation of each word. Audio files are fetched from a Cloudflare R2 bucket.
 
 ### Backend & Automation
 
+- **Python Script (`generate_list.py`)**:
+    - This script scans the `lists/` directory and generates a `lists/lists.json` file.
+    - This JSON file contains a list of all available vocabulary files, which is then used by the frontend to create the list of lessons on the homepage.
 - **Python Script (`generate_and_upload.py`)**:
     - Scans all `.json` files in the `lists/` directory to find unique English words.
     - Compares the found words against a list of already processed words (`lists/available_vocab.json`).
@@ -24,10 +29,12 @@ The project is composed of two main parts: a **frontend** to display the vocabul
     - Uploads the generated audio file to a specified **Cloudflare R2 bucket**.
     - Updates the `lists/available_vocab.json` file to include the newly processed words.
 - **GitHub Actions (`.github/workflows/audio-automation.yml`)**:
-    - This workflow is triggered automatically whenever a change is pushed to the `master` branch that affects the `lists/` directory (i.e., when a new vocabulary JSON file is added or an existing one is modified).
-    - It sets up a Python environment, installs the necessary dependencies, and runs the `generate_and_upload.py` script.
+    - This workflow is triggered automatically whenever a change is pushed to the `master` branch that affects the `lists/` directory.
+    - It runs two main jobs in sequence:
+        1. **Generate Vocabulary List**: Runs the `generate_list.py` script to update `lists/lists.json`.
+        2. **Generate and Upload Audio**: Runs the `generate_and_upload.py` script to generate and upload audio for new words.
     - It uses repository secrets to securely access the required API keys and credentials.
-    - Finally, it commits and pushes the updated `lists/available_vocab.json` file back to the repository.
+    - Finally, it commits and pushes the updated `lists/lists.json` and `lists/available_vocab.json` files back to the repository.
 
 ## 🚀 How to Use
 
@@ -57,17 +64,20 @@ The project is composed of two main parts: a **frontend** to display the vocabul
     
     ```
     
-3. **Push to GitHub**: Commit and push your new JSON file to the `master` branch.
-4. **Automation Takes Over**: The GitHub Action will automatically run, generate audio for any new words, upload them, and update the list of available vocabulary.
+3. **Update the Lesson List (Locally)**: Run the `generate_list.py` script to add your new file to `lists/lists.json`.
+
+    ```bash
+    python generate_list.py
+    ```
+
+4. **Push to GitHub**: Commit and push your new JSON file and the updated `lists/lists.json` to the `master` branch.
+5. **Automation Takes Over**: The GitHub Action will automatically run, generate audio for any new words, upload them, and update the list of available vocabulary.
 
 ### Viewing a Vocabulary List
 
-To view a specific vocabulary list, append the `?vocab=<filename>` query parameter to the URL, without the `.json` extension.
-
-- **Example**: To view the list from `lists/unit1.json`, the URL would be:
-`https://your-github-username.github.io/your-repo-name/?vocab=unit1`
-
-If no `vocab` parameter is provided, it will default to loading `lists/vocab.json`.
+1. **Open the Homepage**: Navigate to the main `index.html` page of the deployed project.
+2. **Select a Lesson**: You will see a list of all available vocabulary lessons. Click on any lesson to view it.
+3. **View the Vocabulary**: The `lessons.html` page will load with the selected vocabulary, including words, definitions, and audio playback.
 
 ## ⚙️ Configuration
 
