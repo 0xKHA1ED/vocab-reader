@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const vocabFileName = urlParams.get('vocab') || 'vocab'; // Default to 'vocab' if no parameter
+    const vocabFileName = urlParams.get('vocab');
     const vocabFilePath = `lists/${vocabFileName}.json`;
 
     fetch(vocabFilePath)

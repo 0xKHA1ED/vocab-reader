@@ -35,7 +35,14 @@
         <span>01025530898</span>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const vocabFileName = urlParams.get('vocab');
+        const scriptToLoad = vocabFileName ? 'script.js' : 'home.js';
+        const script = document.createElement('script');
+        script.src = scriptToLoad;
+        document.body.appendChild(script);
+    </script>
 
 </body>
 </html>
