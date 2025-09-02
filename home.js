@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const listItem = document.createElement('li');
                     const link = document.createElement('a');
                     const vocabName = file.replace('.json', '');
-                    link.href = `index.html?vocab=${vocabName}`;
+                    link.href = `lessons.html?vocab=${vocabName}`;
                     link.textContent = vocabName.replace(/_/g, ' ').replace(/-/g, ' ');
                     listItem.appendChild(link);
                     list.appendChild(listItem);
