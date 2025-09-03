@@ -1,0 +1,358 @@
+{
+  "sections": [
+    {
+      "title": "Key Vocabulary (أهم الكلمات)",
+      "words": [
+        {
+          "en": "Gen",
+          "ar": "جيل",
+          "definition": "generation"
+        },
+        {
+          "en": "constantly",
+          "ar": "باستمرار / على الدوام",
+          "pos": "adv"
+        },
+        {
+          "en": "digital",
+          "ar": "رقمي",
+          "pos": "adj"
+        },
+        {
+          "en": "Artificial Intelligence",
+          "ar": "الذكاء الإصطناعي",
+          "acronym": "AI"
+        },
+        {
+          "en": "trend",
+          "ar": "اتجاه عام / موضة",
+          "pos": "n"
+        },
+        {
+          "en": "emoji",
+          "ar": "رمز تعبيري",
+          "pos": "n"
+        },
+        {
+          "en": "screen time",
+          "ar": "وقت استخدام الشاشة",
+          "pos": "n"
+        },
+        {
+          "en": "balance",
+          "ar": "توازن",
+          "pos": "n, v"
+        },
+        {
+          "en": "limit",
+          "ar": "يحد / حد",
+          "pos": "v, n"
+        },
+        {
+          "en": "social media",
+          "ar": "وسائل التواصل الاجتماعي",
+          "pos": "n"
+        },
+        {
+          "en": "digital native",
+          "ar": "مواطن رقمي (يستخدم التكنولوجيا منذ صغره)",
+          "pos": "n"
+        },
+        {
+          "en": "create",
+          "ar": "ينشئ / يبتكر",
+          "pos": "v"
+        },
+        {
+          "en": "apps",
+          "ar": "تطبيقات (هواتف / الأجهزة الإلكترونية)",
+          "pos": "n"
+        },
+        {
+          "en": "creative",
+          "ar": "مبدع / إبداعي",
+          "pos": "adj"
+        },
+        {
+          "en": "identity",
+          "ar": "الهوية",
+          "pos": "n"
+        },
+        {
+          "en": "memes",
+          "ar": "صور / مقتطفات هزلية تنشر على الإنترنت",
+          "pos": "n"
+        },
+        {
+          "en": "share",
+          "ar": "يشارك",
+          "pos": "v"
+        },
+        {
+          "en": "adaptive",
+          "ar": "سريع التكيف",
+          "pos": "adj"
+        },
+        {
+          "en": "discover",
+          "ar": "يكتشف",
+          "pos": "v"
+        },
+        {
+          "en": "modern",
+          "ar": "حديث / عصري",
+          "pos": "adj"
+        },
+        {
+          "en": "opinions",
+          "ar": "آراء",
+          "pos": "n"
+        },
+        {
+          "en": "real life",
+          "ar": "واقع / من واقع الحياة",
+          "pos": "adj"
+        },
+        {
+          "en": "hobbies",
+          "ar": "هوايات",
+          "pos": "n"
+        },
+        {
+          "en": "encourage",
+          "ar": "يشجع",
+          "pos": "v"
+        },
+        {
+          "en": "emotion",
+          "ar": "عاطفة / شعور",
+          "pos": "n"
+        },
+        {
+          "en": "connect",
+          "ar": "يتصل",
+          "pos": "v"
+        },
+        {
+          "en": "rarely",
+          "ar": "نادراً",
+          "pos": "adv"
+        },
+        {
+          "en": "wonder",
+          "ar": "يتساءل",
+          "pos": "v"
+        },
+        {
+          "en": "digital tools",
+          "ar": "أدوات رقمية",
+          "pos": "n"
+        },
+        {
+          "en": "digital skills",
+          "ar": "مهارات رقمية",
+          "pos": "n"
+        },
+        {
+          "en": "represent",
+          "ar": "يمثل - يرمز",
+          "pos": "v"
+        },
+        {
+          "en": "connection",
+          "ar": "اتصال - ارتباط",
+          "pos": "n"
+        },
+        {
+          "en": "powerful",
+          "ar": "قوي / ذو نفوذ",
+          "pos": "adj"
+        },
+        {
+          "en": "development",
+          "ar": "تطوير / تنمية",
+          "pos": "n"
+        },
+        {
+          "en": "shape",
+          "ar": "يشكل / يكوّن / شكل",
+          "pos": "v, n"
+        },
+        {
+          "en": "content",
+          "ar": "محتوى",
+          "pos": "n"
+        },
+        {
+          "en": "behavior",
+          "ar": "سلوك",
+          "pos": "n"
+        },
+        {
+          "en": "amount",
+          "ar": "كمية / مقدار",
+          "pos": "n"
+        },
+        {
+          "en": "icon",
+          "ar": "رمز",
+          "pos": "n"
+        },
+        {
+          "en": "devices",
+          "ar": "أجهزة",
+          "pos": "n"
+        },
+        {
+          "en": "individual",
+          "ar": "فرد / شخص",
+          "pos": "n"
+        },
+        {
+          "en": "global problems",
+          "ar": "مشكلات عالمية",
+          "pos": "n"
+        },
+        {
+          "en": "smartphone",
+          "ar": "هاتف ذكي",
+          "pos": "n"
+        },
+        {
+          "en": "platform",
+          "ar": "منصة",
+          "pos": "n"
+        },
+        {
+          "en": "solve",
+          "ar": "يحل",
+          "pos": "v"
+        },
+        {
+          "en": "express",
+          "ar": "يعبر عن",
+          "pos": "v"
+        },
+        {
+          "en": "skills",
+          "ar": "مهارات",
+          "pos": "n"
+        },
+        {
+          "en": "challenges",
+          "ar": "تحديات",
+          "pos": "n"
+        },
+        {
+          "en": "positive",
+          "ar": "إيجابي",
+          "pos": "adj"
+        },
+        {
+          "en": "face",
+          "ar": "يواجه",
+          "pos": "v"
+        },
+        {
+          "en": "worldwide",
+          "ar": "في أنحاء العالم",
+          "pos": "adv, adj"
+        },
+        {
+          "en": "education",
+          "ar": "التعليم",
+          "pos": "n"
+        },
+        {
+          "en": "relationship",
+          "ar": "علاقة",
+          "pos": "n"
+        },
+        {
+          "en": "habit",
+          "ar": "عادة",
+          "pos": "n"
+        },
+        {
+          "en": "coding",
+          "ar": "البرمجة",
+          "pos": "n"
+        },
+        {
+          "en": "tolerant",
+          "ar": "متسامح / متساهل",
+          "pos": "adj"
+        },
+        {
+          "en": "online learning",
+          "ar": "التعلم عبر الإنترنت",
+          "pos": "n"
+        },
+        {
+          "en": "wisely",
+          "ar": "بحكمة / بعقل",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "title": "Conjugation of Irregular Verbs (تصريفات الأفعال غير المنتظمة)",
+      "words": [
+        {
+          "en": "spread",
+          "ar": "ينتشر / ينشر",
+          "past": "spread",
+          "pastParticiple": "spread"
+        },
+        {
+          "en": "find",
+          "ar": "يجد",
+          "past": "found",
+          "pastParticiple": "found"
+        },
+        {
+          "en": "think",
+          "ar": "يفكر",
+          "past": "thought",
+          "pastParticiple": "thought"
+        },
+        {
+          "en": "grow up",
+          "ar": "ينمو - يكبر",
+          "past": "grew up",
+          "pastParticiple": "grown up"
+        },
+        {
+          "en": "make",
+          "ar": "يصنع",
+          "past": "made",
+          "pastParticiple": "made"
+        },
+        {
+          "en": "speak",
+          "ar": "يتحدث",
+          "past": "spoke",
+          "pastParticiple": "spoken"
+        },
+        {
+          "en": "know",
+          "ar": "يعرف",
+          "past": "knew",
+          "pastParticiple": "known"
+        },
+        {
+          "en": "spend",
+          "ar": "يقضي",
+          "past": "spent",
+          "pastParticiple": "spent"
+        },
+        {
+          "en": "bear",
+          "ar": "يتحمل",
+          "past": "bore",
+          "pastParticiple": "born"
+        }
+      ]
+    }
+  ]
+}
