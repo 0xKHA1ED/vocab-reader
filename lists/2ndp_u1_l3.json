@@ -1,118 +1,122 @@
 {
-    "sections": [
-      {
-        "title": "Key Vocabulary",
-        "words": [
-          {
-            "en": "include (d) (v)",
-            "ar": "يتضمن / يتضمن"
-          },
-          {
-            "en": "fairness (n)",
-            "ar": "عدل / وضوح"
-          },
-          {
-            "en": "smartphone (n)",
-            "ar": "هاتف ذكي"
-          },
-          {
-            "en": "in common",
-            "ar": "مشترك"
-          },
-          {
-            "en": "connect (ed) (v)",
-            "ar": "يتصل / يتواصل"
-          },
-          {
-            "en": "unite (d) (v)",
-            "ar": "يتحد"
-          },
-          {
-            "en": "online creator",
-            "ar": "صانع محتوى على الإنترنت"
-          },
-          {
-            "en": "thoughts (n)",
-            "ar": "أفكار"
-          },
-          {
-            "en": "treat (ed) (v)",
-            "ar": "يعامل"
-          },
-          {
-            "en": "case (n)",
-            "ar": "حالة"
-          },
-          {
-            "en": "far apart",
-            "ar": "بعيداً"
-          },
-          {
-            "en": "interests (n)",
-            "ar": "اهتمامات"
-          }
-        ]
-      },
-      {
-        "title": "Lesson 3",
-        "words": [
-          {
-            "en": "even though",
-            "ar": "على الرغم من"
-          },
-          {
-            "en": "together (adv)",
-            "ar": "معاً"
-          },
-          {
-            "en": "ages (n)",
-            "ar": "أعمار / أعمار"
-          },
-          {
-            "en": "support (ed) (v)",
-            "ar": "يساند / يدعم / يدعم"
-          },
-          {
-            "en": "digital world",
-            "ar": "العالم الرقمي"
-          },
-          {
-            "en": "digital language",
-            "ar": "لغة رقمية"
-          },
-          {
-            "en": "YouTube",
-            "ar": "منصة اليوتيوب ومشاركة الفيديوهات"
-          },
-          {
-            "en": "mostly (adv)",
-            "ar": "في معظم الأوقات"
-          },
-          {
-            "en": "popular (adj)",
-            "ar": "محبوب / معروف"
-          },
-          {
-            "en": "distant (adj)",
-            "ar": "بعيد"
-          },
-          {
-            "en": "kids (n)",
-            "ar": "أطفال"
-          },
-          {
-            "en": "board games",
-            "ar": "ألعاب لوحية"
-          },
-          {
-            "en": "understand (v)",
-            "ar": "يفهم"
-          },
-          {
-            "en": "affect (ed) (v)",
-            "ar": "يؤثر على"
-          }
-        ]
-      }
-    ]
-  }
+  "sections": [
+    {
+      "title": "Key Vocabulary",
+      "words": [
+        {
+          "en": "include",
+          "ar": "يشمل / يتضمن"
+        },
+        {
+          "en": "smartphone",
+          "ar": "هاتف ذكي"
+        },
+        {
+          "en": "connect",
+          "ar": "يتصل / يتواصل"
+        },
+        {
+          "en": "online creator",
+          "ar": "صانع محتوى على الإنترنت"
+        },
+        {
+          "en": "treat",
+          "ar": "يعامل"
+        },
+        {
+          "en": "far apart",
+          "ar": "بعيدًا"
+        },
+        {
+          "en": "fairness",
+          "ar": "عدل / وضوح"
+        },
+        {
+          "en": "in common",
+          "ar": "مشترك"
+        },
+        {
+          "en": "unite",
+          "ar": "يتحد"
+        },
+        {
+          "en": "thoughts",
+          "ar": "أفكار"
+        },
+        {
+          "en": "case",
+          "ar": "حالة"
+        },
+        {
+          "en": "interests",
+          "ar": "اهتمامات"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 3",
+      "words": [
+        {
+          "en": "even though",
+          "ar": "حتى بالرغم من"
+        },
+        {
+          "en": "ages",
+          "ar": "أعمار"
+        },
+        {
+          "en": "digital world",
+          "ar": "العالم الرقمي"
+        },
+        {
+          "en": "YouTube",
+          "ar": "منصة اليوتيوب"
+        },
+        {
+          "en": "popular",
+          "ar": "محبوب / معروف"
+        },
+        {
+          "en": "kids",
+          "ar": "أطفال"
+        },
+        {
+          "en": "board games",
+          "ar": "ألعاب لوحية"
+        },
+        {
+          "en": "affect",
+          "ar": "يؤثر على"
+        },
+        {
+          "en": "together",
+          "ar": "معاً"
+        },
+        {
+          "en": "support",
+          "ar": "يساند / يدعم / يدعم"
+        },
+        {
+          "en": "digital language",
+          "ar": "لغة رقمية"
+        },
+        {
+          "en": "mostly",
+          "ar": "في المعظم"
+        },
+        {
+          "en": "part",
+          "ar": "جزء"
+        },
+        {
+          "en": "distant",
+          "ar": "بعيد / ناء"
+        },
+        {
+          "en": "understand",
+          "ar": "يفهم"
+        }
+      ]
+    }
+  ]
+}
