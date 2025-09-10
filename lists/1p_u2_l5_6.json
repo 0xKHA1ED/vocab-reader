@@ -1,0 +1,254 @@
+{
+    "sections": [
+      {
+        "title": "Key Vocabulary",
+        "words": [
+          {
+            "en": "auditory learners",
+            "ar": "متعلمين بالمهارات السمعية"
+          },
+          {
+            "en": "kinesthetic learners",
+            "ar": "متعلمين عن طريق الأنشطة الحركية والحسية"
+          },
+          {
+            "en": "visual learners",
+            "ar": "متعلمين بالمهارات البصرية"
+          },
+          {
+            "en": "hands-on activities",
+            "ar": "أنشطة عملية"
+          },
+          {
+            "en": "methods",
+            "ar": "طرق / وسائل"
+          },
+          {
+            "en": "techniques",
+            "ar": "تقنيات / أساليب"
+          },
+          {
+            "en": "focus",
+            "ar": "يركز"
+          },
+          {
+            "en": "avoid",
+            "ar": "يتجنب"
+          },
+          {
+            "en": "schedule",
+            "ar": "جدول أو برنامج محدد للمواعيد"
+          },
+          {
+            "en": "mind maps",
+            "ar": "خرائط ذهنية"
+          },
+          {
+            "en": "memorize",
+            "ar": "يحفظ / يتذكر"
+          },
+          {
+            "en": "experiments",
+            "ar": "تجارب (علمية)"
+          },
+          {
+            "en": "passion",
+            "ar": "شغف / اهتمام"
+          },
+          {
+            "en": "suit",
+            "ar": "يناسب / يلائم"
+          },
+          {
+            "en": "learning style",
+            "ar": "أسلوب تعلم"
+          },
+          {
+            "en": "distraction",
+            "ar": "تشتيت الانتباه"
+          },
+          {
+            "en": "charts",
+            "ar": "مخططات / رسوم بيانية"
+          },
+          {
+            "en": "organize",
+            "ar": "ينظم"
+          },
+          {
+            "en": "explanation",
+            "ar": "تفسير / توضيح"
+          },
+          {
+            "en": "review",
+            "ar": "يراجع / مراجعة"
+          },
+          {
+            "en": "challenge",
+            "ar": "يتحدى"
+          },
+          {
+            "en": "sight",
+            "ar": "حاسة البصر"
+          },
+          {
+            "en": "journey",
+            "ar": "رحلة"
+          },
+          {
+            "en": "touch",
+            "ar": "يلمس"
+          },
+          {
+            "en": "expression",
+            "ar": "تعبير"
+          },
+          {
+            "en": "real life",
+            "ar": "الحياة الواقعية"
+          },
+          {
+            "en": "loud",
+            "ar": "عالي الصوت"
+          },
+          {
+            "en": "topics",
+            "ar": "موضوعات"
+          },
+          {
+            "en": "neat",
+            "ar": "منظم / مهندم"
+          },
+          {
+            "en": "study space",
+            "ar": "مساحة مخصصة للدراسة"
+          },
+          {
+            "en": "organized",
+            "ar": "منظم / مرتب"
+          },
+          {
+            "en": "arrange",
+            "ar": "يرتب"
+          },
+          {
+            "en": "quiet",
+            "ar": "هادئ"
+          },
+          {
+            "en": "discuss",
+            "ar": "يناقش"
+          },
+          {
+            "en": "regularly",
+            "ar": "بانتظام"
+          },
+          {
+            "en": "models",
+            "ar": "نماذج"
+          },
+          {
+            "en": "physical",
+            "ar": "بدني"
+          },
+          {
+            "en": "remember",
+            "ar": "يتذكر"
+          },
+          {
+            "en": "key",
+            "ar": "مفتاح / مدخل"
+          },
+          {
+            "en": "folder",
+            "ar": "ملف / مجلد"
+          },
+          {
+            "en": "success",
+            "ar": "نجاح"
+          },
+          {
+            "en": "solutions",
+            "ar": "حلول"
+          },
+          {
+            "en": "individually",
+            "ar": "بشكل فردي"
+          },
+          {
+            "en": "competition",
+            "ar": "مسابقة"
+          },
+          {
+            "en": "relax",
+            "ar": "يسترخى / يسترخي"
+          },
+          {
+            "en": "research",
+            "ar": "بحث / يبحث"
+          },
+          {
+            "en": "unforgettable",
+            "ar": "لا ينسى"
+          },
+          {
+            "en": "play",
+            "ar": "يلعب"
+          },
+          {
+            "en": "playground",
+            "ar": "ملعب"
+          },
+          {
+            "en": "enjoyable",
+            "ar": "ممتع"
+          },
+          {
+            "en": "experience",
+            "ar": "تجربة حياتية / خبرة سابقة"
+          }
+        ]
+      },
+      {
+        "title": "Conjugation of Irregular Verbs",
+        "words": [
+          {
+            "en": "understand",
+            "ar": "يفهم",
+            "past": "understood",
+            "pastParticiple": "understood"
+          },
+          {
+            "en": "draw",
+            "ar": "يرسم",
+            "past": "drew",
+            "pastParticiple": "drawn"
+          },
+          {
+            "en": "do",
+            "ar": "يفعل",
+            "past": "did",
+            "pastParticiple": "done"
+          },
+          {
+            "en": "build",
+            "ar": "يبني",
+            "past": "built",
+            "pastParticiple": "built"
+          },
+          {
+            "en": "choose",
+            "ar": "يختار",
+            "past": "chose",
+            "pastParticiple": "chosen"
+          },
+          {
+            "en": "become",
+            "ar": "يصبح",
+            "past": "became",
+            "pastParticiple": "become"
+          }
+        ]
+      }
+    ]
+  }
