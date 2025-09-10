@@ -1,0 +1,142 @@
+{
+  "sections": [
+    {
+      "title": "Key Vocabulary",
+      "words": [
+        {
+          "en": "silence",
+          "ar": "صمت"
+        },
+        {
+          "en": "awkward",
+          "ar": "حرج - غريب"
+        },
+        {
+          "en": "reconnect",
+          "ar": "يعيد التواصل"
+        },
+        {
+          "en": "due to",
+          "ar": "بسبب"
+        },
+        {
+          "en": "distraction",
+          "ar": "تشتيت"
+        },
+        {
+          "en": "frustrated",
+          "ar": "محبط - متوتر"
+        },
+        {
+          "en": "meaningful",
+          "ar": "معبر - ذو مغزى"
+        },
+        {
+          "en": "gesture",
+          "ar": "إشارة - إيماءة"
+        },
+        {
+          "en": "fork",
+          "ar": "شوكة"
+        },
+        {
+          "en": "stress",
+          "ar": "ضغط - توتر"
+        },
+        {
+          "en": "stranger",
+          "ar": "غريب"
+        },
+        {
+          "en": "softly",
+          "ar": "بهدوء - بلطف"
+        },
+        {
+          "en": "speech",
+          "ar": "حديث - حوار"
+        },
+        {
+          "en": "laughter",
+          "ar": "ضحك"
+        },
+        {
+          "en": "disagreement",
+          "ar": "عدم اتفاق"
+        },
+        {
+          "en": "traditions",
+          "ar": "تقاليد"
+        },
+        {
+          "en": "meeting",
+          "ar": "اجتماع"
+        },
+        {
+          "en": "argument",
+          "ar": "جدال"
+        },
+        {
+          "en": "disappeared",
+          "ar": "يختفي"
+        },
+        {
+          "en": "distant",
+          "ar": "بعيد"
+        },
+        {
+          "en": "nod",
+          "ar": "يومئ برأسه للموافقة"
+        },
+        {
+          "en": "act",
+          "ar": "يعمل - فعل"
+        },
+        {
+          "en": "lately",
+          "ar": "مؤخراً"
+        },
+        {
+          "en": "discipline",
+          "ar": "انضباط - نظام"
+        },
+        {
+          "en": "distracted",
+          "ar": "مشتت - مشوش"
+        },
+        {
+          "en": "physically",
+          "ar": "بدني"
+        }
+      ]
+    },
+    {
+      "title": "Conjugation of Irregular Verbs",
+      "words": [
+        {
+          "en": "sit",
+          "ar": "يجلس",
+          "past": "sat",
+          "pastParticiple": "sat"
+        },
+        {
+          "en": "break",
+          "ar": "يكسر - يوقف",
+          "past": "broke",
+          "pastParticiple": "broken"
+        },
+        {
+          "en": "put",
+          "ar": "يضع",
+          "past": "put",
+          "pastParticiple": "put"
+        },
+        {
+          "en": "become",
+          "ar": "يصبح",
+          "past": "became",
+          "pastParticiple": "become"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "sections": [
+    {
+      "title": "Key Vocabulary",
+      "words": [
+        {
+          "en": "communication",
+          "ar": "تواصل"
+        },
+        {
+          "en": "connection",
+          "ar": "تواصل / علاقة"
+        },
+        {
+          "en": "relationship",
+          "ar": "علاقة / ارتباط / صلة"
+        },
+        {
+          "en": "misunderstand",
+          "ar": "يسيء الفهم"
+        },
+        {
+          "en": "misunderstanding",
+          "ar": "سوء الفهم / خلاف"
+        },
+        {
+          "en": "bond",
+          "ar": "رباط / علاقة / رابطة"
+        },
+        {
+          "en": "calm",
+          "ar": "هادئ"
+        },
+        {
+          "en": "sibling",
+          "ar": "شقيق - شقيقة (اخ او اخت)"
+        },
+        {
+          "en": "respectful",
+          "ar": "محترم"
+        },
+        {
+          "en": "conflict",
+          "ar": "صراع / نزاع"
+        },
+        {
+          "en": "supportive",
+          "ar": "مساعد / داعم"
+        },
+        {
+          "en": "resolve",
+          "ar": "يحل"
+        },
+        {
+          "en": "texting",
+          "ar": "مراسلة / ارسال الرسائل"
+        },
+        {
+          "en": "face-to-face",
+          "ar": "مباشر / وجهاً لوجه"
+        },
+        {
+          "en": "text message",
+          "ar": "رسالة نصية"
+        },
+        {
+          "en": "cause",
+          "ar": "يسبب / يوقع"
+        },
+        {
+          "en": "upset",
+          "ar": "منزعج / حزين"
+        },
+        {
+          "en": "discussion",
+          "ar": "مناقشة"
+        },
+        {
+          "en": "thoughtful",
+          "ar": "مراعي / يفكر في الآخرين"
+        },
+        {
+          "en": "conversation",
+          "ar": "محادثة"
+        },
+        {
+          "en": "social media",
+          "ar": "وسائل التواصل الاجتماعي"
+        },
+        {
+          "en": "distance",
+          "ar": "بعد / مسافة"
+        },
+        {
+          "en": "strengthen",
+          "ar": "يقوي / يدعم"
+        },
+        {
+          "en": "coming",
+          "ar": "قادم"
+        },
+        {
+          "en": "supported",
+          "ar": "مؤيد / معزز"
+        },
+        {
+          "en": "avoid",
+          "ar": "يتجنب"
+        },
+        {
+          "en": "ignore",
+          "ar": "يتجاهل"
+        },
+        {
+          "en": "miscommunication",
+          "ar": "سوء التواصل"
+        },
+        {
+          "en": "issue",
+          "ar": "موضوع / قضية"
+        },
+        {
+          "en": "facial expressions",
+          "ar": "تعبيرات الوجه"
+        },
+        {
+          "en": "group project",
+          "ar": "مشروع جماعي"
+        },
+        {
+          "en": "body language",
+          "ar": "لغة الجسد"
+        },
+        {
+          "en": "meaningful",
+          "ar": "مفهوم / ذو معنى"
+        },
+        {
+          "en": "serious",
+          "ar": "جاد / خطير"
+        },
+        {
+          "en": "loudly",
+          "ar": "بصوت مرتفع"
+        },
+        {
+          "en": "ride",
+          "ar": "جولة / قيادة"
+        },
+        {
+          "en": "solution",
+          "ar": "حل"
+        }
+      ]
+    },
+    {
+      "title": "Conjugation of Irregular Verbs",
+      "words": [
+        {
+          "en": "misunderstand",
+          "ar": "يسيء الفهم",
+          "past": "misunderstood",
+          "pastParticiple": "misunderstood"
+        },
+        {
+          "en": "forgive",
+          "ar": "يسامح / يغفر",
+          "past": "forgave",
+          "pastParticiple": "forgiven"
+        },
+        {
+          "en": "forget",
+          "ar": "ينسى",
+          "past": "forgot",
+          "pastParticiple": "forgotten"
+        },
+        {
+          "en": "speak",
+          "ar": "يتحدث",
+          "past": "spoke",
+          "pastParticiple": "spoken"
+        },
+        {
+          "en": "lead",
+          "ar": "يؤدى",
+          "past": "led",
+          "pastParticiple": "led"
+        },
+        {
+          "en": "bring",
+          "ar": "يحضر",
+          "past": "brought",
+          "pastParticiple": "brought"
+        }
+      ]
+    }
+  ]
+}
