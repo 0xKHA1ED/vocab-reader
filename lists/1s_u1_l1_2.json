@@ -1,0 +1,338 @@
+{
+    "sections": [
+      {
+        "title": "Key Vocabulary",
+        "words": [
+          {
+            "en": "ancestor",
+            "ar": "سولالي"
+          },
+          {
+            "en": "archaeology",
+            "ar": "علم الآثار"
+          },
+          {
+            "en": "awareness",
+            "ar": "وعي"
+          },
+          {
+            "en": "contribute",
+            "ar": "يساهم"
+          },
+          {
+            "en": "descendant",
+            "ar": "حفيد"
+          },
+          {
+            "en": "gathered",
+            "ar": "تجمع"
+          },
+          {
+            "en": "generation",
+            "ar": "جيل"
+          },
+          {
+            "en": "hieroglyphs",
+            "ar": "الرموز الهيروغليفية"
+          },
+          {
+            "en": "pride",
+            "ar": "فخر"
+          },
+          {
+            "en": "heritage",
+            "ar": "تراث"
+          },
+          {
+            "en": "inspiration",
+            "ar": "الهام"
+          },
+          {
+            "en": "legacy",
+            "ar": "إرث"
+          },
+          {
+            "en": "literacy",
+            "ar": "محو الأمية"
+          },
+          {
+            "en": "neighbourhood",
+            "ar": "حي"
+          },
+          {
+            "en": "overcome",
+            "ar": "يتغلب علي"
+          },
+          {
+            "en": "preserve",
+            "ar": "يحافظ علي"
+          },
+          {
+            "en": "prioritise",
+            "ar": "يعطي أولوية"
+          },
+          {
+            "en": "progress",
+            "ar": "تقدم"
+          },
+          {
+            "en": "realize",
+            "ar": "يدرك"
+          },
+          {
+            "en": "sacrifice",
+            "ar": "يضحي"
+          }
+        ]
+      },
+      {
+        "title": "Important Vocabulary",
+        "words": [
+          {
+            "en": "archaeologist",
+            "ar": "عالم آثار"
+          },
+          {
+            "en": "architect",
+            "ar": "مهندس معماري"
+          },
+          {
+            "en": "balance",
+            "ar": "توازن"
+          },
+          {
+            "en": "beat-beat-beaten",
+            "ar": "يهزم / يدق"
+          },
+          {
+            "en": "beauty",
+            "ar": "جمال"
+          },
+          {
+            "en": "community",
+            "ar": "مجتمع"
+          },
+          {
+            "en": "capable",
+            "ar": "قادر"
+          },
+          {
+            "en": "century",
+            "ar": "قرن"
+          },
+          {
+            "en": "challenge",
+            "ar": "تحد"
+          },
+          {
+            "en": "citizen",
+            "ar": "مواطن"
+          },
+          {
+            "en": "compared",
+            "ar": "مقارنة"
+          },
+          {
+            "en": "connection",
+            "ar": "اتصال / علاقة"
+          },
+          {
+            "en": "continent",
+            "ar": "قارة"
+          },
+          {
+            "en": "core",
+            "ar": "جوهري / لب"
+          },
+          {
+            "en": "courage",
+            "ar": "شجاعة"
+          },
+          {
+            "en": "dangerous",
+            "ar": "خطير"
+          },
+          {
+            "en": "develop",
+            "ar": "يطور"
+          },
+          {
+            "en": "duty",
+            "ar": "واجب"
+          },
+          {
+            "en": "economy",
+            "ar": "اقتصاد"
+          },
+          {
+            "en": "effect",
+            "ar": "تأثير"
+          },
+          {
+            "en": "encourage",
+            "ar": "يشجع"
+          },
+          {
+            "en": "era",
+            "ar": "عصر"
+          },
+          {
+            "en": "event",
+            "ar": "حدث"
+          },
+          {
+            "en": "experience",
+            "ar": "خبرة"
+          },
+          {
+            "en": "export",
+            "ar": "يصدر"
+          },
+          {
+            "en": "feeding",
+            "ar": "تغذية"
+          },
+          {
+            "en": "generation",
+            "ar": "جيل"
+          },
+          {
+            "en": "grain",
+            "ar": "حبوب"
+          },
+          {
+            "en": "growth",
+            "ar": "نمو"
+          },
+          {
+            "en": "harmony",
+            "ar": "تناغم"
+          },
+          {
+            "en": "historical",
+            "ar": "تاريخي"
+          },
+          {
+            "en": "honor",
+            "ar": "شرف"
+          },
+          {
+            "en": "homeland",
+            "ar": "وطن"
+          },
+          {
+            "en": "impact",
+            "ar": "تأثير"
+          },
+          {
+            "en": "important",
+            "ar": "مهم"
+          },
+          {
+            "en": "lack",
+            "ar": "نقص"
+          },
+          {
+            "en": "long-legged",
+            "ar": "ذو أرجل طويلة"
+          },
+          {
+            "en": "mission",
+            "ar": "مهمة"
+          },
+          {
+            "en": "papyrus",
+            "ar": "ورق البردي"
+          },
+          {
+            "en": "pioneers",
+            "ar": "رواد"
+          },
+          {
+            "en": "powerful",
+            "ar": "قوي"
+          },
+          {
+            "en": "pride",
+            "ar": "فخر"
+          },
+          {
+            "en": "profession",
+            "ar": "مهنة"
+          },
+          {
+            "en": "proud",
+            "ar": "فخور"
+          },
+          {
+            "en": "realize",
+            "ar": "يدرك"
+          },
+          {
+            "en": "recognised",
+            "ar": "معترف به"
+          },
+          {
+            "en": "record",
+            "ar": "سجل"
+          },
+          {
+            "en": "reminisce",
+            "ar": "يستعيد الذكريات"
+          },
+          {
+            "en": "require",
+            "ar": "يتطلب"
+          },
+          {
+            "en": "responsibility",
+            "ar": "مسؤولية"
+          },
+          {
+            "en": "rise-rose-risen",
+            "ar": "يرتفع"
+          },
+          {
+            "en": "shape",
+            "ar": "يشكل"
+          },
+          {
+            "en": "significant",
+            "ar": "مهم"
+          },
+          {
+            "en": "storm",
+            "ar": "عاصفة"
+          },
+          {
+            "en": "technique",
+            "ar": "تقنية"
+          },
+          {
+            "en": "traded",
+            "ar": "تاجر"
+          },
+          {
+            "en": "treasure",
+            "ar": "كنز"
+          },
+          {
+            "en": "united",
+            "ar": "متحد"
+          },
+          {
+            "en": "value",
+            "ar": "قيمة"
+          },
+          {
+            "en": "valuable",
+            "ar": "قيم"
+          },
+          {
+            "en": "youth",
+            "ar": "شباب"
+          }
+        ]
+      }
+    ]
+  }
