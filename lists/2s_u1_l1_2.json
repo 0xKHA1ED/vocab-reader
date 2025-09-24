@@ -1,0 +1,360 @@
+{
+    "sections": [
+      {
+        "title": "Key Vocabulary (المفردات الرئيسية)",
+        "words": [
+          {
+            "en": "cooperation",
+            "ar": "تعاون"
+          },
+          {
+            "en": "double",
+            "ar": "يضاعف - يتضاعف"
+          },
+          {
+            "en": "expand",
+            "ar": "يتوسع - يوسع - يمدد"
+          },
+          {
+            "en": "funding",
+            "ar": "تمويل"
+          },
+          {
+            "en": "gateway",
+            "ar": "بوابة - مدخل"
+          },
+          {
+            "en": "hybrid",
+            "ar": "هجين - خليط"
+          },
+          {
+            "en": "infrastructure",
+            "ar": "بنية تحتية"
+          },
+          {
+            "en": "integration",
+            "ar": "اندماج - توحيد - تكامل"
+          },
+          {
+            "en": "limitation",
+            "ar": "حد - عائق"
+          },
+          {
+            "en": "manufactured",
+            "ar": "مصنّع - مصنوع"
+          },
+          {
+            "en": "mutual",
+            "ar": "متبادل - مشترك"
+          },
+          {
+            "en": "partnership",
+            "ar": "شراكة"
+          },
+          {
+            "en": "procedure",
+            "ar": "إجراء - خطوة"
+          },
+          {
+            "en": "rural",
+            "ar": "ريفي"
+          },
+          {
+            "en": "solidarity",
+            "ar": "تضامن"
+          },
+          {
+            "en": "stability",
+            "ar": "استقرار"
+          },
+          {
+            "en": "stable",
+            "ar": "مستقر - ثابت"
+          },
+          {
+            "en": "textile",
+            "ar": "نسيج"
+          },
+          {
+            "en": "unity",
+            "ar": "الوحدة"
+          },
+          {
+            "en": "convoys",
+            "ar": "قوافل"
+          }
+        ]
+      },
+      {
+        "title": "Important Vocabulary (المفردات الهامة)",
+        "words": [
+          {
+            "en": "advanced",
+            "ar": "متقدم"
+          },
+          {
+            "en": "advantageous",
+            "ar": "مفيد - ملائم"
+          },
+          {
+            "en": "agricultural",
+            "ar": "زراعي"
+          },
+          {
+            "en": "ambitious",
+            "ar": "طموح"
+          },
+          {
+            "en": "attend",
+            "ar": "يحضر"
+          },
+          {
+            "en": "attention",
+            "ar": "اهتمام"
+          },
+          {
+            "en": "attract",
+            "ar": "يجذب"
+          },
+          {
+            "en": "benefit",
+            "ar": "يفيد - يستفيد"
+          },
+          {
+            "en": "boost",
+            "ar": "يعزز - يرفع"
+          },
+          {
+            "en": "bridge",
+            "ar": "جسر - حلقة وصل"
+          },
+          {
+            "en": "capacity",
+            "ar": "قدرة"
+          },
+          {
+            "en": "collaboration",
+            "ar": "تعاون مشترك"
+          },
+          {
+            "en": "combat",
+            "ar": "يكافح - مكافحة"
+          },
+          {
+            "en": "comprehensive",
+            "ar": "شامل"
+          },
+          {
+            "en": "conference",
+            "ar": "مؤتمر"
+          },
+          {
+            "en": "continent",
+            "ar": "قارة"
+          },
+          {
+            "en": "decade",
+            "ar": "عقد (من الزمن ١٠ سنوات)"
+          },
+          {
+            "en": "delegate",
+            "ar": "ممثل - مفوض"
+          },
+          {
+            "en": "development",
+            "ar": "تطوير - نمو"
+          },
+          {
+            "en": "economic",
+            "ar": "اقتصادي"
+          },
+          {
+            "en": "empower",
+            "ar": "يمكّن"
+          },
+          {
+            "en": "ensure",
+            "ar": "يضمن"
+          },
+          {
+            "en": "enterprise",
+            "ar": "مؤسسة - مشروع"
+          },
+          {
+            "en": "establishing",
+            "ar": "تأسيس - إنشاء"
+          },
+          {
+            "en": "initiative",
+            "ar": "مبادرة"
+          },
+          {
+            "en": "invest",
+            "ar": "يستثمر"
+          },
+          {
+            "en": "irrigation",
+            "ar": "الري"
+          },
+          {
+            "en": "location",
+            "ar": "موقع - مكان"
+          },
+          {
+            "en": "machinery",
+            "ar": "آلة - مكينة"
+          },
+          {
+            "en": "material",
+            "ar": "مادة"
+          },
+          {
+            "en": "medical",
+            "ar": "طبي"
+          },
+          {
+            "en": "Middle East",
+            "ar": "الشرق الأوسط"
+          },
+          {
+            "en": "moderator",
+            "ar": "مشرف - مدير نقاش - منسق"
+          },
+          {
+            "en": "northeastern",
+            "ar": "شمالي شرقي"
+          },
+          {
+            "en": "occupy",
+            "ar": "يشغل - يحتل"
+          },
+          {
+            "en": "ties",
+            "ar": "روابط"
+          }
+        ]
+      },
+      {
+        "title": "Expressions & Idioms (التعبيرات والمصطلحات)",
+        "words": [
+          {
+            "en": "be a gateway to",
+            "ar": "يُعَدُّ بوابة إلى"
+          },
+          {
+            "en": "build bridges (between)",
+            "ar": "يبني جسوراً (بين)"
+          },
+          {
+            "en": "go on for",
+            "ar": "يَسْتَمِرُ لِمُدَّة"
+          },
+          {
+            "en": "in return",
+            "ar": "بالمقابل"
+          },
+          {
+            "en": "cross-border transport",
+            "ar": "النقل عبر الحدود"
+          },
+          {
+            "en": "specialized medical convoys",
+            "ar": "قوافل طبية متخصصة"
+          },
+          {
+            "en": "see eye to eye (on)",
+            "ar": "يَتَّفِقُ في الرأي (حَوْلَ)"
+          },
+          {
+            "en": "serve as a bridge (between)",
+            "ar": "يقوم بدور حلقة الوصل (بين)"
+          },
+          {
+            "en": "teamwork makes the dream work",
+            "ar": "العمل الجَمَاعِيُّ يُحَقِّقُ الحُلْمَ"
+          },
+          {
+            "en": "in advanced techniques",
+            "ar": "بأساليب متطورة"
+          }
+        ]
+      },
+      {
+        "title": "Verb + Preposition (فعل + حرف جر)",
+        "words": [
+          {
+            "en": "connect with",
+            "ar": "يربط بـ"
+          },
+          {
+            "en": "differentiate between",
+            "ar": "يفرّق بين"
+          },
+          {
+            "en": "export to",
+            "ar": "يصدّر إلى"
+          },
+          {
+            "en": "focus on",
+            "ar": "يركز على"
+          },
+          {
+            "en": "go on for",
+            "ar": "يستمر لمدة"
+          },
+          {
+            "en": "identify ... from",
+            "ar": "يُحدد .... من خلال"
+          },
+          {
+            "en": "import from",
+            "ar": "يَسْتَوْرِدُ مِن"
+          },
+          {
+            "en": "increase by",
+            "ar": "يزيد بنسبة"
+          },
+          {
+            "en": "invest in",
+            "ar": "يَسْتَثْمِرُ في"
+          },
+          {
+            "en": "look for",
+            "ar": "يَبْحَثُ عَنْ"
+          },
+          {
+            "en": "match to",
+            "ar": "يتطابق مع"
+          },
+          {
+            "en": "offer ... to ...",
+            "ar": "يُقدم .... لـ"
+          },
+          {
+            "en": "participate in",
+            "ar": "يُشارك في"
+          },
+          {
+            "en": "scale back",
+            "ar": "يُقلِّص - يقلل"
+          },
+          {
+            "en": "serve as",
+            "ar": "يَعْمَلُ كـ"
+          },
+          {
+            "en": "share ... with ...",
+            "ar": "يتقاسم / يشارك .... مع"
+          },
+          {
+            "en": "work on",
+            "ar": "يَعْمَلْ عَلَى"
+          },
+          {
+            "en": "work with",
+            "ar": "يَعْمَلُ مَعَ"
+          }
+        ]
+      }
+    ]
+  }
