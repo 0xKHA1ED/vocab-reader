@@ -70,11 +70,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         table.classList.add('conjugation-table', 'glass-card');
 
                         const thead = document.createElement('thead');
-                        tr.innerHTML = `
-                                        <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.forms.present}</span></td>
-                                        <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.forms.past}</span></td>
-                                        <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.forms.pastParticiple}</span></td>
-                                       `;
+                        thead.innerHTML = `
+                                        <tr>
+                                        <th>Arabic (العربية)</th>
+                                        <th>Present (المضارع)</th>
+                                        <th>Past (الماضي)</th>
+                                        <th>Past Participle (التصريف الثالث)</th>
+                                        </tr>
+                                        `;
                         table.appendChild(thead);
 
                         const tbody = document.createElement('tbody');
@@ -83,9 +86,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             tr.classList.add('animate-slide-up');
                             tr.style.animationDelay = `${(index % 5) * 100}ms`;
                             tr.innerHTML = `
-                                <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.en}</span></td>
-                                <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.past}</span></td>
-                                <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.pastParticiple}</span></td>
+                                        <td><span class="arabic-meaning">${word.ar}</span></td>
+                                        <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.forms.present}</span></td>
+                                        <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.forms.past}</span></td>
+                                        <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.forms.pastParticiple}</span></td>
                             `;
                             
                             // Add event listeners to each word in the conjugation table
