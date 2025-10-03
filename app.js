@@ -70,13 +70,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         table.classList.add('conjugation-table', 'glass-card');
 
                         const thead = document.createElement('thead');
-                        thead.innerHTML = `
-                            <tr>
-                                <th>Present (المضارع)</th>
-                                <th>Past (الماضي)</th>
-                                <th>Past Participle (التصريف الثالث)</th>
-                            </tr>
-                        `;
+                        tr.innerHTML = `
+                                        <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.forms.present}</span></td>
+                                        <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.forms.past}</span></td>
+                                        <td><span class="english-word"><span class="speaker-icon">🔊</span> ${word.forms.pastParticiple}</span></td>
+                                       `;
                         table.appendChild(thead);
 
                         const tbody = document.createElement('tbody');
