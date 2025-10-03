@@ -1,280 +1,473 @@
 {
-    "sections": [
-      {
-          
-        "title": "Key Vocabulary (أهم الكلمات)",
-        "words": [
-          {
-            "en": "digital",
-            "ar": "رقمي"
-          },
-          {
-            "en": "technology",
-            "ar": "تكنولوجيا"
-          },
-          {
-            "en": "tablet",
-            "ar": "تابلت"
-          },
-          {
-            "en": "devices",
-            "ar": "أجهزة"
-          },
-          {
-            "en": "ebooks",
-            "ar": "كتب إلكترونية"
-          },
-          {
-            "en": "chat",
-            "ar": "يدردش / يتحدث بطريقة ودية"
-          },
-          {
-            "en": "balance",
-            "ar": "يوازن / يوازن"
-          },
-          {
-            "en": "app",
-            "ar": "تطبيق"
-          },
-          {
-            "en": "hybrid bus",
-            "ar": "حافلة هجينة (تعمل بالكهرباء والبنزين معاً)"
-          },
-          {
-            "en": "screen",
-            "ar": "شاشة"
-          },
-          {
-            "en": "smartboard",
-            "ar": "سبورة ذكية"
-          },
-          {
-            "en": "website",
-            "ar": "موقع إلكتروني"
-          },
-          {
-            "en": "laptop",
-            "ar": "كمبيوتر محمول"
-          },
-          {
-            "en": "remind",
-            "ar": "يُذكر (شخصاً بشيء ما)"
-          },
-          {
-            "en": "affect",
-            "ar": "يؤثر على"
-          },
-          {
-            "en": "night mode",
-            "ar": "الوضع الليلي (للشاشة)"
-          },
-          {
-            "en": "search",
-            "ar": "يبحث / بحث"
-          },
-          {
-            "en": "smartphones",
-            "ar": "الهواتف الذكية"
-          },
-          {
-            "en": "without",
-            "ar": "بدون"
-          },
-          {
-            "en": "share",
-            "ar": "يشارك"
-          },
-          {
-            "en": "check",
-            "ar": "يفحص / يتحقق"
-          },
-          {
-            "en": "messages",
-            "ar": "رسائل"
-          },
-          {
-            "en": "interesting",
-            "ar": "مثير/ ممتع"
-          },
-          {
-            "en": "facts",
-            "ar": "حقائق"
-          },
-          {
-            "en": "projects",
-            "ar": "مشروعات"
-          },
-          {
-            "en": "blog",
-            "ar": "مدونة"
-          },
-          {
-            "en": "bedtime",
-            "ar": "وقت النوم"
-          },
-          {
-            "en": "space",
-            "ar": "فضاء"
-          },
-          {
-            "en": "habit",
-            "ar": "عادة"
-          },
-          {
-            "en": "planets",
-            "ar": "كواكب"
-          },
-          {
-            "en": "type",
-            "ar": "يكتب (على لوحة مفاتيح)"
-          },
-          {
-            "en": "news",
-            "ar": "أخبار"
-          },
-          {
-            "en": "wisely",
-            "ar": "بحكمة"
-          },
-          {
-            "en": "break",
-            "ar": "استراحة"
-          },
-          {
-            "en": "funny",
-            "ar": "مرح / ظريف"
-          },
-          {
-            "en": "useful",
-            "ar": "مفيد"
-          },
-          {
-            "en": "online",
-            "ar": "عبر الإنترنت"
-          },
-          {
-            "en": "start",
-            "ar": "يبدأ"
-          },
-          {
-            "en": "adventure stories",
-            "ar": "قصص مغامرات"
-          },
-          {
-            "en": "cousin",
-            "ar": "ابن / ابنة العم/الخال"
-          },
-          {
-            "en": "amazing",
-            "ar": "مدهش"
-          },
-          {
-            "en": "portable",
-            "ar": "محمول"
-          },
-          {
-            "en": "social media",
-            "ar": "وسائل التواصل الاجتماعي"
-          },
-          {
-            "en": "journey",
-            "ar": "رحلة"
-          },
-          {
-            "en": "reduce",
-            "ar": "يقلل"
-          },
-          {
-            "en": "launch",
-            "ar": "يطلق / يطلق"
-          },
-          {
-            "en": "electricity",
-            "ar": "كهرباء"
-          },
-          {
-            "en": "pollution",
-            "ar": "تلوث"
-          },
-          {
-            "en": "company",
-            "ar": "شركة"
-          },
-          {
-            "en": "smart navigation",
-            "ar": "الملاحة / التوجيه الذكي"
-          },
-          {
-            "en": "support",
-            "ar": "يدعم - يؤيد"
-          },
-          {
-            "en": "science class",
-            "ar": "فصل العلوم"
-          },
-          {
-            "en": "videos",
-            "ar": "فيديوهات"
-          },
-          {
-            "en": "technology habits",
-            "ar": "عادات تكنولوجية"
-          },
-          {
-            "en": "engines",
-            "ar": "محركات"
-          },
-          {
-            "en": "smart transportation",
-            "ar": "النقل الذكي"
-          },
-          {
-            "en": "vision",
-            "ar": "رؤية"
-          },
-          {
-            "en": "greener",
-            "ar": "أكثر حفاظاً على البيئة"
-          },
-          {
-            "en": "locally",
-            "ar": "محلياً"
-          },
-          {
-            "en": "diesel",
-            "ar": "وقود الديزل"
-          }
-        ]
-      },
-      {
-        "title": "Conjugation of Irregular Verbs (تصريفات الأفعال غير المنتظمة)",
-        "words": [
-          {
-            "en": "think",
-            "ar": "يفكر",
+  "metadata": {
+    "title": "Unit 2: Technology",
+    "description": "A vocabulary list focused on modern technology and digital life.",
+    "level": "1st Prep"
+  },
+  "sections": [
+    {
+      "title": "Key Vocabulary (أهم الكلمات)",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "digital",
+          "ar": "رقمي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "technology",
+          "ar": "تكنولوجيا",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "tablet",
+          "ar": "تابلت",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "devices",
+          "ar": "أجهزة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "ebooks",
+          "ar": "كتب إلكترونية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "chat",
+          "ar": "يدردش / يتحدث بطريقة ودية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "balance",
+          "ar": "يوازن / يوازن",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "app",
+          "ar": "تطبيق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "hybrid bus",
+          "ar": "حافلة هجينة (تعمل بالكهرباء والبنزين معاً)",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "screen",
+          "ar": "شاشة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "smartboard",
+          "ar": "سبورة ذكية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "website",
+          "ar": "موقع إلكتروني",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "laptop",
+          "ar": "كمبيوتر محمول",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "remind",
+          "ar": "يُذكر (شخصاً بشيء ما)",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "affect",
+          "ar": "يؤثر على",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "night mode",
+          "ar": "الوضع الليلي (للشاشة)",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "search",
+          "ar": "يبحث / بحث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "smartphones",
+          "ar": "الهواتف الذكية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "without",
+          "ar": "بدون",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "share",
+          "ar": "يشارك",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "check",
+          "ar": "يفحص / يتحقق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "messages",
+          "ar": "رسائل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "interesting",
+          "ar": "مثير/ ممتع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "facts",
+          "ar": "حقائق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "projects",
+          "ar": "مشروعات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "blog",
+          "ar": "مدونة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "bedtime",
+          "ar": "وقت النوم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "space",
+          "ar": "فضاء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "habit",
+          "ar": "عادة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "planets",
+          "ar": "كواكب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "type",
+          "ar": "يكتب (على لوحة مفاتيح)",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "news",
+          "ar": "أخبار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "wisely",
+          "ar": "بحكمة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "break",
+          "ar": "استراحة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "funny",
+          "ar": "مرح / ظريف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "useful",
+          "ar": "مفيد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "online",
+          "ar": "عبر الإنترنت",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "start",
+          "ar": "يبدأ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "adventure stories",
+          "ar": "قصص مغامرات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "cousin",
+          "ar": "ابن / ابنة العم/الخال",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "amazing",
+          "ar": "مدهش",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "portable",
+          "ar": "محمول",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "social media",
+          "ar": "وسائل التواصل الاجتماعي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "journey",
+          "ar": "رحلة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "reduce",
+          "ar": "يقلل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "launch",
+          "ar": "يطلق / يطلق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "electricity",
+          "ar": "كهرباء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "pollution",
+          "ar": "تلوث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "company",
+          "ar": "شركة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "smart navigation",
+          "ar": "الملاحة / التوجيه الذكي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "support",
+          "ar": "يدعم - يؤيد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "science class",
+          "ar": "فصل العلوم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "videos",
+          "ar": "فيديوهات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "technology habits",
+          "ar": "عادات تكنولوجية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "engines",
+          "ar": "محركات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "smart transportation",
+          "ar": "النقل الذكي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "vision",
+          "ar": "رؤية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "greener",
+          "ar": "أكثر حفاظاً على البيئة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "locally",
+          "ar": "محلياً",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "diesel",
+          "ar": "وقود الديزل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Conjugation of Irregular Verbs (تصريفات الأفعال غير المنتظمة)",
+      "type": "conjugations",
+      "words": [
+        {
+          "ar": "يفكر",
+          "forms": {
+            "present": "think",
             "past": "thought",
             "pastParticiple": "thought"
-          },
-          {
-            "en": "send",
-            "ar": "يرسل",
+          }
+        },
+        {
+          "ar": "يرسل",
+          "forms": {
+            "present": "send",
             "past": "sent",
             "pastParticiple": "sent"
-          },
-          {
-            "en": "know",
-            "ar": "يعرف",
+          }
+        },
+        {
+          "ar": "يعرف",
+          "forms": {
+            "present": "know",
             "past": "knew",
             "pastParticiple": "known"
-          },
-          {
-            "en": "feel",
-            "ar": "يشعر",
+          }
+        },
+        {
+          "ar": "يشعر",
+          "forms": {
+            "present": "feel",
             "past": "felt",
             "pastParticiple": "felt"
           }
-        ]
-      }
-    ]
-
-  }
+        }
+      ]
+    }
+  ]
+}

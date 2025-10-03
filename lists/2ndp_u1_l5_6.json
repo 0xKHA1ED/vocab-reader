@@ -1,162 +1,268 @@
 {
+  "metadata": {
+    "title": "Unit 11: Digital Habits and Communication",
+    "description": "A vocabulary list about digital habits, online communication, and expressing opinions respectfully.",
+    "level": "1st Prep"
+  },
   "sections": [
     {
       "title": "Key Vocabulary",
+      "type": "vocabulary",
       "words": [
         {
           "en": "interview",
-          "ar": "مقابلة شخصية"
+          "ar": "مقابلة شخصية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "handle",
-          "ar": "يتعامل مع / يدير"
+          "ar": "يتعامل مع / يدير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "offline",
-          "ar": "غير متصل بالإنترنت"
+          "ar": "غير متصل بالإنترنت",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "blog",
-          "ar": "مدونة"
+          "ar": "مدونة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "left out",
-          "ar": "مستبعد"
+          "ar": "مستبعد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "chat",
-          "ar": "يدردش"
+          "ar": "يدردش",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "research",
-          "ar": "يبحث / بحث"
+          "ar": "يبحث / بحث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "digital habit",
-          "ar": "عادة رقمية"
+          "ar": "عادة رقمية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "advice",
-          "ar": "نصيحة"
+          "ar": "نصيحة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "control",
-          "ar": "يتحكم"
+          "ar": "يتحكم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "blogger",
-          "ar": "مدون"
+          "ar": "مدون",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "creative",
-          "ar": "مبدع"
+          "ar": "مبدع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "teen",
-          "ar": "مراهق"
+          "ar": "مراهق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         }
       ]
     },
     {
       "title": "Lesson 5",
+      "type": "vocabulary",
       "words": [
         {
           "en": "follow",
-          "ar": "يتبع"
+          "ar": "يتبع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "meals",
-          "ar": "وجبات"
+          "ar": "وجبات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "careful",
-          "ar": "حريص"
+          "ar": "حريص",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "describe",
-          "ar": "يصف"
+          "ar": "يصف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "normal",
-          "ar": "طبيعي / عادي"
+          "ar": "طبيعي / عادي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "explain",
-          "ar": "يفسر / يشرح"
+          "ar": "يفسر / يشرح",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "clearly",
-          "ar": "بوضوح"
+          "ar": "بوضوح",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "polite",
-          "ar": "مؤدب / مهذب"
+          "ar": "مؤدب / مهذب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "disagreement",
-          "ar": "خلاف / اختلاف الرأي"
+          "ar": "خلاف / اختلاف الرأي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "respectfully",
-          "ar": "باحترام"
+          "ar": "باحترام",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         }
       ]
     },
     {
       "title": "Lesson 6",
+      "type": "vocabulary",
       "words": [
         {
           "en": "journal",
-          "ar": "دفتر يوميات"
+          "ar": "دفتر يوميات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "website",
-          "ar": "موقع على الإنترنت"
+          "ar": "موقع على الإنترنت",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "regularly",
-          "ar": "بانتظام"
+          "ar": "بانتظام",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "topic",
-          "ar": "موضوع"
+          "ar": "موضوع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "disagree",
-          "ar": "لا يتفق / يتعارض"
+          "ar": "لا يتفق / يتعارض",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "latest",
-          "ar": "الأحدث"
+          "ar": "الأحدث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "agree",
-          "ar": "يوافق"
+          "ar": "يوافق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         }
       ]
     },
     {
       "title": "Conjugation of Irregular Verbs",
+      "type": "conjugations",
       "words": [
         {
-          "en": "spend",
           "ar": "يقضي",
-          "past": "spent",
-          "pastParticiple": "spent"
+          "forms": {
+            "present": "spend",
+            "past": "spent",
+            "pastParticiple": "spent"
+          }
         },
         {
-          "en": "think",
           "ar": "يعتقد",
-          "past": "thought",
-          "pastParticiple": "thought"
+          "forms": {
+            "present": "think",
+            "past": "thought",
+            "pastParticiple": "thought"
+          }
         },
         {
-          "en": "tell",
           "ar": "يخبر",
-          "past": "told",
-          "pastParticiple": "told"
+          "forms": {
+            "present": "tell",
+            "past": "told",
+            "pastParticiple": "told"
+          }
         }
       ]
     }
   ]
 }
+

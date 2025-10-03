@@ -1,122 +1,211 @@
 {
+  "metadata": {
+    "title": "Unit 10: Digital World and Communication",
+    "description": "A vocabulary list about the digital world, online communication, and shared interests.",
+    "level": "1st Prep"
+  },
   "sections": [
     {
       "title": "Key Vocabulary",
+      "type": "vocabulary",
       "words": [
         {
           "en": "include",
-          "ar": "يشمل / يتضمن"
+          "ar": "يشمل / يتضمن",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "smartphone",
-          "ar": "هاتف ذكي"
+          "ar": "هاتف ذكي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "connect",
-          "ar": "يتصل / يتواصل"
+          "ar": "يتصل / يتواصل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "online creator",
-          "ar": "صانع محتوى على الإنترنت"
+          "ar": "صانع محتوى على الإنترنت",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "treat",
-          "ar": "يعامل"
+          "ar": "يعامل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "far apart",
-          "ar": "بعيدًا"
+          "ar": "بعيدًا",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "fairness",
-          "ar": "عدل / وضوح"
+          "ar": "عدل / وضوح",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "in common",
-          "ar": "مشترك"
+          "ar": "مشترك",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "unite",
-          "ar": "يتحد"
+          "ar": "يتحد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "thoughts",
-          "ar": "أفكار"
+          "ar": "أفكار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "case",
-          "ar": "حالة"
+          "ar": "حالة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "interests",
-          "ar": "اهتمامات"
+          "ar": "اهتمامات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         }
       ]
     },
     {
       "title": "Lesson 3",
+      "type": "vocabulary",
       "words": [
         {
           "en": "even though",
-          "ar": "حتى بالرغم من"
+          "ar": "حتى بالرغم من",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "ages",
-          "ar": "أعمار"
+          "ar": "أعمار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "digital world",
-          "ar": "العالم الرقمي"
+          "ar": "العالم الرقمي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "YouTube",
-          "ar": "منصة اليوتيوب"
+          "ar": "منصة اليوتيوب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "popular",
-          "ar": "محبوب / معروف"
+          "ar": "محبوب / معروف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "kids",
-          "ar": "أطفال"
+          "ar": "أطفال",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "board games",
-          "ar": "ألعاب لوحية"
+          "ar": "ألعاب لوحية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "affect",
-          "ar": "يؤثر على"
+          "ar": "يؤثر على",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "together",
-          "ar": "معاً"
+          "ar": "معاً",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "support",
-          "ar": "يساند / يدعم / يدعم"
+          "ar": "يساند / يدعم / يدعم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "digital language",
-          "ar": "لغة رقمية"
+          "ar": "لغة رقمية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "mostly",
-          "ar": "في المعظم"
+          "ar": "في المعظم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "part",
-          "ar": "جزء"
+          "ar": "جزء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "distant",
-          "ar": "بعيد / ناء"
+          "ar": "بعيد / ناء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "understand",
-          "ar": "يفهم"
+          "ar": "يفهم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         }
       ]
     }
   ]
 }
+

@@ -1,282 +1,491 @@
 {
-    "sections": [
-      {
-        "title": "Key Vocabulary",
-        "words": [
-          {
-            "en": "achievements",
-            "ar": "إنجازات"
-          },
-          {
-            "en": "admiration",
-            "ar": "إعجاب - اهتمام"
-          },
-          {
-            "en": "admire",
-            "ar": "يعجب ب"
-          },
-          {
-            "en": "advanced",
-            "ar": "متقدم"
-          },
-          {
-            "en": "civilization",
-            "ar": "حضارة"
-          },
-          {
-            "en": "heritage",
-            "ar": "تراث"
-          },
-          {
-            "en": "pride",
-            "ar": "فخر"
-          },
-          {
-            "en": "inherit",
-            "ar": "يرث"
-          },
-          {
-            "en": "leading",
-            "ar": "رائد"
-          },
-          {
-            "en": "merchant",
-            "ar": "تاجر"
-          },
-          {
-            "en": "monuments",
-            "ar": "آثار"
-          },
-          {
-            "en": "responsibility",
-            "ar": "مسؤولية"
-          },
-          {
-            "en": "root",
-            "ar": "جذر"
-          },
-          {
-            "en": "valuable",
-            "ar": "قيم"
-          },
-          {
-            "en": "value",
-            "ar": "قيمة"
-          }
-        ]
-      },
-      {
-        "title": "Important Vocabulary",
-        "words": [
-          {
-            "en": "advice",
-            "ar": "نصيحة"
-          },
-          {
-            "en": "article",
-            "ar": "مقالة"
-          },
-          {
-            "en": "amaze",
-            "ar": "يدهش - يذهل"
-          },
-          {
-            "en": "author",
-            "ar": "مؤلف"
-          },
-          {
-            "en": "background",
-            "ar": "خلفية - خلفية أكاديمية"
-          },
-          {
-            "en": "benefit",
-            "ar": "فائدة"
-          },
-          {
-            "en": "challenge",
-            "ar": "تحد"
-          },
-          {
-            "en": "communication",
-            "ar": "تواصل"
-          },
-          {
-            "en": "conclusion",
-            "ar": "استنتاج"
-          },
-          {
-            "en": "contact",
-            "ar": "اتصال"
-          },
-          {
-            "en": "convenient",
-            "ar": "مريح"
-          },
-          {
-            "en": "create",
-            "ar": "يخلق - ينشئ"
-          },
-          {
-            "en": "creative",
-            "ar": "مبدع"
-          },
-          {
-            "en": "determination",
-            "ar": "عزيمة - إصرار"
-          },
-          {
-            "en": "display",
-            "ar": "يعرض"
-          },
-          {
-            "en": "elsewhere",
-            "ar": "في مكان آخر"
-          },
-          {
-            "en": "entire",
-            "ar": "كامل"
-          },
-          {
-            "en": "evidence",
-            "ar": "دليل"
-          },
-          {
-            "en": "express",
-            "ar": "يعبر عن"
-          },
-          {
-            "en": "insight",
-            "ar": "بصيرة"
-          },
-          {
-            "en": "knowledge",
-            "ar": "معرفة"
-          },
-          {
-            "en": "magnificent",
-            "ar": "رائع - فخم"
-          },
-          {
-            "en": "mighty",
-            "ar": "قوي - جبار"
-          },
-          {
-            "en": "protection",
-            "ar": "حماية"
-          },
-          {
-            "en": "phrase",
-            "ar": "عبارة"
-          },
-          {
-            "en": "please",
-            "ar": "يرضي - يسعد"
-          },
-          {
-            "en": "point",
-            "ar": "نقطة"
-          },
-          {
-            "en": "popular",
-            "ar": "شعبي"
-          },
-          {
-            "en": "related",
-            "ar": "متصل ب"
-          },
-          {
-            "en": "rephrase",
-            "ar": "يعيد صياغة"
-          },
-          {
-            "en": "respect",
-            "ar": "احترام"
-          },
-          {
-            "en": "run-ran-run",
-            "ar": "يجري"
-          },
-          {
-            "en": "scene",
-            "ar": "منظر"
-          },
-          {
-            "en": "shared",
-            "ar": "مشترك"
-          },
-          {
-            "en": "single-line",
-            "ar": "سطر واحد"
-          },
-          {
-            "en": "statement",
-            "ar": "بيان"
-          },
-          {
-            "en": "thesis",
-            "ar": "أطروحة"
-          },
-          {
-            "en": "figure",
-            "ar": "شخصية"
-          },
-          {
-            "en": "gift",
-            "ar": "هدية"
-          },
-          {
-            "en": "habit",
-            "ar": "عادة"
-          },
-          {
-            "en": "hook",
-            "ar": "خطاف"
-          },
-          {
-            "en": "imagine",
-            "ar": "يتخيل"
-          },
-          {
-            "en": "improve",
-            "ar": "يحسن"
-          },
-          {
-            "en": "approve",
-            "ar": "يوافق"
-          },
-          {
-            "en": "thinker",
-            "ar": "مفكر"
-          },
-          {
-            "en": "thinking",
-            "ar": "تفكير"
-          },
-          {
-            "en": "tradition",
-            "ar": "تقاليد"
-          },
-          {
-            "en": "virtue",
-            "ar": "فضيلة"
-          },
-          {
-            "en": "visualize",
-            "ar": "يتخيل"
-          },
-          {
-            "en": "vision",
-            "ar": "رؤية"
-          },
-          {
-            "en": "wisdom",
-            "ar": "حكمة"
-          },
-          {
-            "en": "wise",
-            "ar": "حكيم"
-          }
-        ]
-      }
-    ]
-  }
+  "metadata": {
+    "title": "Unit 9: Achievements and Heritage",
+    "description": "A vocabulary list focusing on achievements, heritage, civilization, and personal values.",
+    "level": "1st Prep"
+  },
+  "sections": [
+    {
+      "title": "Key Vocabulary",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "achievements",
+          "ar": "إنجازات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "admiration",
+          "ar": "إعجاب - اهتمام",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "admire",
+          "ar": "يعجب ب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "advanced",
+          "ar": "متقدم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "civilization",
+          "ar": "حضارة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "heritage",
+          "ar": "تراث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "pride",
+          "ar": "فخر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "inherit",
+          "ar": "يرث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "leading",
+          "ar": "رائد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "merchant",
+          "ar": "تاجر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "monuments",
+          "ar": "آثار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "responsibility",
+          "ar": "مسؤولية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "root",
+          "ar": "جذر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "valuable",
+          "ar": "قيم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "value",
+          "ar": "قيمة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Important Vocabulary",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "advice",
+          "ar": "نصيحة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "article",
+          "ar": "مقالة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "amaze",
+          "ar": "يدهش - يذهل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "author",
+          "ar": "مؤلف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "background",
+          "ar": "خلفية - خلفية أكاديمية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "benefit",
+          "ar": "فائدة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "challenge",
+          "ar": "تحد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "communication",
+          "ar": "تواصل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "conclusion",
+          "ar": "استنتاج",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "contact",
+          "ar": "اتصال",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "convenient",
+          "ar": "مريح",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "create",
+          "ar": "يخلق - ينشئ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "creative",
+          "ar": "مبدع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "determination",
+          "ar": "عزيمة - إصرار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "display",
+          "ar": "يعرض",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "elsewhere",
+          "ar": "في مكان آخر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "entire",
+          "ar": "كامل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "evidence",
+          "ar": "دليل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "express",
+          "ar": "يعبر عن",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "insight",
+          "ar": "بصيرة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "knowledge",
+          "ar": "معرفة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "magnificent",
+          "ar": "رائع - فخم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "mighty",
+          "ar": "قوي - جبار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "protection",
+          "ar": "حماية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "phrase",
+          "ar": "عبارة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "please",
+          "ar": "يرضي - يسعد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "point",
+          "ar": "نقطة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "popular",
+          "ar": "شعبي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "related",
+          "ar": "متصل ب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "rephrase",
+          "ar": "يعيد صياغة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "respect",
+          "ar": "احترام",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "run",
+          "ar": "يجري",
+          "partOfSpeech": "verb",
+          "definition": "Past: ran, Past Participle: run",
+          "examples": []
+        },
+        {
+          "en": "scene",
+          "ar": "منظر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "shared",
+          "ar": "مشترك",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "single-line",
+          "ar": "سطر واحد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "statement",
+          "ar": "بيان",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "thesis",
+          "ar": "أطروحة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "figure",
+          "ar": "شخصية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "gift",
+          "ar": "هدية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "habit",
+          "ar": "عادة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "hook",
+          "ar": "خطاف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "imagine",
+          "ar": "يتخيل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "improve",
+          "ar": "يحسن",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "approve",
+          "ar": "يوافق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "thinker",
+          "ar": "مفكر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "thinking",
+          "ar": "تفكير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "tradition",
+          "ar": "تقاليد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "virtue",
+          "ar": "فضيلة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "visualize",
+          "ar": "يتخيل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "vision",
+          "ar": "رؤية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "wisdom",
+          "ar": "حكمة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "wise",
+          "ar": "حكيم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    }
+  ]
+}
+

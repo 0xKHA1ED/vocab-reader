@@ -1,142 +1,236 @@
 {
+  "metadata": {
+    "title": "Unit 14: Meaningful Connections",
+    "description": "A vocabulary list about communication, relationships, and overcoming distractions.",
+    "level": "1st Prep"
+  },
   "sections": [
     {
       "title": "Key Vocabulary",
+      "type": "vocabulary",
       "words": [
         {
           "en": "silence",
-          "ar": "صمت"
+          "ar": "صمت",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "awkward",
-          "ar": "حرج - غريب"
+          "ar": "حرج - غريب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "reconnect",
-          "ar": "يعيد التواصل"
+          "ar": "يعيد التواصل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "due to",
-          "ar": "بسبب"
+          "ar": "بسبب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "distraction",
-          "ar": "تشتيت"
+          "ar": "تشتيت",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "frustrated",
-          "ar": "محبط - متوتر"
+          "ar": "محبط - متوتر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "meaningful",
-          "ar": "معبر - ذو مغزى"
+          "ar": "معبر - ذو مغزى",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "gesture",
-          "ar": "إشارة - إيماءة"
+          "ar": "إشارة - إيماءة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "fork",
-          "ar": "شوكة"
+          "ar": "شوكة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "stress",
-          "ar": "ضغط - توتر"
+          "ar": "ضغط - توتر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "stranger",
-          "ar": "غريب"
+          "ar": "غريب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "softly",
-          "ar": "بهدوء - بلطف"
+          "ar": "بهدوء - بلطف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "speech",
-          "ar": "حديث - حوار"
+          "ar": "حديث - حوار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "laughter",
-          "ar": "ضحك"
+          "ar": "ضحك",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "disagreement",
-          "ar": "عدم اتفاق"
+          "ar": "عدم اتفاق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "traditions",
-          "ar": "تقاليد"
+          "ar": "تقاليد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "meeting",
-          "ar": "اجتماع"
+          "ar": "اجتماع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "argument",
-          "ar": "جدال"
+          "ar": "جدال",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "disappeared",
-          "ar": "يختفي"
+          "ar": "يختفي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "distant",
-          "ar": "بعيد"
+          "ar": "بعيد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "nod",
-          "ar": "يومئ برأسه للموافقة"
+          "ar": "يومئ برأسه للموافقة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "act",
-          "ar": "يعمل - فعل"
+          "ar": "يعمل - فعل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "lately",
-          "ar": "مؤخراً"
+          "ar": "مؤخراً",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "discipline",
-          "ar": "انضباط - نظام"
+          "ar": "انضباط - نظام",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "distracted",
-          "ar": "مشتت - مشوش"
+          "ar": "مشتت - مشوش",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "physically",
-          "ar": "بدني"
+          "ar": "بدني",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         }
       ]
     },
     {
       "title": "Conjugation of Irregular Verbs",
+      "type": "conjugations",
       "words": [
         {
-          "en": "sit",
           "ar": "يجلس",
-          "past": "sat",
-          "pastParticiple": "sat"
+          "forms": {
+            "present": "sit",
+            "past": "sat",
+            "pastParticiple": "sat"
+          }
         },
         {
-          "en": "break",
           "ar": "يكسر - يوقف",
-          "past": "broke",
-          "pastParticiple": "broken"
+          "forms": {
+            "present": "break",
+            "past": "broke",
+            "pastParticiple": "broken"
+          }
         },
         {
-          "en": "put",
           "ar": "يضع",
-          "past": "put",
-          "pastParticiple": "put"
+          "forms": {
+            "present": "put",
+            "past": "put",
+            "pastParticiple": "put"
+          }
         },
         {
-          "en": "become",
           "ar": "يصبح",
-          "past": "became",
-          "pastParticiple": "become"
+          "forms": {
+            "present": "become",
+            "past": "became",
+            "pastParticiple": "become"
+          }
         }
       ]
     }
   ]
 }
+

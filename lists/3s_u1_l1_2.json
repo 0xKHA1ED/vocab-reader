@@ -1,258 +1,449 @@
 {
-    "sections": [
-      {
-        "title": "Key Vocabulary",
-        "words": [
-          {
-            "en": "administer",
-            "ar": "يعطي دواء / يدير"
-          },
-          {
-            "en": "alarm",
-            "ar": "إنذار / جرس إنذار"
-          },
-          {
-            "en": "anxiously",
-            "ar": "بشكل قلق / بتلهف"
-          },
-          {
-            "en": "are you alright",
-            "ar": "هل أنت بخير"
-          },
-          {
-            "en": "beep",
-            "ar": "يصدر صوت صفير"
-          },
-          {
-            "en": "breathing",
-            "ar": "التنفس"
-          },
-          {
-            "en": "calmness",
-            "ar": "الهدوء / السكينة"
-          },
-          {
-            "en": "cardiac arrest",
-            "ar": "أزمة قلبية"
-          },
-          {
-            "en": "challenge",
-            "ar": "تحدي / يتحدى"
-          },
-          {
-            "en": "chart",
-            "ar": "جدول / يخطط"
-          },
-          {
-            "en": "colleague",
-            "ar": "زميل"
-          },
-          {
-            "en": "complain",
-            "ar": "يشتكي"
-          },
-          {
-            "en": "compression",
-            "ar": "ضغط"
-          },
-          {
-            "en": "concerned",
-            "ar": "قلق / مهتم"
-          },
-          {
-            "en": "confusion",
-            "ar": "حيرة / إرباك"
-          },
-          {
-            "en": "disorder",
-            "ar": "اضطراب / فوضى"
-          },
-          {
-            "en": "document",
-            "ar": "يوثق / يسجل"
-          },
-          {
-            "en": "elderly",
-            "ar": "كبير السن"
-          },
-          {
-            "en": "emergency operator",
-            "ar": "عامل الطوارئ"
-          },
-          {
-            "en": "ensure",
-            "ar": "يتأكد"
-          },
-          {
-            "en": "exhausted",
-            "ar": "منهك / متعب"
-          },
-          {
-            "en": "fulfilled",
-            "ar": "شاعربالرضا / قانع"
-          },
-          {
-            "en": "handle",
-            "ar": "يفحص / يتعامل مع"
-          },
-          {
-            "en": "heart attack",
-            "ar": "نوبة قلبية"
-          },
-          {
-            "en": "lifeguard",
-            "ar": "منقذ الأرواح"
-          },
-          {
-            "en": "medication",
-            "ar": "علاج / دواء"
-          },
-          {
-            "en": "mentally",
-            "ar": "عقليا / ذهنيا"
-          },
-          {
-            "en": "patience",
-            "ar": "الصبر"
-          },
-          {
-            "en": "pleasure",
-            "ar": "متعة / سرور"
-          },
-          {
-            "en": "procedure",
-            "ar": "إجراء"
-          },
-          {
-            "en": "proceed",
-            "ar": "يتقدم / يستمر"
-          },
-          {
-            "en": "register",
-            "ar": "يسجل"
-          },
-          {
-            "en": "relief",
-            "ar": "راحة / إغاثة"
-          },
-          {
-            "en": "review",
-            "ar": "يراجع / يستعرض"
-          },
-          {
-            "en": "roller coaster",
-            "ar": "قطار ملاهي"
-          },
-          {
-            "en": "routine",
-            "ar": "روتين"
-          },
-          {
-            "en": "satisfaction",
-            "ar": "الرضا / القناعة"
-          },
-          {
-            "en": "surgeon",
-            "ar": "جراح"
-          },
-          {
-            "en": "suspect",
-            "ar": "يشتبه"
-          },
-          {
-            "en": "typical",
-            "ar": "نموذجي / معتاد"
-          },
-          {
-            "en": "weakness",
-            "ar": "ضعف"
-          },
-          {
-            "en": "witness",
-            "ar": "يشهد / شاهد"
-          },
-          {
-            "en": "wrist",
-            "ar": "رسغ اليد"
-          },
-          {
-            "en": "gribbed",
-            "ar": "يمسك بقوة"
-          },
-          {
-            "en": "medical",
-            "ar": "طبي"
-          },
-          {
-            "en": "paramedic",
-            "ar": "مسعف"
-          },
-          {
-            "en": "pulse",
-            "ar": "نبض"
-          },
-          {
-            "en": "rewarding",
-            "ar": "مكافئ / مجزي"
-          },
-          {
-            "en": "shift",
-            "ar": "فترة عمل"
-          },
-          {
-            "en": "victim",
-            "ar": "ضحية"
-          }
-        ]
-      },
-      {
-        "title": "Verbal Collocations",
-        "words": [
-          {
-            "en": "administer medication",
-            "ar": "يعطي دواء"
-          },
-          {
-            "en": "check pulse",
-            "ar": "يتحقق من النبض"
-          },
-          {
-            "en": "do / start / perform CPR",
-            "ar": "يقوم بالإنعاش القلبي الرئوي"
-          },
-          {
-            "en": "document progress",
-            "ar": "يوثق التقدم أو تطور الحالة"
-          },
-          {
-            "en": "kick off the day",
-            "ar": "يبدأ اليوم"
-          },
-          {
-            "en": "take medication",
-            "ar": "يتناول الدواء"
-          },
-          {
-            "en": "make a good nurse",
-            "ar": "يساهم في إعداد ممرضة جيدة"
-          },
-          {
-            "en": "make a difference",
-            "ar": "يُحدث فرقًا"
-          },
-          {
-            "en": "reflect on the day",
-            "ar": "يتأمل اليوم / يفكر فيما حدث"
-          },
-          {
-            "en": "regain consciousness",
-            "ar": "يستعيد الوعي"
-          },
-          {
-            "en": "review updates",
-            "ar": "يراجع المستجدات"
-          }
-        ]
-      }
-    ]
-  }
+  "metadata": {
+    "title": "Unit 19: Healthcare Professionals",
+    "description": "A vocabulary list about the daily routines, challenges, and procedures for healthcare professionals like nurses and paramedics.",
+    "level": "1st Prep"
+  },
+  "sections": [
+    {
+      "title": "Key Vocabulary",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "administer",
+          "ar": "يعطي دواء / يدير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "alarm",
+          "ar": "إنذار / جرس إنذار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "anxiously",
+          "ar": "بشكل قلق / بتلهف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "are you alright",
+          "ar": "هل أنت بخير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "beep",
+          "ar": "يصدر صوت صفير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "breathing",
+          "ar": "التنفس",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "calmness",
+          "ar": "الهدوء / السكينة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "cardiac arrest",
+          "ar": "أزمة قلبية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "challenge",
+          "ar": "تحدي / يتحدى",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "chart",
+          "ar": "جدول / يخطط",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "colleague",
+          "ar": "زميل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "complain",
+          "ar": "يشتكي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "compression",
+          "ar": "ضغط",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "concerned",
+          "ar": "قلق / مهتم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "confusion",
+          "ar": "حيرة / إرباك",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "disorder",
+          "ar": "اضطراب / فوضى",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "document",
+          "ar": "يوثق / يسجل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "elderly",
+          "ar": "كبير السن",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "emergency operator",
+          "ar": "عامل الطوارئ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "ensure",
+          "ar": "يتأكد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "exhausted",
+          "ar": "منهك / متعب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "fulfilled",
+          "ar": "شاعربالرضا / قانع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "handle",
+          "ar": "يفحص / يتعامل مع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "heart attack",
+          "ar": "نوبة قلبية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "lifeguard",
+          "ar": "منقذ الأرواح",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "medication",
+          "ar": "علاج / دواء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "mentally",
+          "ar": "عقليا / ذهنيا",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "patience",
+          "ar": "الصبر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "pleasure",
+          "ar": "متعة / سرور",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "procedure",
+          "ar": "إجراء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "proceed",
+          "ar": "يتقدم / يستمر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "register",
+          "ar": "يسجل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "relief",
+          "ar": "راحة / إغاثة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "review",
+          "ar": "يراجع / يستعرض",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "roller coaster",
+          "ar": "قطار ملاهي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "routine",
+          "ar": "روتين",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "satisfaction",
+          "ar": "الرضا / القناعة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "surgeon",
+          "ar": "جراح",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "suspect",
+          "ar": "يشتبه",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "typical",
+          "ar": "نموذجي / معتاد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "weakness",
+          "ar": "ضعف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "witness",
+          "ar": "يشهد / شاهد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "wrist",
+          "ar": "رسغ اليد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "gribbed",
+          "ar": "يمسك بقوة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "medical",
+          "ar": "طبي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "paramedic",
+          "ar": "مسعف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "pulse",
+          "ar": "نبض",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "rewarding",
+          "ar": "مكافئ / مجزي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "shift",
+          "ar": "فترة عمل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "victim",
+          "ar": "ضحية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Verbal Collocations",
+      "type": "expressions",
+      "words": [
+        {
+          "en": "administer medication",
+          "ar": "يعطي دواء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "check pulse",
+          "ar": "يتحقق من النبض",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "do / start / perform CPR",
+          "ar": "يقوم بالإنعاش القلبي الرئوي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "document progress",
+          "ar": "يوثق التقدم أو تطور الحالة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "kick off the day",
+          "ar": "يبدأ اليوم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "take medication",
+          "ar": "يتناول الدواء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "make a good nurse",
+          "ar": "يساهم في إعداد ممرضة جيدة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "make a difference",
+          "ar": "يُحدث فرقًا",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "reflect on the day",
+          "ar": "يتأمل اليوم / يفكر فيما حدث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "regain consciousness",
+          "ar": "يستعيد الوعي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "review updates",
+          "ar": "يراجع المستجدات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    }
+  ]
+}
+

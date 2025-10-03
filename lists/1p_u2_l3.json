@@ -1,142 +1,236 @@
 {
+  "metadata": {
+    "title": "Unit 7: Teamwork & Communication Skills",
+    "description": "A vocabulary list about teamwork, leadership, and expressing ideas.",
+    "level": "1st Prep"
+  },
   "sections": [
     {
       "title": "Key Vocabulary (أهم الكلمات)",
+      "type": "vocabulary",
       "words": [
         {
           "en": "benefits",
-          "ar": "فوائد"
+          "ar": "فوائد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "opinions",
-          "ar": "آراء"
+          "ar": "آراء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "solutions",
-          "ar": "حلول"
+          "ar": "حلول",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "express",
-          "ar": "يعبر"
+          "ar": "يعبر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "leadership",
-          "ar": "القيادة"
+          "ar": "القيادة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "confident",
-          "ar": "واثق"
+          "ar": "واثق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "communicate",
-          "ar": "يتواصل"
+          "ar": "يتواصل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "cooperation",
-          "ar": "التعاون"
+          "ar": "التعاون",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "creative",
-          "ar": "مبدع"
+          "ar": "مبدع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "experiences",
-          "ar": "خبرات"
+          "ar": "خبرات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "together",
-          "ar": "معاً"
+          "ar": "معاً",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "group",
-          "ar": "مجموعة"
+          "ar": "مجموعة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "powerful",
-          "ar": "قوي"
+          "ar": "قوي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "freely",
-          "ar": "بحريّة"
+          "ar": "بحريّة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "thinkers",
-          "ar": "مفكرون"
+          "ar": "مفكرون",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "teamwork",
-          "ar": "عمل جماعي"
+          "ar": "عمل جماعي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "life skills",
-          "ar": "مهارات حياتية"
+          "ar": "مهارات حياتية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "modern",
-          "ar": "حديث"
+          "ar": "حديث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "explain",
-          "ar": "يشرح"
+          "ar": "يشرح",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "spidergram",
-          "ar": "شكل توضيحي عنكبوتي"
+          "ar": "شكل توضيحي عنكبوتي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "computer programs",
-          "ar": "برامج الحاسب"
+          "ar": "برامج الحاسب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "diagram",
-          "ar": "رسم توضيحي"
+          "ar": "رسم توضيحي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "supporting details",
-          "ar": "تفاصيل داعمة"
+          "ar": "تفاصيل داعمة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "media",
-          "ar": "الإعلام"
+          "ar": "الإعلام",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "create",
-          "ar": "يبتكر / يبدع"
+          "ar": "يبتكر / يبدع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "likely",
-          "ar": "من المحتمل"
+          "ar": "من المحتمل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         }
       ]
     },
     {
       "title": "Conjugation of Irregular Verbs (تصريفات الأفعال غير المنتظمة)",
+      "type": "conjugations",
       "words": [
         {
-          "en": "know",
           "ar": "يعرف",
-          "past": "knew",
-          "pastParticiple": "known"
+          "forms": {
+            "present": "know",
+            "past": "knew",
+            "pastParticiple": "known"
+          }
         },
         {
-          "en": "teach",
           "ar": "يدرس",
-          "past": "taught",
-          "pastParticiple": "taught"
+          "forms": {
+            "present": "teach",
+            "past": "taught",
+            "pastParticiple": "taught"
+          }
         },
         {
-          "en": "give",
           "ar": "يعطي",
-          "past": "gave",
-          "pastParticiple": "given"
+          "forms": {
+            "present": "give",
+            "past": "gave",
+            "pastParticiple": "given"
+          }
         },
         {
-          "en": "speak",
           "ar": "يتحدث",
-          "past": "spoke",
-          "pastParticiple": "spoken"
+          "forms": {
+            "present": "speak",
+            "past": "spoke",
+            "pastParticiple": "spoken"
+          }
         }
       ]
     }
   ]
 }
+

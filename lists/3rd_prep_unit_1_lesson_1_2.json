@@ -1,330 +1,462 @@
 {
+  "metadata": {
+    "title": "Unit 18: The Journey of Self-Discovery",
+    "description": "A vocabulary list about identity, personality, self-discovery, and personal growth.",
+    "level": "1st Prep"
+  },
   "sections": [
     {
       "title": "Vocabulary",
+      "type": "vocabulary",
       "words": [
         {
           "en": "look",
-          "pos": "v",
-          "ar": "يبدو - يظهر"
+          "ar": "يبدو - يظهر",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "identity",
-          "pos": "n",
-          "ar": "هوية"
+          "ar": "هوية",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "belief",
-          "pos": "n",
-          "ar": "معتقد / مبدأ"
+          "ar": "معتقد / مبدأ",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "unique",
-          "pos": "adj",
-          "ar": "فريد / مميز"
+          "ar": "فريد / مميز",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "self-discovery",
-          "pos": "n",
-          "ar": "اكتشاف الذات"
+          "ar": "اكتشاف الذات",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "strength",
-          "pos": "n",
-          "ar": "القوة / القدرة على التحمل"
+          "ar": "القوة / القدرة على التحمل",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "personality",
-          "pos": "n",
-          "ar": "شخصية"
+          "ar": "شخصية",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "individuality",
-          "pos": "n",
-          "ar": "تمييز - تفرّد"
+          "ar": "تمييز - تفرّد",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "growth",
-          "pos": "n",
-          "ar": "نمو - نضج"
+          "ar": "نمو - نضج",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "background",
-          "pos": "n",
-          "ar": "خلفية اجتماعية - النشأة"
+          "ar": "خلفية اجتماعية - النشأة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "value",
-          "pos": "v, n",
-          "ar": "يقدّر - يقيم / قيمة"
+          "ar": "يقدّر - يقيم / قيمة",
+          "partOfSpeech": "verb, noun",
+          "definition": "",
+          "examples": []
         },
         {
-          "en": "real = true",
-          "pos": "adj",
-          "ar": "حقيقي - واقعي"
+          "en": "real",
+          "ar": "حقيقي - واقعي",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "confidence",
-          "pos": "n",
-          "ar": "الثقة"
+          "ar": "الثقة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "self-respect",
-          "pos": "n",
-          "ar": "احترام الذات"
+          "ar": "احترام الذات",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "weakness",
-          "pos": "n",
-          "ar": "نقطة ضعف"
+          "ar": "نقطة ضعف",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "heart surgeon",
-          "pos": "n",
-          "ar": "جراح قلب"
+          "ar": "جراح قلب",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "heart diseases",
-          "pos": "n",
-          "ar": "أمراض القلب"
+          "ar": "أمراض القلب",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "act",
-          "pos": "v",
-          "ar": "يسلك - يتصرف"
+          "ar": "يسلك - يتصرف",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "kindness",
-          "pos": "n",
-          "ar": "اللطف - الطيبة"
+          "ar": "اللطف - الطيبة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "character",
-          "pos": "n",
-          "ar": "شخصية"
+          "ar": "شخصية",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "popular",
-          "pos": "adj",
-          "ar": "محبوب"
+          "ar": "محبوب",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "shape",
-          "pos": "d, v, n",
-          "ar": "يشكل - شكل"
+          "ar": "يشكل - شكل",
+          "partOfSpeech": "verb, noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "dress",
-          "pos": "ed, v",
-          "ar": "يرتدي"
+          "ar": "يرتدي",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "remind",
-          "pos": "v",
-          "ar": "يذكر"
+          "ar": "يذكر",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "strange",
-          "pos": "adj",
-          "ar": "غريب - غير مألوف"
+          "ar": "غريب - غير مألوف",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "overcome",
-          "pos": "v",
-          "ar": "يتغلب على"
+          "ar": "يتغلب على",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "score",
-          "pos": "d, v",
-          "ar": "يحرز - يسجل"
+          "ar": "يحرز - يسجل",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "believe",
-          "pos": "d, v",
-          "ar": "يعتقد - يصدق"
+          "ar": "يعتقد - يصدق",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "stressed",
-          "pos": "adj",
-          "ar": "مجهد - مرهق"
+          "ar": "مجهد - مرهق",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "power",
-          "pos": "n",
-          "ar": "قوة"
+          "ar": "قوة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "confident",
-          "pos": "adj",
-          "ar": "واثق بنفسه"
+          "ar": "واثق بنفسه",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "challenge",
-          "pos": "n",
-          "ar": "تحدي"
+          "ar": "تحدي",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
-          "en": "goals = purposes",
-          "pos": "adj",
-          "ar": "أهداف / غايات"
+          "en": "goals",
+          "ar": "أهداف / غايات",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "affect",
-          "pos": "ed, v",
-          "ar": "يؤثر على"
+          "ar": "يؤثر على",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "realness",
-          "pos": "n",
-          "ar": "حقيقة - واقعية"
+          "ar": "حقيقة - واقعية",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "die",
-          "pos": "d, v",
-          "ar": "يموت"
+          "ar": "يموت",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "journey",
-          "pos": "n",
-          "ar": "رحلة طويلة"
+          "ar": "رحلة طويلة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "traditions",
-          "pos": "n",
-          "ar": "عادات وتقاليد"
+          "ar": "عادات وتقاليد",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "influence",
-          "pos": "d, v, n",
-          "ar": "يؤثر - تأثير"
+          "ar": "يؤثر - تأثير",
+          "partOfSpeech": "verb, noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "honestly",
-          "pos": "adv",
-          "ar": "بأمانة - بصراحة"
+          "ar": "بأمانة - بصراحة",
+          "partOfSpeech": "adverb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "realize",
-          "pos": "d, v",
-          "ar": "يدرك - يعرف"
+          "ar": "يدرك - يعرف",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "celebrate",
-          "pos": "d, v",
-          "ar": "يحتفل"
+          "ar": "يحتفل",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "explore",
-          "pos": "d, v",
-          "ar": "يستكشف / يستكشف"
+          "ar": "يستكشف / يستكشف",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "fixed",
-          "pos": "adj",
-          "ar": "ثابت"
+          "ar": "ثابت",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "inspiring",
-          "pos": "adj",
-          "ar": "ملهم"
+          "ar": "ملهم",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "experience",
-          "pos": "n",
-          "ar": "تجربة - خبرة"
+          "ar": "تجربة - خبرة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "medicine",
-          "pos": "n",
-          "ar": "الطب"
+          "ar": "الطب",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "describe",
-          "pos": "d, v",
-          "ar": "يصف - يشرح"
+          "ar": "يصف - يشرح",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "volunteering",
-          "pos": "n",
-          "ar": "التطوع"
+          "ar": "التطوع",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "encourage",
-          "pos": "d, v",
-          "ar": "يشجع"
+          "ar": "يشجع",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "advise",
-          "pos": "n",
-          "ar": "ينصح"
+          "ar": "ينصح",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "patient",
-          "pos": "adj",
-          "ar": "صبور"
+          "ar": "صبور",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "differences",
-          "pos": "n",
-          "ar": "اختلافات"
+          "ar": "اختلافات",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "support",
-          "pos": "ed, v, n",
-          "ar": "يدعم - دعم / مساعدة"
+          "ar": "يدعم - دعم / مساعدة",
+          "partOfSpeech": "verb, noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "quality",
-          "pos": "n",
-          "ar": "صفة - ميزة"
+          "ar": "صفة - ميزة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "curiosity",
-          "pos": "n",
-          "ar": "الفضول"
+          "ar": "الفضول",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
         }
       ]
     },
     {
       "title": "Conjugation of Irregular Verbs",
+      "type": "conjugations",
       "words": [
         {
-          "en": "feel",
           "ar": "يشعر",
-          "past": "felt",
-          "pastParticiple": "felt"
+          "forms": {
+            "present": "feel",
+            "past": "felt",
+            "pastParticiple": "felt"
+          }
         },
         {
-          "en": "find",
           "ar": "يجد - يكتسب",
-          "past": "found",
-          "pastParticiple": "found"
+          "forms": {
+            "present": "find",
+            "past": "found",
+            "pastParticiple": "found"
+          }
         },
         {
-          "en": "grow",
           "ar": "ينمو - ينضج",
-          "past": "grew",
-          "pastParticiple": "grown"
+          "forms": {
+            "present": "grow",
+            "past": "grew",
+            "pastParticiple": "grown"
+          }
         },
         {
-          "en": "overcome",
           "ar": "يتغلب - يتخطى",
-          "past": "overcame",
-          "pastParticiple": "overcome"
+          "forms": {
+            "present": "overcome",
+            "past": "overcame",
+            "pastParticiple": "overcome"
+          }
         },
         {
-          "en": "make",
           "ar": "يجعل - يصنع",
-          "past": "made",
-          "pastParticiple": "made"
+          "forms": {
+            "present": "make",
+            "past": "made",
+            "pastParticiple": "made"
+          }
         },
         {
-          "en": "think",
           "ar": "يعتقد",
-          "past": "thought",
-          "pastParticiple": "thought"
+          "forms": {
+            "present": "think",
+            "past": "thought",
+            "pastParticiple": "thought"
+          }
         }
       ]
     }
   ]
 }
+

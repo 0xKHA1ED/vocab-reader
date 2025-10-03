@@ -1,409 +1,705 @@
 {
-    "sections": [
-      {
-        "title": "Key Vocabulary (المفردات الرئيسية)",
-        "words": [
-          {
-            "en": "annual",
-            "ar": "سنوي"
-          },
-          {
-            "en": "capacity",
-            "ar": "قدرة - طاقة - سعة"
-          },
-          {
-            "en": "collaborate",
-            "ar": "يتعاون"
-          },
-          {
-            "en": "collaboration",
-            "ar": "التعاون"
-          },
-          {
-            "en": "enhance",
-            "ar": "يحسن - يعزز"
-          },
-          {
-            "en": "milestone",
-            "ar": "نقطة فارقة - نقطة تحول"
-          },
-          {
-            "en": "targeted",
-            "ar": "مستهدف"
-          },
-          {
-            "en": "yield",
-            "ar": "محصول - إنتاج - عائد"
-          }
-        ]
-      },
-      {
-        "title": "Important Vocabulary (المفردات الهامة)",
-        "words": [
-          {
-            "en": "agriculture",
-            "ar": "زراعة"
-          },
-          {
-            "en": "artistic",
-            "ar": "فني"
-          },
-          {
-            "en": "beyond",
-            "ar": "فوق - أبعد"
-          },
-          {
-            "en": "burglar",
-            "ar": "لص منازل"
-          },
-          {
-            "en": "cite",
-            "ar": "يستشهد - يشير إلي"
-          },
-          {
-            "en": "companionship",
-            "ar": "صحبة - رفاقة"
-          },
-          {
-            "en": "crop",
-            "ar": "محصول"
-          },
-          {
-            "en": "dam",
-            "ar": "سد"
-          },
-          {
-            "en": "deepen",
-            "ar": "يعمق"
-          },
-          {
-            "en": "deliver",
-            "ar": "يقدم - يسلم - يوصل"
-          },
-          {
-            "en": "enjoyable",
-            "ar": "ممتع"
-          },
-          {
-            "en": "establish",
-            "ar": "يؤسس - ينشئ"
-          },
-          {
-            "en": "expert",
-            "ar": "خبير"
-          },
-          {
-            "en": "expertise",
-            "ar": "خبرة - دراية"
-          },
-          {
-            "en": "feature",
-            "ar": "ميزة - سمة"
-          },
-          {
-            "en": "festival",
-            "ar": "مهرجان"
-          },
-          {
-            "en": "fossil",
-            "ar": "حفرية"
-          },
-          {
-            "en": "foster",
-            "ar": "يعزز - يشجع"
-          },
-          {
-            "en": "frequently",
-            "ar": "بشكل متكرر"
-          },
-          {
-            "en": "fuel",
-            "ar": "وقود"
-          },
-          {
-            "en": "impact",
-            "ar": "أثر - تأثير"
-          },
-          {
-            "en": "infer",
-            "ar": "يستدل - يستنتج"
-          },
-          {
-            "en": "introduce",
-            "ar": "يقدم - يدخل"
-          },
-          {
-            "en": "launch",
-            "ar": "يطلق - يبدأ"
-          },
-          {
-            "en": "medical",
-            "ar": "طبي"
-          },
-          {
-            "en": "mission",
-            "ar": "مهمة - بعثة"
-          },
-          {
-            "en": "neighboring",
-            "ar": "مجاور"
-          },
-          {
-            "en": "outdoor",
-            "ar": "خارجي"
-          },
-          {
-            "en": "panel",
-            "ar": "لوح - خلية"
-          },
-          {
-            "en": "picnic",
-            "ar": "نزهة - رحلة خفيفة"
-          },
-          {
-            "en": "politics",
-            "ar": "سياسة"
-          },
-          {
-            "en": "progress",
-            "ar": "تقدم"
-          },
-          {
-            "en": "protection",
-            "ar": "حماية"
-          },
-          {
-            "en": "region",
-            "ar": "منطقة"
-          },
-          {
-            "en": "reliance",
-            "ar": "اعتماد"
-          },
-          {
-            "en": "restate",
-            "ar": "يعيد الصياغة - يعيد التعبير"
-          },
-          {
-            "en": "result",
-            "ar": "ينتج"
-          },
-          {
-            "en": "season",
-            "ar": "فصل (من السنة)"
-          },
-          {
-            "en": "solar",
-            "ar": "شمسي"
-          },
-          {
-            "en": "staff",
-            "ar": "طاقم موظفين"
-          },
-          {
-            "en": "statement",
-            "ar": "تصريح - عبارة"
-          },
-          {
-            "en": "Sudanese",
-            "ar": "سوداني (الجنسية)"
-          },
-          {
-            "en": "summarize",
-            "ar": "يلخص"
-          },
-          {
-            "en": "supply",
-            "ar": "يزود - يمد"
-          },
-          {
-            "en": "technique",
-            "ar": "أسلوب - تقنية"
-          },
-          {
-            "en": "transform",
-            "ar": "يحول - يغير"
-          }
-        ]
-      },
-      {
-        "title": "Verbal Collocations (المتلازمات اللفظية)",
-        "words": [
-          {
-            "en": "build strong relationships",
-            "ar": "يبني علاقات قوية"
-          },
-          {
-            "en": "build sustainable capacity",
-            "ar": "يبني قدرة مستدامة"
-          },
-          {
-            "en": "cite a milestone",
-            "ar": "يستشهد بإنجاز بارز"
-          },
-          {
-            "en": "create opportunities/jobs",
-            "ar": "يوفر فرص / وظائف"
-          },
-          {
-            "en": "deepen the impact",
-            "ar": "يعمق الأثر"
-          },
-          {
-            "en": "deepen partnerships",
-            "ar": "يعمق الشراكات"
-          },
-          {
-            "en": "deliver healthcare",
-            "ar": "يقدم رعاية صحية"
-          },
-          {
-            "en": "draw attention",
-            "ar": "يجذب انتباه"
-          },
-          {
-            "en": "drive progress",
-            "ar": "يدفع التقدم"
-          },
-          {
-            "en": "feature films",
-            "ar": "يعرض أفلاما"
-          },
-          {
-            "en": "foster cultural understanding",
-            "ar": "يعزز فهما ثقافيا"
-          },
-          {
-            "en": "give examples",
-            "ar": "يقدم أمثلة"
-          },
-          {
-            "en": "give reasons",
-            "ar": "يقدم أسبابا"
-          },
-          {
-            "en": "hook the reader",
-            "ar": "يجذب القارئ"
-          },
-          {
-            "en": "introduce modern techniques",
-            "ar": "يدخل تقنيات حديثة"
-          },
-          {
-            "en": "launch an annual festival",
-            "ar": "يطلق مهرجاناً سنوياً"
-          },
-          {
-            "en": "play a vital role",
-            "ar": "يلعب دوراً حيوياً"
-          },
-          {
-            "en": "strengthen ties",
-            "ar": "يقوي العلاقات"
-          },
-          {
-            "en": "tell the main point",
-            "ar": "يذكر النقطة الرئيسية"
-          }
-        ]
-      },
-      {
-        "title": "Expressions & Idioms (التعبيرات والمصطلحات)",
-        "words": [
-          {
-            "en": "chance to do fun things",
-            "ar": "فرصة للمرح / الاستمتاع"
-          },
-          {
-            "en": "cited as a milestone",
-            "ar": "يعتبر محطة بارزة"
-          },
-          {
-            "en": "in conclusion",
-            "ar": "في الختام"
-          },
-          {
-            "en": "in short",
-            "ar": "باختصار"
-          },
-          {
-            "en": "loyal protector",
-            "ar": "حارس وفي"
-          },
-          {
-            "en": "scare away burglars",
-            "ar": "يرعب لصوص المنازل ويطردهم"
-          },
-          {
-            "en": "stay in shape",
-            "ar": "يحافظ على لياقته"
-          }
-        ]
-      },
-      {
-        "title": "Verb + Preposition (فعل + حرف جر)",
-        "words": [
-          {
-            "en": "collaborate with",
-            "ar": "يتعاون مع"
-          },
-          {
-            "en": "compare with/to",
-            "ar": "يقارن بـ"
-          },
-          {
-            "en": "compete with",
-            "ar": "يتنافس مع"
-          },
-          {
-            "en": "conclude with",
-            "ar": "يختتم بـ"
-          },
-          {
-            "en": "engage with",
-            "ar": "ينخرط مع"
-          },
-          {
-            "en": "extend beyond",
-            "ar": "يتجاوز / يتخطى"
-          },
-          {
-            "en": "finish with",
-            "ar": "ينهي بـ"
-          },
-          {
-            "en": "invest in",
-            "ar": "يستثمر في"
-          },
-          {
-            "en": "participate in",
-            "ar": "يشارك في"
-          },
-          {
-            "en": "protect... from",
-            "ar": "يحمي ... من"
-          },
-          {
-            "en": "provide ... for",
-            "ar": "يوفر لـ"
-          },
-          {
-            "en": "rely on",
-            "ar": "يعتمد على"
-          },
-          {
-            "en": "scare away",
-            "ar": "يخيف ويطرد"
-          },
-          {
-            "en": "take part in",
-            "ar": "يشارك في"
-          },
-          {
-            "en": "train ... in",
-            "ar": "يدرب ... على"
-          }
-        ]
-      }
-    ]
-  }
+  "metadata": {
+    "title": "Unit 13: Collaboration and Progress",
+    "description": "A vocabulary list about collaboration, development, milestones, and international partnerships.",
+    "level": "1st Prep"
+  },
+  "sections": [
+    {
+      "title": "Key Vocabulary (المفردات الرئيسية)",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "annual",
+          "ar": "سنوي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "capacity",
+          "ar": "قدرة - طاقة - سعة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "collaborate",
+          "ar": "يتعاون",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "collaboration",
+          "ar": "التعاون",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "enhance",
+          "ar": "يحسن - يعزز",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "milestone",
+          "ar": "نقطة فارقة - نقطة تحول",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "targeted",
+          "ar": "مستهدف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "yield",
+          "ar": "محصول - إنتاج - عائد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Important Vocabulary (المفردات الهامة)",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "agriculture",
+          "ar": "زراعة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "artistic",
+          "ar": "فني",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "beyond",
+          "ar": "فوق - أبعد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "burglar",
+          "ar": "لص منازل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "cite",
+          "ar": "يستشهد - يشير إلي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "companionship",
+          "ar": "صحبة - رفاقة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "crop",
+          "ar": "محصول",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "dam",
+          "ar": "سد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "deepen",
+          "ar": "يعمق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "deliver",
+          "ar": "يقدم - يسلم - يوصل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "enjoyable",
+          "ar": "ممتع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "establish",
+          "ar": "يؤسس - ينشئ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "expert",
+          "ar": "خبير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "expertise",
+          "ar": "خبرة - دراية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "feature",
+          "ar": "ميزة - سمة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "festival",
+          "ar": "مهرجان",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "fossil",
+          "ar": "حفرية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "foster",
+          "ar": "يعزز - يشجع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "frequently",
+          "ar": "بشكل متكرر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "fuel",
+          "ar": "وقود",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "impact",
+          "ar": "أثر - تأثير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "infer",
+          "ar": "يستدل - يستنتج",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "introduce",
+          "ar": "يقدم - يدخل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "launch",
+          "ar": "يطلق - يبدأ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "medical",
+          "ar": "طبي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "mission",
+          "ar": "مهمة - بعثة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "neighboring",
+          "ar": "مجاور",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "outdoor",
+          "ar": "خارجي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "panel",
+          "ar": "لوح - خلية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "picnic",
+          "ar": "نزهة - رحلة خفيفة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "politics",
+          "ar": "سياسة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "progress",
+          "ar": "تقدم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "protection",
+          "ar": "حماية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "region",
+          "ar": "منطقة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "reliance",
+          "ar": "اعتماد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "restate",
+          "ar": "يعيد الصياغة - يعيد التعبير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "result",
+          "ar": "ينتج",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "season",
+          "ar": "فصل (من السنة)",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "solar",
+          "ar": "شمسي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "staff",
+          "ar": "طاقم موظفين",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "statement",
+          "ar": "تصريح - عبارة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "Sudanese",
+          "ar": "سوداني (الجنسية)",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "summarize",
+          "ar": "يلخص",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "supply",
+          "ar": "يزود - يمد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "technique",
+          "ar": "أسلوب - تقنية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "transform",
+          "ar": "يحول - يغير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Verbal Collocations (المتلازمات اللفظية)",
+      "type": "expressions",
+      "words": [
+        {
+          "en": "build strong relationships",
+          "ar": "يبني علاقات قوية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "build sustainable capacity",
+          "ar": "يبني قدرة مستدامة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "cite a milestone",
+          "ar": "يستشهد بإنجاز بارز",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "create opportunities/jobs",
+          "ar": "يوفر فرص / وظائف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "deepen the impact",
+          "ar": "يعمق الأثر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "deepen partnerships",
+          "ar": "يعمق الشراكات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "deliver healthcare",
+          "ar": "يقدم رعاية صحية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "draw attention",
+          "ar": "يجذب انتباه",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "drive progress",
+          "ar": "يدفع التقدم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "feature films",
+          "ar": "يعرض أفلاما",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "foster cultural understanding",
+          "ar": "يعزز فهما ثقافيا",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "give examples",
+          "ar": "يقدم أمثلة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "give reasons",
+          "ar": "يقدم أسبابا",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "hook the reader",
+          "ar": "يجذب القارئ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "introduce modern techniques",
+          "ar": "يدخل تقنيات حديثة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "launch an annual festival",
+          "ar": "يطلق مهرجاناً سنوياً",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "play a vital role",
+          "ar": "يلعب دوراً حيوياً",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "strengthen ties",
+          "ar": "يقوي العلاقات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "tell the main point",
+          "ar": "يذكر النقطة الرئيسية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Expressions & Idioms (التعبيرات والمصطلحات)",
+      "type": "expressions",
+      "words": [
+        {
+          "en": "chance to do fun things",
+          "ar": "فرصة للمرح / الاستمتاع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "cited as a milestone",
+          "ar": "يعتبر محطة بارزة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "in conclusion",
+          "ar": "في الختام",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "in short",
+          "ar": "باختصار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "loyal protector",
+          "ar": "حارس وفي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "scare away burglars",
+          "ar": "يرعب لصوص المنازل ويطردهم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "stay in shape",
+          "ar": "يحافظ على لياقته",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Verb + Preposition (فعل + حرف جر)",
+      "type": "expressions",
+      "words": [
+        {
+          "en": "collaborate with",
+          "ar": "يتعاون مع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "compare with/to",
+          "ar": "يقارن بـ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "compete with",
+          "ar": "يتنافس مع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "conclude with",
+          "ar": "يختتم بـ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "engage with",
+          "ar": "ينخرط مع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "extend beyond",
+          "ar": "يتجاوز / يتخطى",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "finish with",
+          "ar": "ينهي بـ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "invest in",
+          "ar": "يستثمر في",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "participate in",
+          "ar": "يشارك في",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "protect... from",
+          "ar": "يحمي ... من",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "provide ... for",
+          "ar": "يوفر لـ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "rely on",
+          "ar": "يعتمد على",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "scare away",
+          "ar": "يخيف ويطرد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "take part in",
+          "ar": "يشارك في",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "train ... in",
+          "ar": "يدرب ... على",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    }
+  ]
+}
+

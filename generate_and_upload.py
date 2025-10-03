@@ -19,8 +19,6 @@ VOCAB_LISTS_PATH = 'lists'
 PROCESSED_WORDS_FILE = os.path.join(VOCAB_LISTS_PATH, 'available_vocab.json')
 
 
-# --- Helper Functions (load_processed_words, save_processed_words, get_all_unique_words) ---
-# ... (These functions remain the same as the previous version) ...
 def load_processed_words():
     """Loads the set of words that have already been processed."""
     try:
@@ -38,29 +36,51 @@ def save_processed_words(words_set):
 
 
 def get_all_unique_words():
-    """Finds all JSON files in the lists directory and extracts unique words."""
+    """
+    Finds all JSON files in the lists directory and extracts unique words
+    based on the new, explicit schema.
+    """
     all_words = set()
     json_files = glob.glob(os.path.join(VOCAB_LISTS_PATH, '*.json'))
     json_files = [f for f in json_files if not f.endswith('available_vocab.json')]
     print(f"Found {len(json_files)} vocabulary files to process.")
+
     for file_path in json_files:
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 for section in data.get('sections', []):
+                    section_type = section.get('type')
                     for word_entry in section.get('words', []):
-                        if 'en' in word_entry:
-                            all_words.add(word_entry['en'])
-                        if 'past' in word_entry:
-                            all_words.add(word_entry['past'])
-                        if 'pastParticiple' in word_entry:
-                            all_words.add(word_entry['pastParticiple'])
+                        # --- Logic for standard vocabulary and expressions ---
+                        if section_type in ['vocabulary', 'expressions']:
+                            if 'en' in word_entry and word_entry['en']:
+                                all_words.add(word_entry['en'])
+
+                        # --- Logic for verb conjugations ---
+                        elif section_type == 'conjugations':
+                            if 'forms' in word_entry and isinstance(word_entry.get('forms'), dict):
+                                for form in word_entry['forms'].values():
+                                    if form:
+                                        all_words.add(form)
+
+                        # --- Logic for synonyms and antonyms ---
+                        elif section_type == 'synonyms_antonyms':
+                            for key in ['word', 'synonym', 'antonym']:
+                                if key in word_entry and word_entry[key]:
+                                    # Handle multiple entries separated by '/'
+                                    entries = word_entry[key].split('/')
+                                    for entry in entries:
+                                        if entry.strip():
+                                            all_words.add(entry.strip())
+
         except Exception as e:
             print(f"⚠️  Could not process file {file_path}: {e}")
-    return all_words
+
+    # Filter out any empty strings that may have been added
+    return {word for word in all_words if word}
 
 
-# --- ✨ NEW: Sanitize Filename Function ---
 def sanitize_filename(word):
     """
     Cleans a string to make it a safe filename.
@@ -68,19 +88,14 @@ def sanitize_filename(word):
     - Replaces spaces with hyphens.
     - Removes any character that is not a letter, number, hyphen, or underscore.
     """
-    # Convert to lowercase and strip leading/trailing whitespace
     s = word.lower().strip()
-    # Replace spaces and common separators with a hyphen
     s = re.sub(r'[\s/]+', '-', s)
-    # Remove any character that is not a letter, number, hyphen, or underscore
     s = re.sub(r'[^a-z0-9-_]', '', s)
     return s
 
 
-# --- 4. Main Audio Generation and Upload Logic ---
 def process_vocabulary():
     """Main function to generate audio and upload to R2."""
-
     s3_client = boto3.client(
         's3',
         endpoint_url=R2_ENDPOINT,
@@ -104,13 +119,18 @@ def process_vocabulary():
 
         # --- A. Generate Audio ---
         try:
-            # ... (API call logic remains the same) ...
             url = 'https://api.v8.unrealspeech.com/stream'
             headers = {
                 'Authorization': f'Bearer {UNREAL_SPEECH_API_KEY}',
                 'Content-Type': 'application/json'
             }
-            voice_choice = random.choice(['Autumn', 'Melody', 'Hannah', 'Emily', 'Ivy', 'Kaitlyn', 'Luna', 'Willow', 'Lauren', 'Sierra', 'Noah', 'Jasper', 'Caleb', 'Ronan', 'Ethan', 'Daniel', 'Zane'])
+            voice_choice = random.choice(
+                ['Autumn', 'Melody', 'Hannah',
+                 'Emily', 'Ivy', 'Kaitlyn', 'Luna',
+                 'Willow', 'Lauren', 'Sierra',
+                 'Noah', 'Jasper', 'C Caleb',
+                 'Ronan', 'Ethan', 'Daniel', 'Zane']
+                 )
             data = {"Text": word, "VoiceId": voice_choice, "Bitrate": "128k"}
             response = requests.post(url, headers=headers, data=json.dumps(data), timeout=60)
 
@@ -127,7 +147,6 @@ def process_vocabulary():
 
         # --- B. Upload to R2 ---
         try:
-            # ⭐ MODIFIED: Use the sanitize_filename function here
             sanitized_word = sanitize_filename(word)
             file_name = f"{sanitized_word}.mp3"
             remote_path = f"{file_name}"
@@ -142,17 +161,34 @@ def process_vocabulary():
             )
 
             print("☁️ Upload successful.")
-
-            # --- C. Add to Processed List on Success ---
             processed_words.add(word)
 
         except (NoCredentialsError, ClientError) as e:
             print(f"❌ Failed to upload '{file_name}': {e}")
             continue
 
-    # --- 5. Final Step: Save the updated list ---
     save_processed_words(processed_words)
+    update_vocab_manifest()
     print("\n✨ Process complete.")
+
+
+def update_vocab_manifest():
+    """Scans the lists directory and creates a JSON manifest of all vocab files."""
+    manifest_file = os.path.join(VOCAB_LISTS_PATH, 'lists.json')
+    all_json_files = glob.glob(os.path.join(VOCAB_LISTS_PATH, '*.json'))
+
+    # Exclude special files from the list
+    excluded_files = [
+        PROCESSED_WORDS_FILE,
+        manifest_file
+    ]
+
+    # Get just the base filename, e.g., 'unit-1.json', and sort them
+    vocab_files = sorted([os.path.basename(f) for f in all_json_files if f not in excluded_files])
+
+    with open(manifest_file, 'w', encoding='utf-8') as f:
+        json.dump(vocab_files, f, indent=2)
+    print(f"✅ Updated vocabulary manifest file at '{manifest_file}'")
 
 
 if __name__ == "__main__":

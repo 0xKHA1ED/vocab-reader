@@ -1,201 +1,285 @@
 {
-    "sections": [
-      {
-        "title": "Key Vocabulary",
-        "words": [
-          {
-            "en": "mirror",
-            "pos": "n",
-            "ar": "مرآة"
-          },
-          {
-            "en": "adjust",
-            "pos": "v",
-            "ar": "يضبط - يعدل"
-          },
-          {
-            "en": "curious",
-            "pos": "adj",
-            "ar": "فضولي - محب للاستطلاع"
-          },
-          {
-            "en": "strength",
-            "pos": "n",
-            "ar": "قوة"
-          },
-          {
-            "en": "confident",
-            "pos": "adj",
-            "ar": "واثق من نفسه"
-          },
-          {
-            "en": "panic",
-            "pos": "v",
-            "ar": "يضطرب / يفزع"
-          },
-          {
-            "en": "identity map",
-            "ar": "خريطة الهوية"
-          },
-          {
-            "en": "strong",
-            "pos": "adj",
-            "ar": "قوي"
-          },
-          {
-            "en": "creative",
-            "pos": "adj",
-            "ar": "مبدع"
-          },
-          {
-            "en": "portrait",
-            "pos": "n",
-            "ar": "صورة فنية (الوجه)"
-          },
-          {
-            "en": "ashamed",
-            "pos": "adj",
-            "ar": "يشعر بالخجل"
-          },
-          {
-            "en": "blazer",
-            "pos": "n",
-            "ar": "سترة"
-          },
-          {
-            "en": "curls",
-            "pos": "n",
-            "ar": "خصلات / تجاعيد الشعر"
-          },
-          {
-            "en": "unless",
-            "pos": "adv",
-            "ar": "إلا إذا / طالما عكس ذلك"
-          },
-          {
-            "en": "comfort",
-            "pos": "n",
-            "ar": "راحة"
-          },
-          {
-            "en": "perfect",
-            "pos": "adj",
-            "ar": "مثالي / تام"
-          },
-          {
-            "en": "introduce",
-            "pos": "v",
-            "ar": "يقدم - يعرف"
-          },
-          {
-            "en": "hand-drawn",
-            "ar": "مرسوم باليد"
-          },
-          {
-            "en": "blend",
-            "pos": "v",
-            "ar": "يخلط - يمزج"
-          },
-          {
-            "en": "click",
-            "pos": "v",
-            "ar": "ينقر - يصدر صوتًا"
-          },
-          {
-            "en": "outgoing",
-            "pos": "adj",
-            "ar": "اجتماعي - منفتح"
-          },
-          {
-            "en": "sketchbook",
-            "pos": "n",
-            "ar": "دفتر الرسم"
-          },
-          {
-            "en": "beauty",
-            "pos": "n",
-            "ar": "جمال"
-          },
-          {
-            "en": "create",
-            "pos": "v",
-            "ar": "يصنع - ينشئ"
-          },
-          {
-            "en": "dream",
-            "pos": "v/n",
-            "ar": "يحلم / حلم"
-          }
-        ]
-      },
-      {
-        "title": "Vocabulary",
-        "words": [
-          {
-            "en": "imperfection",
-            "pos": "n",
-            "ar": "عيب - نقص"
-          },
-          {
-            "en": "thumbs-up",
-            "ar": "رفع الابهام للموافقة"
-          },
-          {
-            "en": "decisions",
-            "pos": "n",
-            "ar": "قرارات"
-          },
-          {
-            "en": "talent",
-            "pos": "n",
-            "ar": "موهبة"
-          },
-          {
-            "en": "assignment",
-            "pos": "n",
-            "ar": "واجب - مهمة"
-          },
-          {
-            "en": "panic",
-            "pos": "v",
-            "ar": "يفزع - يصاب بالذعر"
-          }
-        ]
-      },
-      {
-        "title": "Conjugation of Irregular Verbs",
-        "words": [
-          {
-            "en": "begin",
-            "ar": "يبدأ",
+  "metadata": {
+    "title": "Unit 17: Self-Identity and Confidence",
+    "description": "A vocabulary list about self-perception, identity, confidence, and personal strengths.",
+    "level": "1st Prep"
+  },
+  "sections": [
+    {
+      "title": "Key Vocabulary",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "mirror",
+          "ar": "مرآة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "adjust",
+          "ar": "يضبط - يعدل",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "curious",
+          "ar": "فضولي - محب للاستطلاع",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "strength",
+          "ar": "قوة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "confident",
+          "ar": "واثق من نفسه",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "panic",
+          "ar": "يضطرب / يفزع",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "identity map",
+          "ar": "خريطة الهوية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "strong",
+          "ar": "قوي",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "creative",
+          "ar": "مبدع",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "portrait",
+          "ar": "صورة فنية (الوجه)",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "ashamed",
+          "ar": "يشعر بالخجل",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "blazer",
+          "ar": "سترة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "curls",
+          "ar": "خصلات / تجاعيد الشعر",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "unless",
+          "ar": "إلا إذا / طالما عكس ذلك",
+          "partOfSpeech": "adverb",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "comfort",
+          "ar": "راحة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "perfect",
+          "ar": "مثالي / تام",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "introduce",
+          "ar": "يقدم - يعرف",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "hand-drawn",
+          "ar": "مرسوم باليد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "blend",
+          "ar": "يخلط - يمزج",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "click",
+          "ar": "ينقر - يصدر صوتًا",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "outgoing",
+          "ar": "اجتماعي - منفتح",
+          "partOfSpeech": "adjective",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "sketchbook",
+          "ar": "دفتر الرسم",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "beauty",
+          "ar": "جمال",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "create",
+          "ar": "يصنع - ينشئ",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "dream",
+          "ar": "يحلم / حلم",
+          "partOfSpeech": "verb, noun",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Vocabulary",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "imperfection",
+          "ar": "عيب - نقص",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "thumbs-up",
+          "ar": "رفع الابهام للموافقة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "decisions",
+          "ar": "قرارات",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "talent",
+          "ar": "موهبة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "assignment",
+          "ar": "واجب - مهمة",
+          "partOfSpeech": "noun",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "panic",
+          "ar": "يفزع - يصاب بالذعر",
+          "partOfSpeech": "verb",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Conjugation of Irregular Verbs",
+      "type": "conjugations",
+      "words": [
+        {
+          "ar": "يبدأ",
+          "forms": {
+            "present": "begin",
             "past": "began",
             "pastParticiple": "begun"
-          },
-          {
-            "en": "keep",
-            "ar": "يظل - يبقى",
+          }
+        },
+        {
+          "ar": "يظل - يبقى",
+          "forms": {
+            "present": "keep",
             "past": "kept",
             "pastParticiple": "kept"
-          },
-          {
-            "en": "stand",
-            "ar": "يقف",
+          }
+        },
+        {
+          "ar": "يقف",
+          "forms": {
+            "present": "stand",
             "past": "stood",
             "pastParticiple": "stood"
-          },
-          {
-            "en": "feel",
-            "ar": "يشعر",
+          }
+        },
+        {
+          "ar": "يشعر",
+          "forms": {
+            "present": "feel",
             "past": "felt",
             "pastParticiple": "felt"
-          },
-          {
-            "en": "draw",
-            "ar": "يرسم",
+          }
+        },
+        {
+          "ar": "يرسم",
+          "forms": {
+            "present": "draw",
             "past": "drew",
             "pastParticiple": "drawn"
           }
-        ]
-      }
-    ]
-  }
+        }
+      ]
+    }
+  ]
+}
+

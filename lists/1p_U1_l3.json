@@ -1,152 +1,215 @@
-
 {
-    "sections": [
-      {
-        "title": "Key Vocabulary",
-        "words": [
-          {
-            "en": "achieve",
-            "partOfSpeech": "(v)",
-            "ar": "يحقق / ينجز"
-          },
-          {
-            "en": "tasks",
-            "partOfSpeech": "(n)",
-            "ar": "مهام"
-          },
-          {
-            "en": "assignments",
-            "partOfSpeech": "(n)",
-            "ar": "واجبات / مهام دراسية"
-          },
-          {
-            "en": "speakers",
-            "partOfSpeech": "(n)",
-            "ar": "سماعات"
-          },
-          {
-            "en": "webcam",
-            "partOfSpeech": "(n)",
-            "ar": "كاميرا الويب / كاميرا رقمية"
-          },
-          {
-            "en": "microphone",
-            "partOfSpeech": "(n)",
-            "ar": "ميكروفون"
-          },
-          {
-            "en": "board games",
-            "ar": "ألعاب لوحية"
-          },
-          {
-            "en": "headphones",
-            "partOfSpeech": "(n)",
-            "ar": "سماعات الأذن"
-          },
-          {
-            "en": "mouse",
-            "partOfSpeech": "(n)",
-            "ar": "فأرة"
-          },
-          {
-            "en": "printer",
-            "partOfSpeech": "(n)",
-            "ar": "طابعة"
-          },
-          {
-            "en": "keyboard",
-            "partOfSpeech": "(n)",
-            "ar": "لوحة مفاتيح"
-          },
-          {
-            "en": "noticeboard",
-            "partOfSpeech": "(n)",
-            "ar": "لوحة إعلانات"
-          },
-          {
-            "en": "typing",
-            "partOfSpeech": "(v)",
-            "ar": "كتابة (على لوحة مفاتيح)"
-          },
-          {
-            "en": "video call",
-            "partOfSpeech": "(n)",
-            "ar": "مكالمة فيديو"
-          },
-          {
-            "en": "record",
-            "partOfSpeech": "(v)",
-            "ar": "يسجل"
-          },
-          {
-            "en": "print",
-            "partOfSpeech": "(v)",
-            "ar": "يطبع"
-          },
-          {
-            "en": "search engine",
-            "ar": "محرك البحث"
-          },
-          {
-            "en": "notes",
-            "partOfSpeech": "(n)",
-            "ar": "ملاحظات"
-          },
-          {
-            "en": "presentation",
-            "partOfSpeech": "(n)",
-            "ar": "عرض تقديمي"
-          },
-          {
-            "en": "helpful",
-            "partOfSpeech": "(adj)",
-            "ar": "متعاون / معين"
-          },
-          {
-            "en": "schoolwork",
-            "partOfSpeech": "(n)",
-            "ar": "عمل / واجب مدرسي"
-          },
-          {
-            "en": "music",
-            "partOfSpeech": "(n)",
-            "ar": "موسيقى"
-          },
-          {
-            "en": "knowledge",
-            "partOfSpeech": "(n)",
-            "ar": "المعرفة"
-          }
-        ]
-      },
-      {
-        "title": "Conjugation of Irregular Verbs",
-        "words": [
-          {
-            "en": "write",
-            "ar": "يكتب",
+  "metadata": {
+    "title": "Unit 4: Technology in School",
+    "description": "A vocabulary list about technology, tools, and tasks related to schoolwork.",
+    "level": "1st Prep"
+  },
+  "sections": [
+    {
+      "title": "Key Vocabulary",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "achieve",
+          "ar": "يحقق / ينجز",
+          "partOfSpeech": "v",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "tasks",
+          "ar": "مهام",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "assignments",
+          "ar": "واجبات / مهام دراسية",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "speakers",
+          "ar": "سماعات",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "webcam",
+          "ar": "كاميرا الويب / كاميرا رقمية",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "microphone",
+          "ar": "ميكروفون",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "board games",
+          "ar": "ألعاب لوحية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "headphones",
+          "ar": "سماعات الأذن",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "mouse",
+          "ar": "فأرة",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "printer",
+          "ar": "طابعة",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "keyboard",
+          "ar": "لوحة مفاتيح",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "noticeboard",
+          "ar": "لوحة إعلانات",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "typing",
+          "ar": "كتابة (على لوحة مفاتيح)",
+          "partOfSpeech": "v",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "video call",
+          "ar": "مكالمة فيديو",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "record",
+          "ar": "يسجل",
+          "partOfSpeech": "v",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "print",
+          "ar": "يطبع",
+          "partOfSpeech": "v",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "search engine",
+          "ar": "محرك البحث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "notes",
+          "ar": "ملاحظات",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "presentation",
+          "ar": "عرض تقديمي",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "helpful",
+          "ar": "متعاون / معين",
+          "partOfSpeech": "adj",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "schoolwork",
+          "ar": "عمل / واجب مدرسي",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "music",
+          "ar": "موسيقى",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "knowledge",
+          "ar": "المعرفة",
+          "partOfSpeech": "n",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Conjugation of Irregular Verbs",
+      "type": "conjugations",
+      "words": [
+        {
+          "ar": "يكتب",
+          "forms": {
+            "present": "write",
             "past": "wrote",
             "pastParticiple": "written"
-          },
-          {
-            "en": "say",
-            "ar": "يقول",
+          }
+        },
+        {
+          "ar": "يقول",
+          "forms": {
+            "present": "say",
             "past": "said",
             "pastParticiple": "said"
-          },
-          {
-            "en": "tell",
-            "ar": "يخبر",
+          }
+        },
+        {
+          "ar": "يخبر",
+          "forms": {
+            "present": "tell",
             "past": "told",
             "pastParticiple": "told"
-          },
-          {
-            "en": "come",
-            "ar": "يأتي",
+          }
+        },
+        {
+          "ar": "يأتي",
+          "forms": {
+            "present": "come",
             "past": "came",
             "pastParticiple": "come"
           }
-        ]
-      }
-    ]
-  }
+        }
+      ]
+    }
+  ]
+}
+

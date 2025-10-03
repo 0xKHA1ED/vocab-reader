@@ -1,242 +1,421 @@
 {
-    "sections": [
-      {
-        "title": "Key Vocabulary",
-        "words": [
-          {
-            "en": "clutched",
-            "ar": "قبض بإحكام"
-          },
-          {
-            "en": "forehead",
-            "ar": "جبين"
-          },
-          {
-            "en": "listen",
-            "ar": "ينصت / يلمس"
-          },
-          {
-            "en": "moan",
-            "ar": "يئن / أنين"
-          },
-          {
-            "en": "panicked",
-            "ar": "مرعوب"
-          },
-          {
-            "en": "scope",
-            "ar": "نطاق"
-          },
-          {
-            "en": "stretch",
-            "ar": "يمد"
-          },
-          {
-            "en": "worsened",
-            "ar": "تفاقم / ساء"
-          },
-          {
-            "en": "appointment",
-            "ar": "موعد"
-          },
-          {
-            "en": "beyond",
-            "ar": "بجانب / ما وراء"
-          },
-          {
-            "en": "chemotherapy",
-            "ar": "علاج كيماوي"
-          },
-          {
-            "en": "climax",
-            "ar": "ذروة / قمة"
-          },
-          {
-            "en": "comprehensive",
-            "ar": "شامل / واسع"
-          },
-          {
-            "en": "consultation",
-            "ar": "تشاور / استشارة"
-          },
-          {
-            "en": "cough",
-            "ar": "يسعل"
-          },
-          {
-            "en": "Emergency Room",
-            "ar": "غرفة طوارئ"
-          },
-          {
-            "en": "experience",
-            "ar": "يجرب / خبرة"
-          },
-          {
-            "en": "feature",
-            "ar": "ملامح / سمات"
-          },
-          {
-            "en": "float",
-            "ar": "يطفو / يطفو"
-          },
-          {
-            "en": "ghost",
-            "ar": "شبح"
-          },
-          {
-            "en": "hesitation",
-            "ar": "تردد"
-          },
-          {
-            "en": "miserable",
-            "ar": "بائس / تعيس"
-          },
-          {
-            "en": "pale",
-            "ar": "شاحب / باهت"
-          },
-          {
-            "en": "palate",
-            "ar": "حنك الفم"
-          },
-          {
-            "en": "practitioner",
-            "ar": "طبيب عام"
-          },
-          {
-            "en": "proudly",
-            "ar": "بفخر"
-          },
-          {
-            "en": "relief",
-            "ar": "ارتياح / إغاثة"
-          },
-          {
-            "en": "remind",
-            "ar": "يُذكر"
-          },
-          {
-            "en": "retrieve",
-            "ar": "يسترجع / يستعيد"
-          },
-          {
-            "en": "severe",
-            "ar": "شديد / بالغ"
-          },
-          {
-            "en": "soak",
-            "ar": "ينقع"
-          },
-          {
-            "en": "sore",
-            "ar": "ملتهب"
-          },
-          {
-            "en": "staff",
-            "ar": "طاقم العاملين"
-          },
-          {
-            "en": "sterile",
-            "ar": "معقم"
-          },
-          {
-            "en": "stethoscope",
-            "ar": "سماعة الطبيب"
-          },
-          {
-            "en": "swollen",
-            "ar": "متورم"
-          },
-          {
-            "en": "symptoms",
-            "ar": "أعراض"
-          },
-          {
-            "en": "tears",
-            "ar": "دموع"
-          },
-          {
-            "en": "throat",
-            "ar": "حلق"
-          },
-          {
-            "en": "toddler",
-            "ar": "طفل صغير يتعلم المشي"
-          },
-          {
-            "en": "triage",
-            "ar": "فرز المصابين حسب حالتهم"
-          },
-          {
-            "en": "viral",
-            "ar": "فيروسي"
-          },
-          {
-            "en": "weep",
-            "ar": "ينتحب"
-          },
-          {
-            "en": "wiped",
-            "ar": "يمسح بشكل كامل"
-          },
-          {
-            "en": "withdraw",
-            "ar": "ينسحب"
-          }
-        ]
-      },
-      {
-        "title": "Verbal Collocations",
-        "words": [
-          {
-            "en": "feel miserable",
-            "ar": "يشعر بالتعاسة"
-          },
-          {
-            "en": "give a prescription",
-            "ar": "يقدم وصفة طبية"
-          },
-          {
-            "en": "have a sore throat",
-            "ar": "يعاني من التهاب في الحلق"
-          },
-          {
-            "en": "hide tears",
-            "ar": "يخفي دموعه / حزنه"
-          },
-          {
-            "en": "make an appointment",
-            "ar": "يحدد موعدًا"
-          },
-          {
-            "en": "rain cats and dogs",
-            "ar": "تمطر بغزارة"
-          },
-          {
-            "en": "rush in a victim",
-            "ar": "يدخل مصابًا بسرعة"
-          },
-          {
-            "en": "save lives",
-            "ar": "ينقذ الأرواح"
-          },
-          {
-            "en": "see a doctor",
-            "ar": "يذهب للطبيب"
-          },
-          {
-            "en": "soak to the skin",
-            "ar": "يصبح مبلل تمامًا"
-          },
-          {
-            "en": "take x-rays",
-            "ar": "يقوم بعمل أشعة إكس"
-          },
-          {
-            "en": "take temperature",
-            "ar": "يقيس درجة الحرارة"
-          }
-        ]
-      }
-    ]
-  }
+  "metadata": {
+    "title": "Unit 20: At the Hospital",
+    "description": "A vocabulary list about symptoms, procedures, and experiences at a hospital or clinic.",
+    "level": "1st Prep"
+  },
+  "sections": [
+    {
+      "title": "Key Vocabulary",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "clutched",
+          "ar": "قبض بإحكام",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "forehead",
+          "ar": "جبين",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "listen",
+          "ar": "ينصت / يلمس",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "moan",
+          "ar": "يئن / أنين",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "panicked",
+          "ar": "مرعوب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "scope",
+          "ar": "نطاق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "stretch",
+          "ar": "يمد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "worsened",
+          "ar": "تفاقم / ساء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "appointment",
+          "ar": "موعد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "beyond",
+          "ar": "بجانب / ما وراء",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "chemotherapy",
+          "ar": "علاج كيماوي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "climax",
+          "ar": "ذروة / قمة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "comprehensive",
+          "ar": "شامل / واسع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "consultation",
+          "ar": "تشاور / استشارة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "cough",
+          "ar": "يسعل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "Emergency Room",
+          "ar": "غرفة طوارئ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "experience",
+          "ar": "يجرب / خبرة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "feature",
+          "ar": "ملامح / سمات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "float",
+          "ar": "يطفو / يطفو",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "ghost",
+          "ar": "شبح",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "hesitation",
+          "ar": "تردد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "miserable",
+          "ar": "بائس / تعيس",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "pale",
+          "ar": "شاحب / باهت",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "palate",
+          "ar": "حنك الفم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "practitioner",
+          "ar": "طبيب عام",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "proudly",
+          "ar": "بفخر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "relief",
+          "ar": "ارتياح / إغاثة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "remind",
+          "ar": "يُذكر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "retrieve",
+          "ar": "يسترجع / يستعيد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "severe",
+          "ar": "شديد / بالغ",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "soak",
+          "ar": "ينقع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "sore",
+          "ar": "ملتهب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "staff",
+          "ar": "طاقم العاملين",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "sterile",
+          "ar": "معقم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "stethoscope",
+          "ar": "سماعة الطبيب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "swollen",
+          "ar": "متورم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "symptoms",
+          "ar": "أعراض",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "tears",
+          "ar": "دموع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "throat",
+          "ar": "حلق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "toddler",
+          "ar": "طفل صغير يتعلم المشي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "triage",
+          "ar": "فرز المصابين حسب حالتهم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "viral",
+          "ar": "فيروسي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "weep",
+          "ar": "ينتحب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "wiped",
+          "ar": "يمسح بشكل كامل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "withdraw",
+          "ar": "ينسحب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Verbal Collocations",
+      "type": "expressions",
+      "words": [
+        {
+          "en": "feel miserable",
+          "ar": "يشعر بالتعاسة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "give a prescription",
+          "ar": "يقدم وصفة طبية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "have a sore throat",
+          "ar": "يعاني من التهاب في الحلق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "hide tears",
+          "ar": "يخفي دموعه / حزنه",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "make an appointment",
+          "ar": "يحدد موعدًا",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "rain cats and dogs",
+          "ar": "تمطر بغزارة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "rush in a victim",
+          "ar": "يدخل مصابًا بسرعة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "save lives",
+          "ar": "ينقذ الأرواح",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "see a doctor",
+          "ar": "يذهب للطبيب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "soak to the skin",
+          "ar": "يصبح مبلل تمامًا",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "take x-rays",
+          "ar": "يقوم بعمل أشعة إكس",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "take temperature",
+          "ar": "يقيس درجة الحرارة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    }
+  ]
+}
+

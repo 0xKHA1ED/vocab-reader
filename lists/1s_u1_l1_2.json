@@ -1,338 +1,589 @@
 {
-    "sections": [
-      {
-        "title": "Key Vocabulary",
-        "words": [
-          {
-            "en": "ancestor",
-            "ar": "سولالي"
-          },
-          {
-            "en": "archaeology",
-            "ar": "علم الآثار"
-          },
-          {
-            "en": "awareness",
-            "ar": "وعي"
-          },
-          {
-            "en": "contribute",
-            "ar": "يساهم"
-          },
-          {
-            "en": "descendant",
-            "ar": "حفيد"
-          },
-          {
-            "en": "gathered",
-            "ar": "تجمع"
-          },
-          {
-            "en": "generation",
-            "ar": "جيل"
-          },
-          {
-            "en": "hieroglyphs",
-            "ar": "الرموز الهيروغليفية"
-          },
-          {
-            "en": "pride",
-            "ar": "فخر"
-          },
-          {
-            "en": "heritage",
-            "ar": "تراث"
-          },
-          {
-            "en": "inspiration",
-            "ar": "الهام"
-          },
-          {
-            "en": "legacy",
-            "ar": "إرث"
-          },
-          {
-            "en": "literacy",
-            "ar": "محو الأمية"
-          },
-          {
-            "en": "neighbourhood",
-            "ar": "حي"
-          },
-          {
-            "en": "overcome",
-            "ar": "يتغلب علي"
-          },
-          {
-            "en": "preserve",
-            "ar": "يحافظ علي"
-          },
-          {
-            "en": "prioritise",
-            "ar": "يعطي أولوية"
-          },
-          {
-            "en": "progress",
-            "ar": "تقدم"
-          },
-          {
-            "en": "realize",
-            "ar": "يدرك"
-          },
-          {
-            "en": "sacrifice",
-            "ar": "يضحي"
-          }
-        ]
-      },
-      {
-        "title": "Important Vocabulary",
-        "words": [
-          {
-            "en": "archaeologist",
-            "ar": "عالم آثار"
-          },
-          {
-            "en": "architect",
-            "ar": "مهندس معماري"
-          },
-          {
-            "en": "balance",
-            "ar": "توازن"
-          },
-          {
-            "en": "beat-beat-beaten",
-            "ar": "يهزم / يدق"
-          },
-          {
-            "en": "beauty",
-            "ar": "جمال"
-          },
-          {
-            "en": "community",
-            "ar": "مجتمع"
-          },
-          {
-            "en": "capable",
-            "ar": "قادر"
-          },
-          {
-            "en": "century",
-            "ar": "قرن"
-          },
-          {
-            "en": "challenge",
-            "ar": "تحد"
-          },
-          {
-            "en": "citizen",
-            "ar": "مواطن"
-          },
-          {
-            "en": "compared",
-            "ar": "مقارنة"
-          },
-          {
-            "en": "connection",
-            "ar": "اتصال / علاقة"
-          },
-          {
-            "en": "continent",
-            "ar": "قارة"
-          },
-          {
-            "en": "core",
-            "ar": "جوهري / لب"
-          },
-          {
-            "en": "courage",
-            "ar": "شجاعة"
-          },
-          {
-            "en": "dangerous",
-            "ar": "خطير"
-          },
-          {
-            "en": "develop",
-            "ar": "يطور"
-          },
-          {
-            "en": "duty",
-            "ar": "واجب"
-          },
-          {
-            "en": "economy",
-            "ar": "اقتصاد"
-          },
-          {
-            "en": "effect",
-            "ar": "تأثير"
-          },
-          {
-            "en": "encourage",
-            "ar": "يشجع"
-          },
-          {
-            "en": "era",
-            "ar": "عصر"
-          },
-          {
-            "en": "event",
-            "ar": "حدث"
-          },
-          {
-            "en": "experience",
-            "ar": "خبرة"
-          },
-          {
-            "en": "export",
-            "ar": "يصدر"
-          },
-          {
-            "en": "feeding",
-            "ar": "تغذية"
-          },
-          {
-            "en": "generation",
-            "ar": "جيل"
-          },
-          {
-            "en": "grain",
-            "ar": "حبوب"
-          },
-          {
-            "en": "growth",
-            "ar": "نمو"
-          },
-          {
-            "en": "harmony",
-            "ar": "تناغم"
-          },
-          {
-            "en": "historical",
-            "ar": "تاريخي"
-          },
-          {
-            "en": "honor",
-            "ar": "شرف"
-          },
-          {
-            "en": "homeland",
-            "ar": "وطن"
-          },
-          {
-            "en": "impact",
-            "ar": "تأثير"
-          },
-          {
-            "en": "important",
-            "ar": "مهم"
-          },
-          {
-            "en": "lack",
-            "ar": "نقص"
-          },
-          {
-            "en": "long-legged",
-            "ar": "ذو أرجل طويلة"
-          },
-          {
-            "en": "mission",
-            "ar": "مهمة"
-          },
-          {
-            "en": "papyrus",
-            "ar": "ورق البردي"
-          },
-          {
-            "en": "pioneers",
-            "ar": "رواد"
-          },
-          {
-            "en": "powerful",
-            "ar": "قوي"
-          },
-          {
-            "en": "pride",
-            "ar": "فخر"
-          },
-          {
-            "en": "profession",
-            "ar": "مهنة"
-          },
-          {
-            "en": "proud",
-            "ar": "فخور"
-          },
-          {
-            "en": "realize",
-            "ar": "يدرك"
-          },
-          {
-            "en": "recognised",
-            "ar": "معترف به"
-          },
-          {
-            "en": "record",
-            "ar": "سجل"
-          },
-          {
-            "en": "reminisce",
-            "ar": "يستعيد الذكريات"
-          },
-          {
-            "en": "require",
-            "ar": "يتطلب"
-          },
-          {
-            "en": "responsibility",
-            "ar": "مسؤولية"
-          },
-          {
-            "en": "rise-rose-risen",
-            "ar": "يرتفع"
-          },
-          {
-            "en": "shape",
-            "ar": "يشكل"
-          },
-          {
-            "en": "significant",
-            "ar": "مهم"
-          },
-          {
-            "en": "storm",
-            "ar": "عاصفة"
-          },
-          {
-            "en": "technique",
-            "ar": "تقنية"
-          },
-          {
-            "en": "traded",
-            "ar": "تاجر"
-          },
-          {
-            "en": "treasure",
-            "ar": "كنز"
-          },
-          {
-            "en": "united",
-            "ar": "متحد"
-          },
-          {
-            "en": "value",
-            "ar": "قيمة"
-          },
-          {
-            "en": "valuable",
-            "ar": "قيم"
-          },
-          {
-            "en": "youth",
-            "ar": "شباب"
-          }
-        ]
-      }
-    ]
-  }
+  "metadata": {
+    "title": "Unit 8: Heritage and Community",
+    "description": "Vocabulary related to history, heritage, archaeology, and community values.",
+    "level": "1st Prep"
+  },
+  "sections": [
+    {
+      "title": "Key Vocabulary",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "ancestor",
+          "ar": "سولالي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "archaeology",
+          "ar": "علم الآثار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "awareness",
+          "ar": "وعي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "contribute",
+          "ar": "يساهم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "descendant",
+          "ar": "حفيد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "gathered",
+          "ar": "تجمع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "generation",
+          "ar": "جيل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "hieroglyphs",
+          "ar": "الرموز الهيروغليفية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "pride",
+          "ar": "فخر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "heritage",
+          "ar": "تراث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "inspiration",
+          "ar": "الهام",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "legacy",
+          "ar": "إرث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "literacy",
+          "ar": "محو الأمية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "neighbourhood",
+          "ar": "حي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "overcome",
+          "ar": "يتغلب علي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "preserve",
+          "ar": "يحافظ علي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "prioritise",
+          "ar": "يعطي أولوية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "progress",
+          "ar": "تقدم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "realize",
+          "ar": "يدرك",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "sacrifice",
+          "ar": "يضحي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "title": "Important Vocabulary",
+      "type": "vocabulary",
+      "words": [
+        {
+          "en": "archaeologist",
+          "ar": "عالم آثار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "architect",
+          "ar": "مهندس معماري",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "balance",
+          "ar": "توازن",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "beat",
+          "ar": "يهزم / يدق",
+          "partOfSpeech": "verb",
+          "definition": "Past: beat, Past Participle: beaten",
+          "examples": []
+        },
+        {
+          "en": "beauty",
+          "ar": "جمال",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "community",
+          "ar": "مجتمع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "capable",
+          "ar": "قادر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "century",
+          "ar": "قرن",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "challenge",
+          "ar": "تحد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "citizen",
+          "ar": "مواطن",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "compared",
+          "ar": "مقارنة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "connection",
+          "ar": "اتصال / علاقة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "continent",
+          "ar": "قارة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "core",
+          "ar": "جوهري / لب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "courage",
+          "ar": "شجاعة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "dangerous",
+          "ar": "خطير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "develop",
+          "ar": "يطور",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "duty",
+          "ar": "واجب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "economy",
+          "ar": "اقتصاد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "effect",
+          "ar": "تأثير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "encourage",
+          "ar": "يشجع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "era",
+          "ar": "عصر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "event",
+          "ar": "حدث",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "experience",
+          "ar": "خبرة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "export",
+          "ar": "يصدر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "feeding",
+          "ar": "تغذية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "generation",
+          "ar": "جيل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "grain",
+          "ar": "حبوب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "growth",
+          "ar": "نمو",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "harmony",
+          "ar": "تناغم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "historical",
+          "ar": "تاريخي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "honor",
+          "ar": "شرف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "homeland",
+          "ar": "وطن",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "impact",
+          "ar": "تأثير",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "important",
+          "ar": "مهم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "lack",
+          "ar": "نقص",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "long-legged",
+          "ar": "ذو أرجل طويلة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "mission",
+          "ar": "مهمة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "papyrus",
+          "ar": "ورق البردي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "pioneers",
+          "ar": "رواد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "powerful",
+          "ar": "قوي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "pride",
+          "ar": "فخر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "profession",
+          "ar": "مهنة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "proud",
+          "ar": "فخور",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "realize",
+          "ar": "يدرك",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "recognised",
+          "ar": "معترف به",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "record",
+          "ar": "سجل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "reminisce",
+          "ar": "يستعيد الذكريات",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "require",
+          "ar": "يتطلب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "responsibility",
+          "ar": "مسؤولية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "rise",
+          "ar": "يرتفع",
+          "partOfSpeech": "verb",
+          "definition": "Past: rose, Past Participle: risen",
+          "examples": []
+        },
+        {
+          "en": "shape",
+          "ar": "يشكل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "significant",
+          "ar": "مهم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "storm",
+          "ar": "عاصفة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "technique",
+          "ar": "تقنية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "traded",
+          "ar": "تاجر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "treasure",
+          "ar": "كنز",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "united",
+          "ar": "متحد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "value",
+          "ar": "قيمة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "valuable",
+          "ar": "قيم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        },
+        {
+          "en": "youth",
+          "ar": "شباب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
+        }
+      ]
+    }
+  ]
+}
+

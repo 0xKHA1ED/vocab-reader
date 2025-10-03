@@ -1,126 +1,208 @@
 {
+  "metadata": {
+    "title": "Unit 15: Resolving Misunderstandings",
+    "description": "A vocabulary list about resolving conflicts, honest communication, and rebuilding connections.",
+    "level": "1st Prep"
+  },
   "sections": [
     {
       "title": "Key Vocabulary",
+      "type": "vocabulary",
       "words": [
         {
           "en": "misunderstanding",
-          "ar": "سوء تفاهم"
+          "ar": "سوء تفاهم",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "resolve",
-          "ar": "يحل"
+          "ar": "يحل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "honest",
-          "ar": "صادق"
+          "ar": "صادق",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "reconnect",
-          "ar": "يعيد التواصل"
+          "ar": "يعيد التواصل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "bond",
-          "ar": "رباط - علاقة"
+          "ar": "رباط - علاقة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "communicate",
-          "ar": "يتواصل"
+          "ar": "يتواصل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "argue",
-          "ar": "يناقش / يجادل"
+          "ar": "يناقش / يجادل",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "tough",
-          "ar": "قاس - صعب"
+          "ar": "قاس - صعب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "real",
-          "ar": "حقيقي"
+          "ar": "حقيقي",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "flight",
-          "ar": "رحلة طيران"
+          "ar": "رحلة طيران",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "differently",
-          "ar": "بطريقة أخرى"
+          "ar": "بطريقة أخرى",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "skill",
-          "ar": "مهارة"
+          "ar": "مهارة",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "guy",
-          "ar": "شخص - فرد"
+          "ar": "شخص - فرد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "openly",
-          "ar": "بصراحة - بوضوح"
+          "ar": "بصراحة - بوضوح",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "absolutely",
-          "ar": "بالتأكيد - بالطبع"
+          "ar": "بالتأكيد - بالطبع",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "situation",
-          "ar": "موقف"
+          "ar": "موقف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "proper",
-          "ar": "ملائم - مناسب"
+          "ar": "ملائم - مناسب",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "glad",
-          "ar": "سعيد"
+          "ar": "سعيد",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "determination",
-          "ar": "عزيمة - إصرار"
+          "ar": "عزيمة - إصرار",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "importance",
-          "ar": "أهمية"
+          "ar": "أهمية",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "feelings",
-          "ar": "مشاعر"
+          "ar": "مشاعر",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         },
         {
           "en": "meaningful",
-          "ar": "مفيد - هادف"
+          "ar": "مفيد - هادف",
+          "partOfSpeech": "",
+          "definition": "",
+          "examples": []
         }
       ]
     },
     {
       "title": "Conjugation of Irregular Verbs",
+      "type": "conjugations",
       "words": [
         {
-          "en": "rebuild",
           "ar": "يعيد بناء",
-          "past": "rebuilt",
-          "pastParticiple": "rebuilt"
+          "forms": {
+            "present": "rebuild",
+            "past": "rebuilt",
+            "pastParticiple": "rebuilt"
+          }
         },
         {
-          "en": "get",
           "ar": "يحصل على",
-          "past": "got",
-          "pastParticiple": "got"
+          "forms": {
+            "present": "get",
+            "past": "got",
+            "pastParticiple": "got"
+          }
         },
         {
-          "en": "say",
           "ar": "يقول",
-          "past": "said",
-          "pastParticiple": "said"
+          "forms": {
+            "present": "say",
+            "past": "said",
+            "pastParticiple": "said"
+          }
         },
         {
-          "en": "understand",
           "ar": "يفهم",
-          "past": "understood",
-          "pastParticiple": "understood"
+          "forms": {
+            "present": "understand",
+            "past": "understood",
+            "pastParticiple": "understood"
+          }
         }
       ]
     }
   ]
 }
+
