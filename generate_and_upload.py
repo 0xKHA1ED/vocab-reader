@@ -105,69 +105,70 @@ def process_vocabulary():
 
     processed_words = load_processed_words()
     all_words = get_all_unique_words()
-
     words_to_generate = all_words - processed_words
 
+    # --- MODIFIED LOGIC ---
     if not words_to_generate:
-        print("🎉 All vocabulary words are already processed. Nothing to do.")
-        return
+        print("🎉 All vocabulary words are already processed. Nothing new to generate.")
+    else:
+        print(f"Found {len(words_to_generate)} new words to process.")
+        for word in words_to_generate:
+            print(f"\nProcessing word: '{word}'")
 
-    print(f"Found {len(words_to_generate)} new words to process.")
+            # --- A. Generate Audio ---
+            try:
+                url = 'https://api.v8.unrealspeech.com/stream'
+                headers = {
+                    'Authorization': f'Bearer {UNREAL_SPEECH_API_KEY}',
+                    'Content-Type': 'application/json'
+                }
+                voice_choice = random.choice(
+                    ['Autumn', 'Melody', 'Hannah',
+                     'Emily', 'Ivy', 'Kaitlyn', 'Luna',
+                     'Willow', 'Lauren', 'Sierra',
+                     'Noah', 'Jasper', 'Caleb',
+                     'Ronan', 'Ethan', 'Daniel', 'Zane']
+                     )
+                data = {"Text": word, "VoiceId": voice_choice, "Bitrate": "128k"}
+                response = requests.post(url, headers=headers, data=json.dumps(data), timeout=60)
 
-    for word in words_to_generate:
-        print(f"\nProcessing word: '{word}'")
+                if response.status_code != 200:
+                    print(f"❌ Error generating audio for '{word}': {response.status_code} - {response.text}")
+                    continue
 
-        # --- A. Generate Audio ---
-        try:
-            url = 'https://api.v8.unrealspeech.com/stream'
-            headers = {
-                'Authorization': f'Bearer {UNREAL_SPEECH_API_KEY}',
-                'Content-Type': 'application/json'
-            }
-            voice_choice = random.choice(
-                ['Autumn', 'Melody', 'Hannah',
-                 'Emily', 'Ivy', 'Kaitlyn', 'Luna',
-                 'Willow', 'Lauren', 'Sierra',
-                 'Noah', 'Jasper', 'Caleb',
-                 'Ronan', 'Ethan', 'Daniel', 'Zane']
-                 )
-            data = {"Text": word, "VoiceId": voice_choice, "Bitrate": "128k"}
-            response = requests.post(url, headers=headers, data=json.dumps(data), timeout=60)
+                audio_content = response.content
+                print(f"🔊 Audio generated successfully for '{word}'.")
 
-            if response.status_code != 200:
-                print(f"❌ Error generating audio for '{word}': {response.status_code} - {response.text}")
+            except requests.exceptions.RequestException as e:
+                print(f"❌ Failed to connect to TTS API for '{word}': {e}")
                 continue
 
-            audio_content = response.content
-            print(f"🔊 Audio generated successfully for '{word}'.")
+            # --- B. Upload to R2 ---
+            try:
+                sanitized_word = sanitize_filename(word)
+                file_name = f"{sanitized_word}.mp3"
+                remote_path = f"{file_name}"
 
-        except requests.exceptions.RequestException as e:
-            print(f"❌ Failed to connect to TTS API for '{word}': {e}")
-            continue
+                print(f"Uploading '{file_name}' to R2 bucket '{R2_BUCKET}'...")
 
-        # --- B. Upload to R2 ---
-        try:
-            sanitized_word = sanitize_filename(word)
-            file_name = f"{sanitized_word}.mp3"
-            remote_path = f"{file_name}"
+                s3_client.put_object(
+                    Bucket=R2_BUCKET,
+                    Key=remote_path,
+                    Body=audio_content,
+                    ContentType='audio/mpeg'
+                )
 
-            print(f"Uploading '{file_name}' to R2 bucket '{R2_BUCKET}'...")
+                print("☁️ Upload successful.")
+                processed_words.add(word)
 
-            s3_client.put_object(
-                Bucket=R2_BUCKET,
-                Key=remote_path,
-                Body=audio_content,
-                ContentType='audio/mpeg'
-            )
+            except (NoCredentialsError, ClientError) as e:
+                print(f"❌ Failed to upload '{file_name}': {e}")
+                continue
 
-            print("☁️ Upload successful.")
-            processed_words.add(word)
+        # Save the processed words list only if new words were processed
+        save_processed_words(processed_words)
 
-        except (NoCredentialsError, ClientError) as e:
-            print(f"❌ Failed to upload '{file_name}': {e}")
-            continue
-
-    save_processed_words(processed_words)
+    # --- ALWAYS RUN THE MANIFEST UPDATE ---
     update_vocab_manifest()
     print("\n✨ Process complete.")
 
