@@ -128,7 +128,7 @@ def process_vocabulary():
                 ['Autumn', 'Melody', 'Hannah',
                  'Emily', 'Ivy', 'Kaitlyn', 'Luna',
                  'Willow', 'Lauren', 'Sierra',
-                 'Noah', 'Jasper', 'C Caleb',
+                 'Noah', 'Jasper', 'Caleb',
                  'Ronan', 'Ethan', 'Daniel', 'Zane']
                  )
             data = {"Text": word, "VoiceId": voice_choice, "Bitrate": "128k"}
